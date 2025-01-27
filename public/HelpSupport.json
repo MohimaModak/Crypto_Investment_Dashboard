@@ -1,0 +1,77 @@
+{
+  "helpAndSupport": {
+    "faqs": [
+      {
+        "question": "How do I create an account?",
+        "answer": "To create an account, click on the 'Sign Up' button on the login page, and fill in your details."
+      },
+      {
+        "question": "How do I reset my password?",
+        "answer": "Go to the login page and click 'Forgot Password.' Follow the instructions sent to your email."
+      },
+      {
+        "question": "How do I customize the theme?",
+        "answer": "Navigate to the Settings page and explore the Theme Customization section."
+      },
+      {
+        "question": "What should I do if I encounter an error?",
+        "answer": "Try refreshing the page or clearing your browser cache. If the issue persists, contact support using the form below."
+      }
+    ],
+    "contactForm": {
+      "fields": [
+        {
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Your name",
+          "required": true
+        },
+        {
+          "label": "Email",
+          "type": "email",
+          "placeholder": "Your email address",
+          "required": true
+        },
+        {
+          "label": "Issue Category",
+          "type": "dropdown",
+          "options": ["Account Issue", "Feature Request", "Bug Report", "Other"],
+          "required": true
+        },
+        {
+          "label": "Description",
+          "type": "textarea",
+          "placeholder": "Describe your issue",
+          "required": true
+        },
+        {
+          "label": "Attachment",
+          "type": "file",
+          "placeholder": "Attach a screenshot (optional)",
+          "required": false
+        }
+      ],
+      "submitButton": "Submit"
+    },
+    "documentation": {
+      "link": "https://example.com/documentation.pdf",
+      "description": "Download our user guide for detailed instructions."
+    },
+    "systemStatus": {
+      "services": [
+        {
+          "name": "API Integration",
+          "status": "Operational"
+        },
+        {
+          "name": "Data Fetching",
+          "status": "Operational"
+        },
+        {
+          "name": "Live Chart Updates",
+          "status": "Under Maintenance"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "asset": "Tesla (TSLA)",
+    "price": 1234.56,
+    "change": -2.3
+  },
+  {
+    "asset": "Bitcoin (BTC)",
+    "price": 45123.78,
+    "change": 3.5
+  },
+  {
+    "asset": "Apple (AAPL)",
+    "price": 234.98,
+    "change": 1.2
+  },
+  {
+    "asset": "Amazon (AMZN)",
+    "price": 3456.78,
+    "change": 0.5
+  },
+  {
+    "asset": "Microsoft (MSFT)",
+    "price": 312.45,
+    "change": 2.1
+  },
+  {
+    "asset": "Ethereum (ETH)",
+    "price": 3456.12,
+    "change": -1.5
+  },
+  {
+    "asset": "Google (GOOGL)",
+    "price": 2765.89,
+    "change": 0.8
+  }
+]

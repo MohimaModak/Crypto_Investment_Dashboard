@@ -1,0 +1,27 @@
+{
+    "theme": {
+        "mode": "dark",
+        "accentColor": "#4caf50",
+        "font": {
+            "primary": "Sans-serif",
+            "size": "medium"
+        },
+        "background": {
+            "type": "gradient",
+            "value": "linear-gradient(to right, #1d2671, #c33764)"
+        },
+        "cardStyle": {
+            "borderRadius": "rounded",
+            "shadow": "medium"
+        },
+        "spacing": {
+            "padding": "normal",
+            "margin": "normal"
+        },
+        "animations": {
+            "enabled": true,
+            "speed": "normal"
+        },
+        "customCSS": ""
+    }
+}

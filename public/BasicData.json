@@ -1,0 +1,15 @@
+[
+    {
+      "date": "2025-01-10",
+      "type": "Deposit",
+      "amount": 5000,
+      "currency": "USD"
+    },
+    {
+      "date": "2025-01-08",
+      "type": "Withdrawal",
+      "amount": 3000,
+      "currency": "USD"
+    }
+  ]
+  

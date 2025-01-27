@@ -1,0 +1,19 @@
+[
+    {
+      "id": "tx1",
+      "date": "2025-02-07",
+      "type": "Deposit",
+      "amount": 5000,
+      "currency": "EUR",
+      "details": "Deposited to savings account"
+    },
+    {
+      "id": "tx1",
+      "date": "2025-01-016",
+      "type": "Deposit",
+      "amount": 36000,
+      "currency": "USA",
+      "details": "Deposited to savings account"
+    }
+  ]
+  

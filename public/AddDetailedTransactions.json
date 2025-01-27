@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-01-05",
+    "type": "Buy",
+    "asset": "Tesla (TSLA)",
+    "amount": 2000
+  },
+  {
+    "date": "2025-01-03",
+    "type": "Sell",
+    "asset": "Bitcoin (BTC)",
+    "amount": 4500
+  },
+  {
+    "date": "2025-01-07",
+    "type": "Deposit",
+    "asset": "",
+    "amount": 5000
+  },
+  {
+    "date": "2025-01-04",
+    "type": "Withdrawal",
+    "asset": "",
+    "amount": 3000
+  }
+]

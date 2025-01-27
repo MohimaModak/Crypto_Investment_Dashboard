@@ -1,0 +1,15 @@
+{
+    "twoFactorAuth": true,
+    "activeSessions": [
+      {
+        "device": "Chrome on Windows",
+        "ipAddress": "192.168.1.10",
+        "lastActive": "2025-01-12 10:30:00"
+      },
+      {
+        "device": "Firefox on Android",
+        "ipAddress": "192.168.1.20",
+        "lastActive": "2025-01-13 14:20:00"
+      }
+    ]
+  }

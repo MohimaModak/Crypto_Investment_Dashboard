@@ -1,0 +1,83 @@
+[
+    {
+      "date": "2025-02-07",
+      "type": "Deposit",
+      "amount": 5000,
+      "currency": "EUR",
+      "convertedAmount": 5400,
+      "baseCurrency": "USD"
+    },
+    {
+      "date": "2025-02-05",
+      "type": "Withdrawal",
+      "amount": 3000,
+      "currency": "EUR",
+      "convertedAmount": 3240,
+      "baseCurrency": "USD"
+    },
+    {
+      "date": "2025-02-03",
+      "type": "Deposit",
+      "amount": 7000,
+      "currency": "USD",
+      "convertedAmount": 6480,
+      "baseCurrency": "EUR"
+    },
+    {
+      "date": "2025-01-30",
+      "type": "Withdrawal",
+      "amount": 2000,
+      "currency": "USD",
+      "convertedAmount": 1840,
+      "baseCurrency": "EUR"
+    },
+    {
+      "date": "2025-01-28",
+      "type": "Deposit",
+      "amount": 10000,
+      "currency": "GBP",
+      "convertedAmount": 12500,
+      "baseCurrency": "USD"
+    },
+    {
+      "date": "2025-01-25",
+      "type": "Withdrawal",
+      "amount": 4500,
+      "currency": "GBP",
+      "convertedAmount": 5625,
+      "baseCurrency": "USD"
+    },
+    {
+      "date": "2025-01-20",
+      "type": "Deposit",
+      "amount": 8000,
+      "currency": "USD",
+      "convertedAmount": 7360,
+      "baseCurrency": "EUR"
+    },
+    {
+      "date": "2025-01-15",
+      "type": "Withdrawal",
+      "amount": 3500,
+      "currency": "EUR",
+      "convertedAmount": 3780,
+      "baseCurrency": "USD"
+    },
+    {
+      "date": "2025-01-10",
+      "type": "Deposit",
+      "amount": 12000,
+      "currency": "USD",
+      "convertedAmount": 11040,
+      "baseCurrency": "EUR"
+    },
+    {
+      "date": "2025-01-05",
+      "type": "Withdrawal",
+      "amount": 2500,
+      "currency": "GBP",
+      "convertedAmount": 3125,
+      "baseCurrency": "USD"
+    }
+  ]
+  

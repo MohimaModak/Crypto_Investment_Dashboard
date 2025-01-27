@@ -1,0 +1,10 @@
+{
+    "emailAlerts": true,
+    "smsAlerts": false,
+    "inAppAlerts": true,
+    "preferences": {
+        "priceAlerts": true,
+        "portfolioUpdates": true,
+        "marketNews": false
+    }
+}

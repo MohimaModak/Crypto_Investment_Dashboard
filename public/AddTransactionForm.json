@@ -1,0 +1,6 @@
+{
+    "types": ["Deposit", "Withdrawal", "Buy", "Sell"],
+    "currencies": ["USD", "EUR", "GBP", "INR"],
+    "assets": ["Tesla (TSLA)", "Bitcoin (BTC)", "Apple (AAPL)", "Ethereum (ETH)"]
+  }
+  

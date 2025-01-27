@@ -1,0 +1,202 @@
+[
+  {
+    "asset": "Bitcoin",
+    "symbol": "BTC",
+    "currentPrice": 47000,
+    "priceChange24H": {
+      "absolute": 1500,
+      "percentage": 3.3
+    },
+    "marketCap": 900000000000
+  },
+  {
+    "asset": "Ethereum",
+    "symbol": "ETH",
+    "currentPrice": 3300,
+    "priceChange24H": {
+      "absolute": -50,
+      "percentage": -1.5
+    },
+    "marketCap": 400000000000
+  },
+  {
+    "asset": "Cardano",
+    "symbol": "ADA",
+    "currentPrice": 1.15,
+    "priceChange24H": {
+      "absolute": 0.05,
+      "percentage": 4.55
+    },
+    "marketCap": 39000000000
+  },
+  {
+    "asset": "Ripple",
+    "symbol": "XRP",
+    "currentPrice": 0.9,
+    "priceChange24H": {
+      "absolute": -0.02,
+      "percentage": -2.17
+    },
+    "marketCap": 43000000000
+  },
+  {
+    "asset": "Binance Coin",
+    "symbol": "BNB",
+    "currentPrice": 420,
+    "priceChange24H": {
+      "absolute": 20,
+      "percentage": 5.0
+    },
+    "marketCap": 65000000000
+  },
+  {
+    "asset": "Dogecoin",
+    "symbol": "DOGE",
+    "currentPrice": 0.33,
+    "priceChange24H": {
+      "absolute": 0.01,
+      "percentage": 3.13
+    },
+    "marketCap": 44000000000
+  },
+  {
+    "asset": "Polkadot",
+    "symbol": "DOT",
+    "currentPrice": 28,
+    "priceChange24H": {
+      "absolute": 0.8,
+      "percentage": 2.94
+    },
+    "marketCap": 32000000000
+  },
+  {
+    "asset": "Solana",
+    "symbol": "SOL",
+    "currentPrice": 150,
+    "priceChange24H": {
+      "absolute": -5,
+      "percentage": -3.23
+    },
+    "marketCap": 45000000000
+  },
+  {
+    "asset": "Litecoin",
+    "symbol": "LTC",
+    "currentPrice": 170,
+    "priceChange24H": {
+      "absolute": 5,
+      "percentage": 3.03
+    },
+    "marketCap": 11500000000
+  },
+  {
+    "asset": "Chainlink",
+    "symbol": "LINK",
+    "currentPrice": 25,
+    "priceChange24H": {
+      "absolute": -0.5,
+      "percentage": -1.96
+    },
+    "marketCap": 11000000000
+  },
+  {
+    "asset": "Uniswap",
+    "symbol": "UNI",
+    "currentPrice": 28,
+    "priceChange24H": {
+      "absolute": 1.2,
+      "percentage": 4.48
+    },
+    "marketCap": 17000000000
+  },
+  {
+    "asset": "Polygon",
+    "symbol": "MATIC",
+    "currentPrice": 1.45,
+    "priceChange24H": {
+      "absolute": 0.03,
+      "percentage": 2.11
+    },
+    "marketCap": 14000000000
+  },
+  {
+    "asset": "Avalanche",
+    "symbol": "AVAX",
+    "currentPrice": 62,
+    "priceChange24H": {
+      "absolute": 2,
+      "percentage": 3.33
+    },
+    "marketCap": 14000000000
+  },
+  {
+    "asset": "Stellar",
+    "symbol": "XLM",
+    "currentPrice": 0.37,
+    "priceChange24H": {
+      "absolute": -0.01,
+      "percentage": -2.63
+    },
+    "marketCap": 8500000000
+  },
+  {
+    "asset": "VeChain",
+    "symbol": "VET",
+    "currentPrice": 0.11,
+    "priceChange24H": {
+      "absolute": 0.004,
+      "percentage": 3.77
+    },
+    "marketCap": 7100000000
+  },
+  {
+    "asset": "Aave",
+    "symbol": "AAVE",
+    "currentPrice": 260,
+    "priceChange24H": {
+      "absolute": 10,
+      "percentage": 4.0
+    },
+    "marketCap": 3400000000
+  },
+  {
+    "asset": "Cosmos",
+    "symbol": "ATOM",
+    "currentPrice": 34,
+    "priceChange24H": {
+      "absolute": 1.5,
+      "percentage": 4.62
+    },
+    "marketCap": 9600000000
+  },
+  {
+    "asset": "Terra",
+    "symbol": "LUNA",
+    "currentPrice": 35,
+    "priceChange24H": {
+      "absolute": -0.5,
+      "percentage": -1.41
+    },
+    "marketCap": 13000000000
+  },
+  {
+    "asset": "Bitcoin Cash",
+    "symbol": "BCH",
+    "currentPrice": 580,
+    "priceChange24H": {
+      "absolute": 15,
+      "percentage": 2.65
+    },
+    "marketCap": 10800000000
+  },
+  {
+    "asset": "Filecoin",
+    "symbol": "FIL",
+    "currentPrice": 90,
+    "priceChange24H": {
+      "absolute": 3,
+      "percentage": 3.45
+    },
+    "marketCap": 7100000000
+  }
+]

@@ -1,0 +1,12 @@
+{
+    "gainers": [
+        {
+            "asset": "Solana",
+            "percentage": 12.5
+        },
+        {
+            "asset": "Polygon",
+            "percentage": 10.2
+        }
+    ]
+}

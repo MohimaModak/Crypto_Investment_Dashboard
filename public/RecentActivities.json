@@ -1,0 +1,24 @@
+{
+    "activities": [
+      {
+        "date": "2025-01-10",
+        "type": "Buy",
+        "asset": "AAPL",
+        "amount": 500,
+        "quantity": 2
+      },
+      {
+        "date": "2025-01-09",
+        "type": "Sell",
+        "asset": "BTC",
+        "amount": 1500,
+        "quantity": 0.05
+      },
+      {
+        "date": "2025-01-08",
+        "type": "Deposit",
+        "amount": 2000
+      }
+    ]
+  }
+  

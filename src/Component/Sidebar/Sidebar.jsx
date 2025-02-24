@@ -31,7 +31,7 @@ export default function Sidebar() {
       </style>
 
       <div>
-        <h1 className="custom-h1 text-5xl text-center font-semibold my-10 relative">KALI.</h1>
+        <h1 className="custom-h1 text-2xl text-center font-semibold my-10 relative">Vadra <br />KALI.</h1>
       </div>
       <div>
         <div className="border border-dotted text-slate-100"></div>
@@ -43,21 +43,21 @@ export default function Sidebar() {
           className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-black to-green-900 rounded"
         >
           <FontAwesomeIcon icon={faTachometerAlt} className="mr-2 text-green-500" />
-          <h1 className=" text-xl">Dashboard</h1>
+          <h1 className=" text-xl">Listening-10-test-01</h1>
         </NavLink>
         <NavLink
           to="/portfolio"
           className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-black to-green-900 rounded"
         >
           <FontAwesomeIcon icon={faBriefcase} className="mr-2 text-green-500" />
-          <h1 className="text-xl">Portfolio</h1>
+          <h1 className="text-xl">Listening-10-test-02</h1>
         </NavLink>
         <NavLink
           to="/transactions"
           className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-black to-green-900 rounded"
         >
           <FontAwesomeIcon icon={faExchangeAlt} className="mr-2 text-green-500" />
-          <h1 className="text-xl">Transactions</h1>
+          <h1 className="text-xl">Listening-10-test-03</h1>
         </NavLink>
 
         <NavLink
@@ -65,7 +65,7 @@ export default function Sidebar() {
           className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-black to-green-900 rounded"
         >
           <FontAwesomeIcon icon={faChartLine} className="mr-2 text-green-500" />
-          <h1 className="text-xl">Analytics</h1>
+          <h1 className="text-xl">Listening-10-test-04</h1>
         </NavLink>
         <NavLink
           to="/watchlist"

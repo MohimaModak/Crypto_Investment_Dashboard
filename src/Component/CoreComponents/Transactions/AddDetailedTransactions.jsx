@@ -134,10 +134,9 @@ export default function AddDetailedTransactions() {
                         </thead>
                         <tbody className="rounded-md">
                             {filteredData.map((item, index) => (
-                                <tr key={index} className="hover:bg-gray-50 rounded-md">
+                                <tr key={index} className="">
                                     <td className="py-3 px-4 border-2 border-green-800">{item.date}</td>
-                                    <td
-                                        className={`py-3 px-4 border-b font-semibold border-2 border-green-800 ${item.type === "Buy" || item.type === "Deposit"
+                                    <td className={`py-3 px-4 border-b font-semibold border-2 border-green-800 ${item.type === "Buy" || item.type === "Deposit"
                                             ? "text-green-500"
                                             : "text-red-500"
                                             }`}

@@ -92,6 +92,36 @@ export default function Sidebar() {
         <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
         <h1 className="text-lg">Listening-11-test-04</h1>
       </NavLink>
+      <div className="border border-dotted text-slate-100 my-1.5"></div>
+      <div className="border border-dotted text-slate-100 my-1.5"></div>
+      <NavLink
+        to="/logout"
+        className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-black to-green-900 rounded"
+      >
+        <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+        <h1 className="text-lg">Listening-12-test-01</h1>
+      </NavLink>
+      <NavLink
+        to="/Bright"
+        className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-black to-green-900 rounded"
+      >
+        <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+        <h1 className="text-lg">Listening-12-test-02</h1>
+      </NavLink>
+      <NavLink
+        to="/Golden"
+        className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-black to-green-900 rounded"
+      >
+        <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+        <h1 className="text-lg">Listening-12-test-03</h1>
+      </NavLink>
+      <NavLink
+        to="/Swift"
+        className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-black to-green-900 rounded"
+      >
+        <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+        <h1 className="text-lg">Listening-12-test-04</h1>
+      </NavLink>
 
     </div>
   );

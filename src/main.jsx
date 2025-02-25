@@ -14,6 +14,9 @@ import Settings from "./Component/CoreComponents/Settings/Settings";
 import HelpAndSupport from "./Component/CoreComponents/HelpAndSupport/HelpAndSupport";
 import Login from "./Component/CoreComponents/Authentication/Login";
 import Logout from "./Component/CoreComponents/Authentication/Logout";
+import Bright from "./Component/Sidebar/Bright/Bright";
+import Golden from "./Component/Golden/Golden";
+import Swift from "./Component/Swift/Swift";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +63,18 @@ const router = createBrowserRouter([
       {
         path: "/logout",
         element: <Logout></Logout>,
+      },
+      {
+        path: "/Bright",
+        element: <Bright></Bright>,
+      },
+      {
+        path: "/Golden",
+        element: <Golden></Golden>,
+      },
+      {
+        path: "/Swift",
+        element: <Swift></Swift>,
       },
     
     ],

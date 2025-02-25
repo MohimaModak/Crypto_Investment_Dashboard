@@ -1,171 +1,134 @@
-import React from 'react';
+import React from 'react'
 
 export default function Logout() {
   return (
-    <div className="h-screen overflow-hidden relative ">
-      {/* Dollar Signs as Background Animation */}
-      <div className="absolute top-0 left-0 right-0 bottom-0 z-0 dollar-signs">
-        <div className="dollar-container">
-          {/* Multiple dollar signs scattered across the screen */}
-          <h1 className="wave-text text-green-400" style={{ top: '10%', left: '5%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '80%', right: '15%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '30%', left: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '70%', right: '35%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '10%', left: '45%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '90%', right: '55%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '60%', left: '65%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '10%', right: '75%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '20%', left: '85%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '10%', right: '5%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '80%', right: '15%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '30%', right: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '70%', right: '35%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '10%', right: '45%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '90%', right: '55%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '60%', right: '65%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '10%', right: '75%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '20%', right: '85%' }}>$</h1>
+    <div className="h-screen overflow-y-auto w-full bg-black">
+    <div className="p-5">
+      <h2 className='font-bold my-3  text-xl'>SECTION 1</h2>
+      <p className='font-bold my-3'>FAMILY EXCURSIONS</p>
+      <p>Cruise on a lake</p>
+      <p>Example: Travel on an old steamship</p>
+      <p>● Can take photos of the 1<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> that surround the lake</p>
 
-          {/* Additional dollar signs */}
-          <h1 className="wave-text text-green-400" style={{ top: '15%', left: '20%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '25%', right: '5%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '35%', left: '15%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '45%', left: '50%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '55%', right: '30%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '65%', left: '70%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '75%', right: '60%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '85%', left: '80%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '95%', left: '40%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '50%', right: '70%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '60%', left: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '40%', left: '35%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '80%', right: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '20%', right: '60%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '70%', left: '40%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '50%', left: '60%' }}>$</h1>
+      <p className='font-bold my-3'>Farm visit</p>
+      <p>● Children can help feed the sheep</p>
+      <p>● Visit can include a 40-minute ride on a 2<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
+      <p>● Visitors can walk in the farm’s 3<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> by the lake</p>
+      <p>● 4<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> is available at extra cost</p>
 
-          {/* Additional dollar signs */}
-          <h1 className="wave-text text-green-400" style={{ top: '25%', left: '20%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '35%', right: '5%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '45%', left: '15%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '55%', left: '50%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '65%', right: '30%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '75%', left: '70%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '85%', right: '60%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '95%', left: '80%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '100%', left: '100%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '50%', right: '10%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '60%', left: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '40%', left: '35%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '80%', right: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '20%', right: '60%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '70%', left: '40%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '50%', left: '60%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '90%', left: '5%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '85%', left: '15%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '80%', left: '25%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '75%', left: '35%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '70%', left: '45%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '65%', left: '55%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '60%', left: '65%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '55%', left: '75%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '50%', left: '85%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '45%', left: '95%' }}>$</h1>
+      <p className='font-bold my-3'>Cycling trips</p>
+      <p>● Cyclists explore the Back Road</p>
+      <p>● A 5<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. is provided</p>
+      <p>● Only suitable for cyclists who have some 6<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
+      <p>– Bikes can be hired from 7<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> (near the Cruise Ship Terminal)</p>
+      <p>● Cyclists need:</p>
+      <p>– a repair kit</p>
+      <p>– food and drink</p>
+      <p>– a 8<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> (can be hired)</p>
+      <p>● There are no 9<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> or accommodation in the area</p>
 
-<h1 className="wave-text text-green-400" style={{ top: '15%', left: '8%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '25%', left: '18%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '35%', left: '28%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '45%', left: '38%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '55%', left: '48%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '65%', left: '58%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '75%', left: '68%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '85%', left: '78%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '95%', left: '94%' }}>$</h1>
-        </div>
-      </div>
+      <p className='font-bold my-3'>Cost</p>
+      <p>● Total cost for whole family of cruise and farm visit: 10 $<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
 
-      {/* Main Content Area (Login Form) */}
-      <div className="z-10 flex justify-center items-center w-full h-full ">
-        <div className=" p-8 rounded-lg w-max lg:w-96 " style={{
-          background: `
-      radial-gradient(circle at 20% 50%, #023020, transparent 60%),
-      radial-gradient(circle at 10% 10%, #6eff62, transparent 70%),
-      radial-gradient(circle at 70% 10%, #355E3B, transparent 90%),
-      radial-gradient(circle at 30% 10%, #003300, transparent 75%)
-                                                                  `,
-          backgroundBlendMode: 'overlay',
-        }}>
-          <h2 className="text-3xl font-bold text-center mb-6">Log-out</h2>
-          <form>
-            <div className="mb-4">
-              <label htmlFor="username" className="block text-sm font-medium text-white">Username</label>
-              <input
-                type="text"
-                id="username"
-                name="username"
-                required
-                className="w-full p-3 mt-1 border bg-black border-green-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-              />
-            </div>
-            <div className="mb-6">
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700">Password</label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                required
-                className="w-full p-3 mt-1 border bg-black border-green-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-              />
-            </div>
-            <button
-              type="submit"
-              className="w-full bg-black text-white font-bold py-3 rounded-md hover:bg-green-700 transition duration-300"
-            >
-              Log In
-            </button>
-          </form>
-        </div>
-      </div>
+      <h2 className='font-bold my-3 text-xl'>SECTION 2</h2>
+      <p className='font-bold my-3'>Talk to new kitchen assistants</p>
+      <p>11. According to the manager, what do most people like about the job of kitchen assistant?</p>
+      <p>A. the variety of work</p>
+      <p>B. the friendly atmosphere</p>
+      <p>C. the opportunities for promotion</p>
 
-      {/* Inline Styles */}
-      <style jsx>{`
-        /* Keyframe animation for dollar signs */
-        @keyframes wave {
-          0% {
-            transform: translateY(0) translateX(0);
-          }
-          25% {
-            transform: translateY(30px) translateX(20px);
-          }
-          50% {
-            transform: translateY(0) translateX(40px);
-          }
-          75% {
-            transform: translateY(-30px) translateX(60px);
-          }
-          100% {
-            transform: translateY(0) translateX(80px);
-          }
-        }
+      <p className='font-bold my-3'>12. The manager is concerned about some of the new staff’s</p>
+      <p>A. jewellery.</p>
+      <p>B. hair styles.</p>
+      <p>C. shoes.</p>
 
+      <p className='font-bold my-3'>13. The manager says that the day is likely to be busy for kitchen staff because</p>
+      <p>A. it is a public holiday.</p>
+      <p>B. the head chef is absent.</p>
+      <p>C. the restaurant is almost fully booked.</p>
 
-        .wave-text {
-          position: absolute;
-          font-size: 1.2rem;
-          animation: wave 15s ease-in-out infinite;
-        }
+      <p className='font-bold my-3'>14. Only kitchen staff who are 18 or older are allowed to use</p>
+      <p>A. the waste disposal unit.</p>
+      <p>B. the electric mixer.</p>
+      <p>C. the meat slicer.</p>
 
-        .dollar-container {
-          display: flex;
-          flex-wrap: wrap;
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          pointer-events: none;
-        }
-      `}</style>
+      <h3 className='font-bold my-3 text-xl'>Questions 15 and 16</h3>
+      <p className='font-bold my-3'>According to the manager, which TWO things can make the job of kitchen assistant stressful?</p>
+      <p>A. They have to follow orders immediately.</p>
+      <p>B. The kitchen gets very hot.</p>
+      <p>C. They may not be able to take a break.</p>
+      <p>D. They have to do overtime.</p>
+      <p>E. The work is physically demanding.</p>
+
+      <h3 className='font-bold my-3'>Questions 17-20</h3>
+      <p className='font-bold my-3'>What is the responsibility of each of the following restaurant staff?</p>
+      <p className='font-bold my-3'>Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 17-20.</p>
+      <p className='font-bold my-3'>Responsibilities:</p>
+      <p>A. training courses</p>
+      <p>B. food stocks</p>
+      <p>C. first aid</p>
+      <p>D. breakages</p>
+      <p>E. staff discounts</p>
+      <p>F. timetables</p>
+
+      <p className='font-bold my-3'>Restaurant staff:</p>
+      <p>17. Joy Parkins: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>18. David Field: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>19. Dexter Wills: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>20. Mike Smith: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+
+      <h2 className='font-bold my-3 text-xl'>SECTION 3</h2>
+      <p className='font-bold my-3'>Paper on Public Libraries</p>
+      <p>21. What will be the main topic of Trudie and Stewart’s paper?</p>
+      <p>A. how public library services are organised in different countries</p>
+      <p>B. how changes in society are reflected in public libraries</p>
+
+      <p className='font-bold my-3'>22. They agree that one disadvantage of free digitalised books is that</p>
+      <p>A. they may take a long time to read.</p>
+      <p>B. they can be difficult to read.</p>
+      <p>C. they are generally old.</p>
+
+      <p className='font-bold my-3'>23. Stewart expects that in the future libraries will</p>
+      <p>A. maintain their traditional function.</p>
+      <p>B. become centres for local communities.</p>
+      <p>C. no longer contain any books.</p>
+
+      <h3 className='font-bold my-3'>Questions 24-30</h3>
+      <p className='font-bold my-3'>Complete the notes below.</p>
+      <p className='font-bold my-3'>Write ONE WORD ONLY for each answer.</p>
+      <p className='font-bold my-3'>Study of local library: possible questions</p>
+      <p>● whether it has a 24<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. of its own</p>
+      <p>● its policy regarding noise of various kinds</p>
+      <p>● how it’s affected by laws regarding all aspects of 25<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>● how the design needs to take the 26<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of customers into account</p>
+      <p>● what 27<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. is required in case of accidents</p>
+      <p>● why a famous person’s 28<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> is located in the library</p>
+      <p>● whether it has a 29<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of local organisations</p>
+      <p>● how it’s different from a library in a 30<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+
+      <h2 className='font-bold my-3 text-xl'>SECTION 4</h2>
+      <p className='font-bold my-3'>Four business values</p>
+      <p>Many business values can result in 31<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
+      <p>Senior managers need to understand and deal with the potential 32<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> that may result.</p>
+
+      <p className='font-bold my-3'>Collaboration</p>
+      <p>During a training course, the speaker was in a team that had to build a 33<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
+      <p>Other teams experienced 34<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. from trying to collaborate.</p>
+      <p>The speaker’s team won because they reduced collaboration.</p>
+      <p>Sales of a 35<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. were poor because of collaboration.</p>
+
+      <p className='font-bold my-3'>Industriousness</p>
+      <p>Hard work may be a bad use of various company 36<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
+      <p>The word ‘lazy’ in this context refers to people who avoid doing tasks that are 37<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
+
+      <p className='font-bold my-3'>Creativity</p>
+      <p>An advertising campaign for a 38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. was memorable but failed to boost sales.</p>
+      <p>Creativity should be used as a response to a particular 39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
+
+      <p className='font-bold my-3'>Excellence</p>
+      <p>According to one study, on average, pioneers had a 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> that was far higher than that of followers.</p>
+      <p>Companies that always aim at excellence may miss opportunities.</p>
     </div>
-  );
+    </div>
+  )
 }

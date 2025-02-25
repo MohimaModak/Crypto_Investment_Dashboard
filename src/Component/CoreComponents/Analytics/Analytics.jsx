@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Analytics() {
   return (
-    <div className='h-screen overflow-y-auto w-full bg-black'>
+    <div className='h-screen overflow-y-auto w-full bg-gray-900 '>
+    <div className='p-5'>
       <h2 className='my-5 font-bold'>SECTION 1</h2>
       <p>Customer heard about Thorndyke’s from a friend.</p>
       <p>Name: Edith 1<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
@@ -161,6 +162,7 @@ export default function Analytics() {
       <p>● New methods of food production could eradicate famine.</p>
       <p>● Analysis of medical 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> . will be speeded up.</p>
       <p>● Life expectancy could be increased.</p>
+    </div>
     </div>
   )
 }

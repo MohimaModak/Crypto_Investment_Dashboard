@@ -2,7 +2,7 @@ export default function Dashboard() {
   return (
     <div className="h-screen overflow-y-auto bg-black text-white">
       {/* SECTION 1 */}
-      <section className="p-6 shadow-md rounded-lg mb-8">
+      <section className="p-6 bg-gray-900 shadow-md rounded-lg mb-8">
         <h2 className="text-2xl font-bold mb-4 text-white">SECTION 1</h2>
         <p className="mb-4 text-gray-300">Questions 1 – 6</p>
         <p className="mb-4 text-gray-300">Complete the notes below.</p>

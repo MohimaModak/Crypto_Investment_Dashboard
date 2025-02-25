@@ -1,171 +1,159 @@
-import React from 'react';
+import React from 'react'
+import photo from "../../../assets/Gallery/11-4.png"
 
 export default function Login() {
   return (
-    <div className="h-screen overflow-hidden relative ">
-      {/* Dollar Signs as Background Animation */}
-      <div className="absolute top-0 left-0 right-0 bottom-0 z-0 dollar-signs">
-        <div className="dollar-container">
-          {/* Multiple dollar signs scattered across the screen */}
-          <h1 className="wave-text text-green-400" style={{ top: '10%', left: '5%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '80%', right: '15%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '30%', left: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '70%', right: '35%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '10%', left: '45%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '90%', right: '55%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '60%', left: '65%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '10%', right: '75%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '20%', left: '85%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '10%', right: '5%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '80%', right: '15%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '30%', right: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '70%', right: '35%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '10%', right: '45%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '90%', right: '55%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '60%', right: '65%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '10%', right: '75%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '20%', right: '85%' }}>$</h1>
+    <div className="h-screen overflow-y-auto w-full bg-black">
+    <div className="p-5">
+      <h2 className="font-bold my-3 text-xl">SECTION 1</h2>
+      <p className="font-bold my-3">Complete the table below.</p>
+      <p className="font-bold my-3">Write ONE WORD AND/OR A NUMBER for each answer.</p>
+      <table className='border-2 p-5'>
+        <thead className='border-2'>
+          <tr className='border-2'>
+            <th className='border-2 p-2'>Event</th>
+            <th className='border-2 p-2'>Cost</th>
+            <th className='border-2 p-2'>Venue</th>
+            <th className='border-2 p-2'>Notes</th>
+          </tr>
+        </thead>
+        <tbody className='border-2'>
+          <tr className='border-2'>
+            <td className='border-2 p-2'>Jazz band</td>
+            <td className='border-2 p-2'>Example: Tickets available for £15</td>
+            <td className='border-2 p-2'>The 1…………. school</td>
+            <td className='border-2 p-2'>Also appearing: Carolyn Hart (plays the 2…………)</td>
+          </tr>
+          <tr className='border-2'>
+            <td className='border-2 p-2'>Duck races</td>
+            <td className='border-2 p-2'>£1 per duck</td>
+            <td className='border-2 p-2'>Start behind the 3………….</td>
+            <td className='border-2 p-2'>Prize: tickets for 4………… held at the end of the festival. Ducks can be bought in the 5………….</td>
+          </tr>
+          <tr className='border-2'>
+            <td className='border-2 p-2'>Flower show</td>
+            <td className='border-2 p-2'>Free</td>
+            <td className='border-2 p-2'>6…………. Hall</td>
+            <td className='border-2 p-2'>Prizes presented at 5 pm by a well-known 7………….</td>
+          </tr>
+        </tbody>
+      </table>
 
-          {/* Additional dollar signs */}
-          <h1 className="wave-text text-green-400" style={{ top: '15%', left: '20%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '25%', right: '5%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '35%', left: '15%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '45%', left: '50%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '55%', right: '30%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '65%', left: '70%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '75%', right: '60%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '85%', left: '80%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '95%', left: '40%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '50%', right: '70%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '60%', left: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '40%', left: '35%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '80%', right: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '20%', right: '60%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '70%', left: '40%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '50%', left: '60%' }}>$</h1>
+      <h3 className="font-bold my-3 text-xl">Questions 8-10</h3>
+      <p className="font-bold my-3">Who is each play suitable for?</p>
+      <p>Write the correct letter, A, B, or C, next to Questions 8-10.</p>
+      <p>A. mainly for children</p>
+      <p>B. mainly for adults</p>
+      <p>C. suitable for people of all ages</p>
+      <p>Plays:</p>
+      <p>8. The Mystery of Muldoon: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>9. Fire and Flood: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>10. Silly Sailor: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
 
-          {/* Additional dollar signs */}
-          <h1 className="wave-text text-green-400" style={{ top: '25%', left: '20%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '35%', right: '5%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '45%', left: '15%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '55%', left: '50%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '65%', right: '30%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '75%', left: '70%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '85%', right: '60%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '95%', left: '80%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '100%', left: '100%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '50%', right: '10%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '60%', left: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '40%', left: '35%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '80%', right: '25%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '20%', right: '60%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '70%', left: '40%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '50%', left: '60%' }}>$</h1>
-          <h1 className="wave-text text-green-400" style={{ top: '90%', left: '5%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '85%', left: '15%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '80%', left: '25%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '75%', left: '35%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '70%', left: '45%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '65%', left: '55%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '60%', left: '65%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '55%', left: '75%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '50%', left: '85%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '45%', left: '95%' }}>$</h1>
+      <h2 className="font-bold my-3 text-xl">SECTION 2</h2>
+      <p className="font-bold my-3">What does the speaker say about each of the following collections?</p>
+      <p className="font-bold my-3">Choose SIX answers from the box and write the correct letter, A-G, next to Questions 11-16.</p>
+      <p>Comments:</p>
+      <p>A. was given by one person</p>
+      <p>B. was recently publicised in the media</p>
+      <p>C. includes some items given by members of the public</p>
+      <p>D. includes some items given by the artists</p>
+      <p>E. includes the most popular exhibits in the museum</p>
+      <p>F. is the largest of its kind in the country</p>
+      <p>G. has had some of its contents relocated</p>
 
-<h1 className="wave-text text-green-400" style={{ top: '15%', left: '8%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '25%', left: '18%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '35%', left: '28%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '45%', left: '38%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '55%', left: '48%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '65%', left: '58%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '75%', left: '68%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '85%', left: '78%' }}>$</h1>
-<h1 className="wave-text text-green-400" style={{ top: '95%', left: '94%' }}>$</h1>
-        </div>
-      </div>
+      <p className="font-bold my-3">Collections:</p>
+      <p>11. 20th- and 21st-century paintings: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>12. 19th-century paintings: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>13. Sculptures: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>14. ‘Around the world’ exhibition: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>15. Coins: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>16. Porcelain and glass: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
 
-      {/* Main Content Area (Login Form) */}
-      <div className="z-10 flex justify-center items-center w-full h-full ">
-        <div className=" p-8 rounded-lg w-max lg:w-96 " style={{
-          background: `
-      radial-gradient(circle at 20% 50%, #023020, transparent 60%),
-      radial-gradient(circle at 10% 10%, #6eff62, transparent 70%),
-      radial-gradient(circle at 70% 10%, #355E3B, transparent 90%),
-      radial-gradient(circle at 30% 10%, #003300, transparent 75%)
-                                                                  `,
-          backgroundBlendMode: 'overlay',
-        }}>
-          <h2 className="text-3xl font-bold text-center mb-6">Login</h2>
-          <form>
-            <div className="mb-4">
-              <label htmlFor="username" className="block text-sm font-medium text-white">Username</label>
-              <input
-                type="text"
-                id="username"
-                name="username"
-                required
-                className="w-full p-3 mt-1 border bg-black border-green-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-              />
-            </div>
-            <div className="mb-6">
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700">Password</label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                required
-                className="w-full p-3 mt-1 border bg-black border-green-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-              />
-            </div>
-            <button
-              type="submit"
-              className="w-full bg-black text-white font-bold py-3 rounded-md hover:bg-green-700 transition duration-300"
-            >
-              Log In
-            </button>
-          </form>
-        </div>
-      </div>
+      <h3 className="font-bold my-3 text-xl">Questions 17-20</h3>
+      <p className="font-bold my-3">Label the plan below.</p>
+      <p>Write the correct letter, A-H, next to Questions 17-20.</p>
+      <img src={photo} className='my-8' />
+      <p>17. restaurant: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>18. café: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>19. baby-changing facilities: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>20. cloakroom: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
 
-      {/* Inline Styles */}
-      <style jsx>{`
-        /* Keyframe animation for dollar signs */
-        @keyframes wave {
-          0% {
-            transform: translateY(0) translateX(0);
-          }
-          25% {
-            transform: translateY(30px) translateX(20px);
-          }
-          50% {
-            transform: translateY(0) translateX(40px);
-          }
-          75% {
-            transform: translateY(-30px) translateX(60px);
-          }
-          100% {
-            transform: translateY(0) translateX(80px);
-          }
-        }
+      <h2 className="font-bold my-3 text-xl">SECTION 3</h2>
+      <p className="font-bold my-3">Questions 21 and 22</p>
+      <p>Which TWO characteristics were shared by the subjects of Joanna’s psychology study?</p>
+      <p>A. They had all won prizes for their music.</p>
+      <p>B. They had all made music recordings.</p>
+      <p>C. They were all under 27 years old.</p>
+      <p>D. They had all toured internationally.</p>
+      <p>E. They all played a string instrument.</p>
 
+      <p className="font-bold my-3 text-xl">Questions 23 and 24</p>
+      <p className="font-bold my-3">Which TWO points does Joanna make about her use of telephone interviews?</p>
+      <p>A. It meant rich data could be collected.</p>
+      <p>B. It allowed the involvement of top performers.</p>
+      <p>C. It led to a stressful atmosphere at times.</p>
+      <p>D. It meant interview times had to be limited.</p>
+      <p>E. It caused some technical problems.</p>
 
-        .wave-text {
-          position: absolute;
-          font-size: 1.2rem;
-          animation: wave 15s ease-in-out infinite;
-        }
+      <p className="font-bold my-3 text-xl">Questions 25 and 26</p>
+      <p className="font-bold my-3">Which TWO topics did Joanna originally intend to investigate in her research?</p>
+      <p>A. regulations concerning concert dress</p>
+      <p>B. audience reactions to the dress of performers</p>
+      <p>C. changes in performer attitudes to concert dress</p>
+      <p>D. how choice of dress relates to performer roles</p>
+      <p>E. links between musical instrument and dress choice</p>
 
-        .dollar-container {
-          display: flex;
-          flex-wrap: wrap;
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          pointer-events: none;
-        }
-      `}</style>
+      <p className="font-bold my-3 text-xl">Questions 27-30</p>
+      <p className="font-bold my-3">Choose the correct letter, A, B, or C.</p>
+      <p>27. Joanna concentrated on women performers because</p>
+      <p>A. women are more influenced by fashion.</p>
+      <p>B. women’s dress has led to more controversy.</p>
+      <p>C. women’s code of dress is less strict than men’s.</p>
+
+      <p className="font-bold my-3">28. Mike Frost’s article suggests that in popular music, women’s dress is affected by</p>
+      <p>A. their wish to be taken seriously.</p>
+      <p>B. their tendency to copy each other.</p>
+      <p>C. their reaction to the masculine nature of the music.</p>
+
+      <p className="font-bold my-3">29. What did Joanna’s subjects say about the audience at a performance?</p>
+      <p>A. The musicians’ choice of clothing is linked to respect for the audience.</p>
+      <p>B. The clothing should not distract the audience from the music.</p>
+      <p>C. The audience should make the effort to dress appropriately.</p>
+
+      <p>30. According to the speakers, musicians could learn from sports scientists about</p>
+      <p>A. the importance of clothing for physical freedom.</p>
+      <p>B. the part played by clothing in improving performance.</p>
+      <p>C. the way clothing may protect against physical injury.</p>
+
+      <h2 className="font-bold my-3 text-xl">SECTION 4</h2>
+      <p className="font-bold my-3">The use of soil to reduce carbon dioxide (CO2) in the atmosphere</p>
+      <p className="font-bold my-3">Rattan Lal:</p>
+      <p>● Claims that 13% of CO2 in the atmosphere could be absorbed by agricultural soils</p>
+      <p>● Erosion is more likely in soil that is 31<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>● Lai found soil in Africa that was very 32<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>● It was suggested that carbon from soil was entering the atmosphere</p>
+
+      <p className="font-bold my-3">Soil and carbon:</p>
+      <p>● plants turn CO2 from the air into carbon-based substances such as 33<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>● some CO2 moves from the 34<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of plants to microbes in the soil</p>
+      <p>● carbon was lost from the soil when agriculture was invented</p>
+
+      <p className="font-bold my-3">Regenerative agriculture:</p>
+      <p>● uses established practices to make sure soil remains fertile and 35…<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>● e.g. through year-round planting and increasing the 36<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of plants that are grown</p>
+
+      <p className="font-bold my-3">California study:</p>
+      <p>● taking place on a big 37…<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> farm</p>
+      <p>● uses compost made from waste from agriculture and 38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+
+      <p className="font-bold my-3">Australia study:</p>
+      <p>● aims to increase soil carbon by using 39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> that are always green</p>
+
+      <p className="font-bold my-3">Future developments may include:</p>
+      <p>● reducing the amount of fertilizer used in farming</p>
+      <p>● giving farmers 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> for carbon storage, as well as their produce</p>
     </div>
-  );
+    </div>
+  )
 }

@@ -6,70 +6,70 @@ export default function Root() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   // Cursor Effect Logic
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      const cursorEffect = document.getElementById("cursor-effect");
+  // useEffect(() => {
+    // const handleMouseMove = (e) => {
+      // const cursorEffect = document.getElementById("cursor-effect");
 
       // Create a money particle
-      const money = document.createElement("div");
-      money.style.position = "absolute";
-      money.style.fontSize = "16px";
-      money.style.color = "green";
-      money.style.left = `${e.pageX}px`;
-      money.style.top = `${e.pageY}px`;
-      money.style.animation = "fade-out 10s forwards ease-out";
-      money.innerText = "$"; // You can replace this with an emoji or other symbols
+      // const money = document.createElement("div");
+      // money.style.position = "absolute";
+      // money.style.fontSize = "16px";
+      // money.style.color = "green";
+      // money.style.left = `${e.pageX}px`;
+      // money.style.top = `${e.pageY}px`;
+      // money.style.animation = "fade-out 10s forwards ease-out";
+      // money.innerText = "$"; // You can replace this with an emoji or other symbols
 
       // Append the money to the cursor-effect container
-      cursorEffect.appendChild(money);
+      // cursorEffect.appendChild(money);
 
       // Remove the money after animation ends
-      setTimeout(() => {
-        money.remove();
-      }, 1000); // Match the animation duration
-    };
+    //   setTimeout(() => {
+    //     money.remove();
+    //   }, 1000); // Match the animation duration
+    // };
 
     // Attach mousemove event listener
-    document.addEventListener("mousemove", handleMouseMove);
+    // document.addEventListener("mousemove", handleMouseMove);
 
     // Cleanup on unmount
-    return () => {
-      document.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, []);
+  //   return () => {
+  //     document.removeEventListener("mousemove", handleMouseMove);
+  //   };
+  // }, []);
 
-  // Inline Styles for Animations
-  const styles = `
-    @keyframes fade-out {
-      0% {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-      }
-      100% {
-        opacity: 0;
-        transform: translateY(-50px) scale(0.5);
-      }
-    }
+  // // Inline Styles for Animations
+  // const styles = `
+  //   @keyframes fade-out {
+  //     0% {
+  //       opacity: 1;
+  //       transform: translateY(0) scale(1);
+  //     }
+  //     100% {
+  //       opacity: 0;
+  //       transform: translateY(-50px) scale(0.5);
+  //     }
+  //   }
 
-    /* Continuous rotation animation for the star */
-    @keyframes spin-star {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
+  //   /* Continuous rotation animation for the star */
+  //   @keyframes spin-star {
+  //     0% {
+  //       transform: rotate(0deg);
+  //     }
+  //     100% {
+  //       transform: rotate(360deg);
+  //     }
+  //   }
 
-    .spinning-star {
-      animation: spin-star 5s linear infinite; /* 5 seconds for a full rotation */
-    }
-  `;
+  //   .spinning-star {
+  //     animation: spin-star 5s linear infinite; /* 5 seconds for a full rotation */
+  //   }
+  // `;
 
   return (
     <div className="flex h-screen bg-black text-white">
       {/* Add Cursor Effect Container */}
-      <style>{styles}</style>
+      {/* <style>{styles}</style> */}
       <div
         id="cursor-effect"
         style={{ position: "fixed", top: 0, left: 0, pointerEvents: "none" }}

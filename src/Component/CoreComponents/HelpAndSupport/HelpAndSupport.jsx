@@ -1,163 +1,172 @@
-import React, { useState, useEffect } from "react";
+import React from 'react'
 
 export default function HelpAndSupport() {
-  const [support, setSupport] = useState(null);
-
-  useEffect(() => {
-    fetch("/HelpSupport.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setSupport(data.helpAndSupport); // Update to access the correct object
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []);
-
-  if (!support) {
-    return <div className="text-center text-gray-500">Loading...</div>;
-  }
-
   return (
-    <div className="overflow-auto h-screen bg-gradient-to-b from-green-700 to-green-900 text-white min-h-screen p-8">
-      <div className="lg:flex lg:h-screen lg:justify-evenly items-center space-y-8 lg:space-y-0">
-        <div className="w-full lg:w-1/3 text-center p-8 rounded-xl shadow-lg transform transition duration-500 hover:scale-105" style={{
-          background: `
-            radial-gradient(circle at 20% 50%, #6eff62, transparent 60%),
-            radial-gradient(circle at 10% 10%, #6eff62, transparent 70%),
-            radial-gradient(circle at 70% 10%, #355E3B, transparent 90%),
-            radial-gradient(circle at 30% 10%, #003300, transparent 75%)
-          `,
-          backgroundBlendMode: 'overlay',
-        }}>
-          <h1 className="font-semibold text-2xl mb-6">Contact Information</h1>
-          <div className="text-lg">
-            <p className="mb-4">Email: mmodak550@gmail.com</p>
-            <p className="mb-4">Phone: (671) 595-0620</p>
-          </div>
+    <div className="h-screen overflow-y-auto w-full bg-black">
+    <div className="p-5">
+      <h2 className='font-bold text-xl my-5'>SECTION 1</h2>
+      <p className='font-bold text-xl my-5'>Free activities in the Burnham area</p>
+      <p className='font-bold text-xl my-5'>Example: The caller wants to find out about events on</p>
+      <p>A. 27 June.</p>
+      <p>B. 28 June.</p>
+      <p>C. 29 June.</p>
 
-          {/* Business Hours */}
-          <div className="border-t-2 border-green-400 my-8 pt-8">
-            <h2 className="text-xl font-semibold">Business Hours</h2>
-            <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
-            <p>Sat: 10:00 AM - 4:00 PM</p>
-            <p>Sun: Closed</p>
-          </div>
+      <p className='font-bold text-xl my-5'>1. The ‘Family Welcome’ event in the art gallery begins at</p>
+      <p>A. 10 am.</p>
+      <p>B. 10.30 am.</p>
+      <p>C. 2 pm.</p>
 
-          {/* Social Media Links */}
-          <div className="flex justify-center space-x-6 mt-6">
-            <a href="https://facebook.com" className="text-xl text-green-500 hover:text-green-400 transition duration-300" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-facebook-square"></i>
-            </a>
-            <a href="https://twitter.com" className="text-xl text-green-500 hover:text-green-400 transition duration-300" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-twitter-square"></i>
-            </a>
-            <a href="https://linkedin.com" className="text-xl text-green-500 hover:text-green-400 transition duration-300" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </div>
+      <p className='font-bold text-xl my-5'>2. The film that is now shown in the ‘Family Welcome’ event is about</p>
+      <p>A. sculpture.</p>
+      <p>B. painting.</p>
+      <p>C. ceramics.</p>
 
-          {/* Contact Form */}
-          <div className="mt-8">
-            <h2 className="text-xl font-semibold mb-4">Quick Contact</h2>
-            <form className="space-y-4">
-              <div>
-                <input className="w-full p-3 rounded-lg bg-black text-white border-2 border-green-500 focus:ring-2 focus:ring-green-300 focus:outline-none" type="text" placeholder="Your Name" />
-              </div>
-              <div>
-                <input className="w-full p-3 rounded-lg bg-black text-white border-2 border-green-500 focus:ring-2 focus:ring-green-300 focus:outline-none" type="email" placeholder="Your Email" />
-              </div>
-              <div>
-                <textarea className="w-full p-3 rounded-lg bg-black text-white border-2 border-green-500 focus:ring-2 focus:ring-green-300 focus:outline-none" placeholder="Your Message" rows="4"></textarea>
-              </div>
-              <div className="w-full text-center mt-6">
-                <button type="submit" className="py-3 px-6 bg-green-600 hover:bg-green-500 text-white rounded-full font-semibold transition duration-300">
-                  Send Message
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+      <p className='font-bold text-xl my-5'>3. When do most of the free concerts take place?</p>
+      <p>A. in the morning</p>
+      <p>B. at lunchtime</p>
+      <p>C. in the evening</p>
 
-        <div className="p-8 rounded-xl w-full lg:w-1/3 transform transition duration-500 hover:scale-105 border-animate" style={{
-          background: `
-            radial-gradient(circle at 20% 50%, #6eff62, transparent 60%),
-            radial-gradient(circle at 10% 10%, #6eff62, transparent 70%),
-            radial-gradient(circle at 70% 10%, #355E3B, transparent 90%),
-            radial-gradient(circle at 30% 10%, #003300, transparent 75%)
-          `,
-          backgroundBlendMode: 'overlay',
-        }}>
-          <h1 className="text-3xl font-semibold mb-6 text-center animate__animated animate__fadeIn">Support Details</h1>
+      <p className='font-bold text-xl my-5'>4. Where will the 4 pm concert of Latin American music take place?</p>
+      <p>A. in a museum</p>
+      <p>B. in a theatre</p>
+      <p>C. in a library</p>
 
-          <form className="space-y-6 animate__animated animate__fadeIn animate__delay-1s">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-              <div>
-                <label className="text-lg font-medium">First Name</label>
-                <input className="rounded-lg w-full py-3 bg-black text-white border-2 border-green-500 focus:ring-2 focus:ring-green-300 focus:outline-none transition duration-300" type="text" name="first-name" />
-              </div>
-              <div>
-                <label className="text-lg font-medium">Last Name</label>
-                <input className="rounded-lg w-full py-3 bg-black text-white border-2 border-green-500 focus:ring-2 focus:ring-green-300 focus:outline-none transition duration-300" type="text" name="last-name" />
-              </div>
-            </div>
+      <p className='font-bold text-xl my-5'>5. The boat race begins at</p>
+      <p>A. Summer Pool.</p>
+      <p>B. Charlesworth Bridge.</p>
+      <p>C. Offord Marina.</p>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-              <div>
-                <label className="text-lg font-medium">Email</label>
-                <input className="rounded-lg w-full py-3 bg-black text-white border-2 border-green-500 focus:ring-2 focus:ring-green-300 focus:outline-none transition duration-300" type="email" name="email" />
-              </div>
-              <div>
-                <label className="text-lg font-medium">Phone Number</label>
-                <input className="rounded-lg w-full py-3 bg-black text-white border-2 border-green-500 focus:ring-2 focus:ring-green-300 focus:outline-none transition duration-300" type="tel" name="phone-number" />
-              </div>
-            </div>
+      <p className='font-bold text-xl my-5'>6. One of the boat race teams</p>
+      <p>A. won a regional competition earlier this year.</p>
+      <p>B. has represented the region in a national competition.</p>
+      <p>C. has won several regional competitions.</p>
 
-            <div>
-              <label className="text-lg font-medium">Support Issue Title</label>
-              <input className="rounded-lg w-full py-3 bg-black text-white border-2 border-green-500 focus:ring-2 focus:ring-green-300 focus:outline-none transition duration-300" type="text" name="issue-title" />
-            </div>
+      <h3 className='font-bold text-xl my-5'>Questions 7-10</h3>
+      <p className='font-bold text-xl my-5'>Paxton Nature Reserve</p>
+      <p>7. Paxton is a good place for seeing rare <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> all year round.</p>
+      <p>8. This is a particularly good time for seeing certain unusual <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>9. Visitors will be able to learn about <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> and then collect some.</p>
+      <p>10. Part of the <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> has been made suitable for swimming.</p>
 
-            <div>
-              <label className="text-lg font-medium">Description</label>
-              <textarea className="rounded-lg w-full py-3 bg-black text-white border-2 border-green-500 focus:ring-2 focus:ring-green-300 focus:outline-none transition duration-300 h-24" name="description"></textarea>
-            </div>
+      <h2 className='font-bold text-xl my-5'>SECTION 2</h2>
+      <p className='font-bold text-xl my-5'>Changes in Barford over the last 50 years</p>
+      <p>11. In Shona’s opinion, why do fewer people use buses in Barford these days?</p>
+      <p>A. The buses are old and uncomfortable.</p>
+      <p>B. Fares have gone up too much.</p>
+      <p>C. There are not so many bus routes.</p>
 
-            <div className="w-full text-center mt-6">
-              <button type="submit" className="py-3 px-6 bg-green-600 hover:bg-green-500 text-white rounded-full font-semibold transition duration-300">
-                Submit
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
+      <p className='font-bold text-xl my-5'>12. What change in the road network is known to have benefited the town most?</p>
+      <p className='font-bold text-xl my-5'>A. the construction of a bypass</p>
+      <p>B. the development of cycle paths</p>
+      <p>C. the banning of cars from certain streets</p>
 
-      {/* 3D Glassmorphism Testimonials */}
-      <div className="">
-        <h2 className="text-center text-3xl font-semibold mb-6">What Our Clients Say</h2>
-        <div className="lg:flex lg:justify-evenly lg:space-x-8">
-          {/* Testimonial 1 */}
-          <div className="w-full lg:w-1/3 p-8 rounded-xl backdrop-blur-md bg-white/40 shadow-xl transform transition duration-300 hover:scale-105 mb-5">
-            <p className="text-lg mb-4">"The support team was incredibly helpful, resolved my issue in no time!"</p>
-            <h3 className="font-semibold text-xl">John Doe</h3>
-            <p className="text-sm">Software Developer</p>
-          </div>
+      <p className='font-bold text-xl my-5'>13. What is the problem affecting shopping in the town centre?</p>
+      <p className='font-bold text-xl my-5'>A. lack of parking spaces</p>
+      <p>B. lack of major retailers</p>
+      <p>C. lack of restaurants and cafés</p>
 
-          {/* Testimonial 2 */}
-          <div className="w-full lg:w-1/3 p-8 rounded-xl backdrop-blur-md bg-white/40 shadow-xl transform transition duration-300 hover:scale-105 mb-5">
-            <p className="text-lg mb-4">"Quick responses and great service! I couldn’t ask for more."</p>
-            <h3 className="font-semibold text-xl">Jane Smith</h3>
-            <p className="text-sm">Designer</p>
-          </div>
+      <p className='font-bold text-xl my-5'>14. What does Shona say about medical facilities in Barford?</p>
+      <p className='font-bold text-xl my-5'>A. There is no hospital.</p>
+      <p>B. New medical practices are planned.</p>
+      <p>C. The number of dentists is too low.</p>
 
-          {/* Testimonial 3 */}
-          <div className="w-full lg:w-1/3 p-8 rounded-xl backdrop-blur-md bg-white/40 shadow-xl transform transition duration-300 hover:scale-105">
-            <p className="text-lg mb-4">"Excellent experience! Would definitely recommend to others."</p>
-            <h3 className="font-semibold text-xl">Alice Brown</h3>
-            <p className="text-sm">Product Manager</p>
-          </div>
-        </div>
-      </div>
+      <p className='font-bold text-xl my-5'>15. The largest number of people are employed in</p>
+      <p className='font-bold text-xl my-5'>A. manufacturing.</p>
+      <p>B. services.</p>
+      <p>C. education.</p>
+
+      <h3 className='font-bold text-xl my-5'>Questions 16-20</h3>
+      <p className='font-bold text-xl my-5'>What is planned for each of the following facilities?</p>
+      <p className='font-bold text-xl my-5'>Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20</p>
+      <p>Plans:</p>
+      <p>A. It will move to a new location.</p>
+      <p>B. It will have its opening hours extended.</p>
+      <p>C. It will be refurbished.</p>
+      <p>D. It will be used for a different purpose.</p>
+      <p>E. It will have its opening hours reduced.</p>
+      <p>F. It will have new management.</p>
+      <p>G. It will be expanded.</p>
+
+      <p className='font-bold text-xl my-5'>Facilities:</p>
+      <p>16. railway station car park: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>17. cinema: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>18. indoor market: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>19. library: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>20. nature reserve: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+
+      <h2 className='font-bold text-xl my-5'>SECTION 3</h2>
+      <p className='font-bold text-xl my-5'>Questions 21 – 26</p>
+      <p>Complete the table below.</p>
+      <p>Write ONE WORD ONLY for each answer.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Subject of drawing</th>
+            <th>Change to be made</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>A 21<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> surrounded by trees</td>
+            <td>Add Malcolm and a 22<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. noticing him</td>
+          </tr>
+          <tr>
+            <td>People who are 23<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. outside the forest</td>
+            <td>Add Malcolm sitting on a tree trunk and 24<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></td>
+          </tr>
+          <tr>
+            <td>Ice-skaters on 25<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> covered with ice</td>
+            <td>Add a 26<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> for each person</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 className='font-bold text-xl my-5'>Questions 27-30</h3>
+      <p className='font-bold text-xl my-5'>Who is going to write each of the following parts of the report?</p>
+      <p className='font-bold text-xl my-5'>Write the correct letter, A-D, next to Questions 27-30.</p>
+      <p>A. Helen only</p>
+      <p>B. Jeremy only</p>
+      <p>C. both Helen and Jeremy</p>
+      <p>D. neither Helen nor Jeremy</p>
+
+      <p className='font-bold text-xl my-5'>Parts of the report:</p>
+      <p>27. how they planned the project: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>28. how they had ideas for their stories: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>29. an interpretation of their stories: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>30. comments on the illustrations: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+
+      <h2 className='font-bold text-xl my-5'>SECTION 4</h2>
+      <p>ETHNOGRAPHY IN BUSINESS</p>
+      <p>Ethnography: research which explores human cultures</p>
+      <p>It can be used in business:</p>
+      <p>● to investigate customer needs and 31<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
+      <p>● to help companies develop new designs</p>
+
+      <p className='font-bold text-xl my-5'>Examples of ethnographic research in business</p>
+      <p>Kitchen equipment</p>
+      <p>● Researchers found that cooks could not easily see the 32<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> in measuring cups.</p>
+
+      <p className='font-bold text-xl my-5'>Cell phones</p>
+      <p>● These customers wanted to check the 33<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> used.</p>
+
+      <p className='font-bold text-xl my-5'>Computer companies</p>
+      <p>● There was a need to develop 34<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> to improve communication between system administrators and colleagues.</p>
+
+      <p className='font-bold text-xl my-5'>Hospitals</p>
+      <p>● Nurses needed to access information about 35<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> in different parts of the hospital.</p>
+
+      <p className='font-bold text-xl my-5'>Airlines</p>
+      <p>● Respondents recorded information about their 36<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> while travelling.</p>
+
+      <p className='font-bold text-xl my-5'>Principles of ethnographic research in business</p>
+      <p>● The researcher does not start off with a hypothesis.</p>
+      <p>● Participants may be selected by criteria such as age, 37<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> or product used.</p>
+      <p>● The participants must feel 38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> about taking part in the research.</p>
+      <p>● There is usually direct 39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of the participants.</p>
+      <p>● The interview is guided by the participant.</p>
+      <p>● A lot of time is needed for the 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of the data.</p>
+      <p>● Researchers look for a meaningful pattern in the data.</p>
     </div>
-  );
+    </div>
+  )
 }

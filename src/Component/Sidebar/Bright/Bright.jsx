@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Bright() {
   return (
-    <div  className="h-screen overflow-y-auto w-full bg-black">
+    <div  className="h-screen overflow-y-auto w-full bg-slate-900">
     <div className='p-5'>
       <h2 className='font-bold text-xl my-3'>SECTION 1</h2>
       <p className='font-bold my-3'>Events during Kenton Festival</p>
@@ -10,12 +10,12 @@ export default function Bright() {
       <p className='font-bold my-3'>Opening ceremony (first day)</p>
       <p>● In town centre, starting at 1<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
       <p>– The mayor will make a speech</p>
-      <p>– A 2…………… will perform</p>
+      <p>– A 2.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> will perform</p>
       <p>– Performance of a 3<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> About Helen Tungate (a 4<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />)</p>
       <p>– Evening fireworks display situated across the 5<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
 
       <p className='font-bold my-3'>Other events</p>
-      <p>● Video about relationships that children have with their 6……………</p>
+      <p>● Video about relationships that children have with their 6.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
       <p>– Venue: 7<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> House</p>
       <p>● Performance of 8<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> Dances</p>
       <p>– Venue: the 9<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. market in the town centre</p>
@@ -136,11 +136,11 @@ export default function Bright() {
       <p>There may be conflict between people who have different 37<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
 
       <p className='font-bold my-3'>Other managers</p>
-      <p>A structure that is more 38…<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> may create a feeling of uncertainly about who staff should report to.</p>
+      <p>A structure that is more 38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> may create a feeling of uncertainly about who staff should report to.</p>
 
       <p className='font-bold my-3'>Minimising conflict</p>
-      <p>Bosses need to try hard to gain 39…<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
-      <p>Someone from outside the company may be given the role of 40…<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> in order to resolve conflicts.</p>
+      <p>Bosses need to try hard to gain 39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
+      <p>Someone from outside the company may be given the role of 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> in order to resolve conflicts.</p>
     </div>
     </div>
   )

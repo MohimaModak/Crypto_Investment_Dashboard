@@ -3,7 +3,7 @@ import photo from "../../../assets/Gallery/11-4.png"
 
 export default function Login() {
   return (
-    <div className="h-screen overflow-y-auto w-full bg-black">
+    <div className="h-screen overflow-y-auto w-full bg-slate-900">
     <div className="p-5">
       <h2 className="font-bold my-3 text-xl">SECTION 1</h2>
       <p className="font-bold my-3">Complete the table below.</p>

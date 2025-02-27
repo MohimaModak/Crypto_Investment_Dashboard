@@ -17,6 +17,12 @@ import Logout from "./Component/CoreComponents/Authentication/Logout";
 import Bright from "./Component/Sidebar/Bright/Bright";
 import Golden from "./Component/Golden/Golden";
 import Swift from "./Component/Swift/Swift";
+import Jayanti from "./Component/CoreComponents/Jayanti/Jayanti";
+import AssetAllocation2 from "./Component/CoreComponents/Analytics/AssetAllocation2";
+import MarketTrends from "./Component/CoreComponents/Analytics/MarketTrends";
+import PortfolioPerformance from "./Component/CoreComponents/Analytics/PortfolioPerformance";
+import TopMovers from "./Component/CoreComponents/Analytics/TopMovers";
+import AssetAllocation from "./Component/CoreComponents/Portfolio/AssetAllocation";
 
 const router = createBrowserRouter([
   {
@@ -75,6 +81,30 @@ const router = createBrowserRouter([
       {
         path: "/Swift",
         element: <Swift></Swift>,
+      },
+      {
+        path: "/Jayanti",
+        element: <Jayanti></Jayanti>,
+      },
+      {
+        path: "/AssetAllocation2",
+        element: <AssetAllocation2></AssetAllocation2>,
+      },
+      {
+        path: "/MarketTrends",
+        element: <MarketTrends></MarketTrends>,
+      },
+      {
+        path: "/PortfolioPerformance",
+        element: <PortfolioPerformance></PortfolioPerformance>,
+      },
+      {
+        path: "/TopMovers",
+        element: <TopMovers></TopMovers>,
+      },
+      {
+        path: "/AssetAllocation",
+        element: <AssetAllocation></AssetAllocation>,
       },
     
     ],

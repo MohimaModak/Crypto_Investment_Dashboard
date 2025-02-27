@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HelpAndSupport() {
   return (
-    <div className="h-screen overflow-y-auto w-full bg-black">
+    <div className="h-screen overflow-y-auto w-full bg-slate-900">
     <div className="p-5">
       <h2 className='font-bold text-xl my-5'>SECTION 1</h2>
       <p className='font-bold text-xl my-5'>Free activities in the Burnham area</p>

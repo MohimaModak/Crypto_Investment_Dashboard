@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Logout() {
   return (
-    <div className="h-screen overflow-y-auto w-full bg-black">
+    <div className="h-screen overflow-y-auto w-full bg-slate-900">
     <div className="p-5">
       <h2 className='font-bold my-3  text-xl'>SECTION 1</h2>
       <p className='font-bold my-3'>FAMILY EXCURSIONS</p>

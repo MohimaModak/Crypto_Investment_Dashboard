@@ -3,7 +3,7 @@ import photo from "../../../assets/Gallery/11-4.png"
 
 export default function Watchlist() {
   return (
-    <div className='h-screen overflow-y-auto w-full bg-black'>
+    <div className='h-screen overflow-y-auto w-full bg-slate-900'>
 
       <h2 className='my-5 font-bold text-xl'>SECTION 1</h2>
       <p>HIRING A PUBLIC ROOM</p>

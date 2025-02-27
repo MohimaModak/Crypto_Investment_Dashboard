@@ -45,9 +45,9 @@ export default function Sidebar() {
         <h1 className="custom-h1 text-2 text-2xl uppercase text-center font-semibold my-10 mx-5 relative">Drabin</h1>
       </div>
 
-      <li className="relative group">
+      <li className="relative group ">
         <button
-          className="hover:text-[#f59425]"
+          className="hover:text-[#f59425] "
           onClick={toggleListeningMenu}
         >
           Listening ▼

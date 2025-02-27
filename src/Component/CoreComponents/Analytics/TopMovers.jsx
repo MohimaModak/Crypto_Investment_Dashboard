@@ -34,11 +34,11 @@ export default function TopMovers() {
           <p className={isExpanded ? '' : ''}>
             However, some important sites in Gujarat have recently undergone major restoration, and the state government announced in June last year that it plans to restore the stepwells throughout the state.
 
-            In Patan, the state’s ancient capital, the stepwell of Rani Ki Vav (Queen’s Stepwell) is perhaps the finest current example. It was built by Queen Udayamati during the late 11th century, but became silted up following a flood during the 13th century. But the Archaeological Survey of India began restoring it in the 1960s, and today it’s in pristine condition. At 65 metres long, 20 metres wide and 27 metres deep, Rani Ki Vav features 500 distinct sculptures carved into niches throughout the monument, depicting gods such as Vishnu and Parvati in various incarnations. Incredibly, in January 2001, this ancient structure survived a devastating earthquake that measured 7.6 on the Richter scale.
+            In Patan, the state’s ancient capital, the stepwell of Rani Ki Vav (Queen’s Stepwell) is perhaps the finest current example. It was built by Queen Udayamati during the late 11th century, but became silted up following a flood during the 13th century.
           </p>
 
           {isExpanded && (
-            <p>
+            <p> But the Archaeological Survey of India began restoring it in the 1960s, and today it’s in pristine condition. At 65 metres long, 20 metres wide and 27 metres deep, Rani Ki Vav features 500 distinct sculptures carved into niches throughout the monument, depicting gods such as Vishnu and Parvati in various incarnations. Incredibly, in January 2001, this ancient structure survived a devastating earthquake that measured 7.6 on the Richter scale.
               Today, following years of neglect, many of these monuments to medieval engineering have been saved by the Archaeological Survey of India, which has recognised the importance of preserving them as part of the country’s rich history. Tourists flock to wells in far-flung corners of northwestern India to gaze in wonder at these architectural marvels from 1,000 years ago, which serve as a reminder of both the ingenuity and artistry of ancient civilisations and of the value of water to human existence.
               Another example is the Surya Kund in Modhera, northern Gujarat, next to the Sun Temple, built by King Bhima I in 1026 to honour the sun god Surya. It’s actually a tank (kund means reservoir or pond) rather than a well, but displays the hallmarks of stepwell architecture, including four sides of steps that descend to the bottom in a stunning geometrical formation. The terraces house 108 small, intricately carved shrines between the sets of steps.
 
@@ -63,17 +63,17 @@ export default function TopMovers() {
           <div>
             <div className='my-5'>
               <div className='flex items-center my-5 gap-10'><h1>TRUE</h1>
-              <p> if the statement agrees with the information</p>
+                <p> if the statement agrees with the information</p>
               </div>
               <div className='flex items-center my-5 gap-10'><h1>FALSE</h1>
-              <p> if the statement contradicts the information</p>
+                <p> if the statement contradicts the information</p>
               </div>
               <div className='flex items-center my-5 gap-10'><h1>NOT GIVEN</h1>
-              <p>if there is no information on this</p>
+                <p>if there is no information on this</p>
               </div>
             </div>
           </div>
-  
+
           <p>1   Examples of ancient stepwells can be found all over the world.
             <br />
 
@@ -102,47 +102,47 @@ export default function TopMovers() {
           <p className='my-5'>Write your answers in boxes 9-13 on your answer sheet.</p>
 
           <table className="min-w-full table-auto  border-slate-200 border-2 text-white">
-        <thead className=' border-slate-200 border-2'>
-          <tr className=' border-slate-200 border-2'>
-            <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Stepwell</th>
-            <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Date</th>
-            <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Features</th>
-            <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Other Notes</th>
-          </tr>
-        </thead>
-        <tbody className=' border-slate-200 border-2'>
-          <tr className=' border-slate-200 border-2'>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Rani Ki Vav</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Late 11th century</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">As many as 500 sculptures decorate the monument</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Restored in the 1990s. Excellent condition, despite the earthquake of 2001.</td>
-          </tr>
-          <tr className=' border-slate-200 border-2'>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Surya Kund</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">1026</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Steps on the 10th terrace produce a geometric pattern. Carved shrines.</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Looks more like a tank than a well.</td>
-          </tr>
-          <tr className=' border-slate-200 border-2'>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Raniji Ki Baori</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">1699</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Intricately carved monument</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">One of 21 baoris in the area commissioned by Queen Nathavatji</td>
-          </tr>
-          <tr className=' border-slate-200 border-2'>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Chand Baori</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">850 AD</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Steps take you down 11 storeys to the bottom</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Old, deep, and very dramatic. Has verandas which provide a view to the steps.</td>
-          </tr>
-          <tr className=' border-slate-200 border-2'>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Neemrana Ki Baori</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">1700</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Has two underwater levels</td>
-            <td className="border-b p-2 className=' border-slate-200 border-2'">Used by the public today.</td>
-          </tr>
-        </tbody>
-      </table>
+            <thead className=' border-slate-200 border-2'>
+              <tr className=' border-slate-200 border-2'>
+                <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Stepwell</th>
+                <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Date</th>
+                <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Features</th>
+                <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Other Notes</th>
+              </tr>
+            </thead>
+            <tbody className=' border-slate-200 border-2'>
+              <tr className=' border-slate-200 border-2'>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Rani Ki Vav</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Late 11th century</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">As many as 500 sculptures decorate the monument</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Restored in the 1990s. Excellent condition, despite the earthquake of 2001.</td>
+              </tr>
+              <tr className=' border-slate-200 border-2'>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Surya Kund</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">1026</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Steps on the 10th terrace produce a geometric pattern. Carved shrines.</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Looks more like a tank than a well.</td>
+              </tr>
+              <tr className=' border-slate-200 border-2'>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Raniji Ki Baori</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">1699</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Intricately carved monument</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">One of 21 baoris in the area commissioned by Queen Nathavatji</td>
+              </tr>
+              <tr className=' border-slate-200 border-2'>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Chand Baori</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">850 AD</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Steps take you down 11 storeys to the bottom</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Old, deep, and very dramatic. Has verandas which provide a view to the steps.</td>
+              </tr>
+              <tr className=' border-slate-200 border-2'>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Neemrana Ki Baori</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">1700</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Has two underwater levels</td>
+                <td className="border-b p-2 className=' border-slate-200 border-2'">Used by the public today.</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
         <div>

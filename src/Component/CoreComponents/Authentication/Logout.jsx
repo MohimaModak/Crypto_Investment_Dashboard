@@ -8,27 +8,27 @@ export default function Logout() {
       <p className='font-bold my-3'>FAMILY EXCURSIONS</p>
       <p>Cruise on a lake</p>
       <p>Example: Travel on an old steamship</p>
-      <p>● Can take photos of the 1<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> that surround the lake</p>
+      <p>● Can take photos of the 1<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> that surround the lake</p>
 
       <p className='font-bold my-3'>Farm visit</p>
       <p>● Children can help feed the sheep</p>
-      <p>● Visit can include a 40-minute ride on a 2<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
-      <p>● Visitors can walk in the farm’s 3<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> by the lake</p>
-      <p>● 4<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> is available at extra cost</p>
+      <p>● Visit can include a 40-minute ride on a 2<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
+      <p>● Visitors can walk in the farm’s 3<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> by the lake</p>
+      <p>● 4<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> is available at extra cost</p>
 
       <p className='font-bold my-3'>Cycling trips</p>
       <p>● Cyclists explore the Back Road</p>
-      <p>● A 5<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. is provided</p>
-      <p>● Only suitable for cyclists who have some 6<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
-      <p>– Bikes can be hired from 7<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> (near the Cruise Ship Terminal)</p>
+      <p>● A 5<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. is provided</p>
+      <p>● Only suitable for cyclists who have some 6<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
+      <p>– Bikes can be hired from 7<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> (near the Cruise Ship Terminal)</p>
       <p>● Cyclists need:</p>
       <p>– a repair kit</p>
       <p>– food and drink</p>
-      <p>– a 8<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> (can be hired)</p>
-      <p>● There are no 9<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> or accommodation in the area</p>
+      <p>– a 8<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> (can be hired)</p>
+      <p>● There are no 9<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> or accommodation in the area</p>
 
       <p className='font-bold my-3'>Cost</p>
-      <p>● Total cost for whole family of cruise and farm visit: 10 $<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>● Total cost for whole family of cruise and farm visit: 10 $<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className='font-bold my-3 text-xl'>SECTION 2</h2>
       <p className='font-bold my-3'>Talk to new kitchen assistants</p>
@@ -72,10 +72,10 @@ export default function Logout() {
       <p>F. timetables</p>
 
       <p className='font-bold my-3'>Restaurant staff:</p>
-      <p>17. Joy Parkins: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>18. David Field: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>19. Dexter Wills: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>20. Mike Smith: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>17. Joy Parkins: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>18. David Field: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>19. Dexter Wills: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>20. Mike Smith: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className='font-bold my-3 text-xl'>SECTION 3</h2>
       <p className='font-bold my-3'>Paper on Public Libraries</p>
@@ -97,36 +97,36 @@ export default function Logout() {
       <p className='font-bold my-3'>Complete the notes below.</p>
       <p className='font-bold my-3'>Write ONE WORD ONLY for each answer.</p>
       <p className='font-bold my-3'>Study of local library: possible questions</p>
-      <p>● whether it has a 24<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. of its own</p>
+      <p>● whether it has a 24<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. of its own</p>
       <p>● its policy regarding noise of various kinds</p>
-      <p>● how it’s affected by laws regarding all aspects of 25<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>● how the design needs to take the 26<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of customers into account</p>
-      <p>● what 27<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. is required in case of accidents</p>
-      <p>● why a famous person’s 28<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> is located in the library</p>
-      <p>● whether it has a 29<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of local organisations</p>
-      <p>● how it’s different from a library in a 30<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>● how it’s affected by laws regarding all aspects of 25<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>● how the design needs to take the 26<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> of customers into account</p>
+      <p>● what 27<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. is required in case of accidents</p>
+      <p>● why a famous person’s 28<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> is located in the library</p>
+      <p>● whether it has a 29<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> of local organisations</p>
+      <p>● how it’s different from a library in a 30<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className='font-bold my-3 text-xl'>SECTION 4</h2>
       <p className='font-bold my-3'>Four business values</p>
-      <p>Many business values can result in 31<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
-      <p>Senior managers need to understand and deal with the potential 32<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> that may result.</p>
+      <p>Many business values can result in 31<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> .</p>
+      <p>Senior managers need to understand and deal with the potential 32<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> that may result.</p>
 
       <p className='font-bold my-3'>Collaboration</p>
-      <p>During a training course, the speaker was in a team that had to build a 33<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
-      <p>Other teams experienced 34<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. from trying to collaborate.</p>
+      <p>During a training course, the speaker was in a team that had to build a 33<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> .</p>
+      <p>Other teams experienced 34<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. from trying to collaborate.</p>
       <p>The speaker’s team won because they reduced collaboration.</p>
-      <p>Sales of a 35<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. were poor because of collaboration.</p>
+      <p>Sales of a 35<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. were poor because of collaboration.</p>
 
       <p className='font-bold my-3'>Industriousness</p>
-      <p>Hard work may be a bad use of various company 36<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
-      <p>The word ‘lazy’ in this context refers to people who avoid doing tasks that are 37<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
+      <p>Hard work may be a bad use of various company 36<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> .</p>
+      <p>The word ‘lazy’ in this context refers to people who avoid doing tasks that are 37<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> .</p>
 
       <p className='font-bold my-3'>Creativity</p>
-      <p>An advertising campaign for a 38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. was memorable but failed to boost sales.</p>
-      <p>Creativity should be used as a response to a particular 39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
+      <p>An advertising campaign for a 38<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. was memorable but failed to boost sales.</p>
+      <p>Creativity should be used as a response to a particular 39<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> .</p>
 
       <p className='font-bold my-3'>Excellence</p>
-      <p>According to one study, on average, pioneers had a 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> that was far higher than that of followers.</p>
+      <p>According to one study, on average, pioneers had a 40<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> that was far higher than that of followers.</p>
       <p>Companies that always aim at excellence may miss opportunities.</p>
     </div>
     </div>

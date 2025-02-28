@@ -22,32 +22,32 @@ export default function Jayanti() {
                         <tbody>
                             <tr>
                                 <td className="border border-gray-500 p-2">Example: The Food <strong>Studio</strong></td>
-                                <td className="border border-gray-500 p-2">how to <strong>1. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> and cook with seasonal products</td>
+                                <td className="border border-gray-500 p-2">how to <strong>1. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> and cook with seasonal products</td>
                                 <td className="border border-gray-500 p-2">
                                     <ul className="list-disc pl-5">
                                         <li>small classes</li>
-                                        <li>also offers <strong>2. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> classes</li>
-                                        <li>clients who return get a <strong>3. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> discount</li>
+                                        <li>also offers <strong>2. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> classes</li>
+                                        <li>clients who return get a <strong>3. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> discount</li>
                                     </ul>
                                 </td>
                             </tr>
                             <tr>
                                 <td className="border border-gray-500 p-2">Bond’s Cookery School</td>
-                                <td className="border border-gray-500 p-2">food that is <strong>4. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></td>
+                                <td className="border border-gray-500 p-2">food that is <strong>4. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></td>
                                 <td className="border border-gray-500 p-2">
                                     <ul className="list-disc pl-5">
-                                        <li>includes recipes to strengthen your <strong>5. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-                                        <li>they have a free <strong>6. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> every Thursday</li>
+                                        <li>includes recipes to strengthen your <strong>5. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+                                        <li>they have a free <strong>6. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> every Thursday</li>
                                     </ul>
                                 </td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-500 p-2">The <strong>7. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> Centre</td>
-                                <td className="border border-gray-500 p-2">mainly <strong>8. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> food</td>
+                                <td className="border border-gray-500 p-2">The <strong>7. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> Centre</td>
+                                <td className="border border-gray-500 p-2">mainly <strong>8. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> food</td>
                                 <td className="border border-gray-500 p-2">
                                     <ul className="list-disc pl-5">
-                                        <li>located near the <strong>9. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-                                        <li>a special course in skills with a <strong>10. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> is sometimes available</li>
+                                        <li>located near the <strong>9. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+                                        <li>a special course in skills with a <strong>10. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> is sometimes available</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -87,13 +87,13 @@ export default function Jayanti() {
                     <img src={photo} className='my-8' />
                     <p>Write the correct letter, <strong>A-I</strong>, next to Questions 14-20.</p>
                     <ul className="list-disc pl-5">
-                        <li>14. New traffic lights <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-                        <li>15. Pedestrian crossing <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-                        <li>16. Parking allowed <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-                        <li>17. New ‘No Parking’ sign <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-                        <li>18. New disabled parking spaces <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-                        <li>19. Widened pavement <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-                        <li>20. Lorry loading/unloading restrictions <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                        <li>14. New traffic lights <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+                        <li>15. Pedestrian crossing <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+                        <li>16. Parking allowed <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+                        <li>17. New ‘No Parking’ sign <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+                        <li>18. New disabled parking spaces <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+                        <li>19. Widened pavement <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+                        <li>20. Lorry loading/unloading restrictions <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
                     </ul>
                 </div>
             </div>
@@ -142,15 +142,15 @@ export default function Jayanti() {
                     <div className="mt-2">
                         <p><strong>Stage in the experiment</strong></p>
                         <ul className="list-disc pl-5">
-                            <li>Select seeds of different <strong>26. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> and sizes.</li>
+                            <li>Select seeds of different <strong>26. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> and sizes.</li>
                             <li>↓</li>
-                            <li>Measure and record the <strong>27. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> and size of each one.</li>
+                            <li>Measure and record the <strong>27. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> and size of each one.</li>
                             <li>↓</li>
-                            <li>Decide on the <strong>28. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> to be used.</li>
+                            <li>Decide on the <strong>28. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> to be used.</li>
                             <li>↓</li>
-                            <li>Use a different <strong>29. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> for each seed and label it.</li>
+                            <li>Use a different <strong>29. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> for each seed and label it.</li>
                             <li>↓</li>
-                            <li>After about 3 weeks, record the plant’s <strong>30. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
+                            <li>After about 3 weeks, record the plant’s <strong>30. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
                             <li>↓</li>
                             <li>Investigate the findings.</li>
                         </ul>
@@ -171,31 +171,31 @@ export default function Jayanti() {
                         <ul className="list-disc pl-5">
                             <li>Recent urban developments represent massive environmental changes. It was previously thought that only a few animals were suitable for city life, e.g.</li>
                             <ul className="list-disc pl-5">
-                                <li>the <strong>31. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> – because of its general adaptability</li>
-                                <li>the pigeon – because walls of city buildings are similar to <strong>32. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                                <li>the <strong>31. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> – because of its general adaptability</li>
+                                <li>the pigeon – because walls of city buildings are similar to <strong>32. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
                             </ul>
-                            <li>In fact, many urban animals are adapting with unusual <strong>33. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                            <li>In fact, many urban animals are adapting with unusual <strong>33. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
                         </ul>
                         <p><strong>Recent research</strong></p>
                         <ul className="list-disc pl-5">
                             <li>Emilie Snell-Rood studied small urbanised mammal specimens from museums in Minnesota.</li>
                             <ul className="list-disc pl-5">
-                                <li>She found the size of their <strong>34. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> had increased.</li>
-                                <li>She suggests this may be due to the need to locate new sources of <strong>35. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> and to deal with new dangers.</li>
+                                <li>She found the size of their <strong>34. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> had increased.</li>
+                                <li>She suggests this may be due to the need to locate new sources of <strong>35. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> and to deal with new dangers.</li>
                             </ul>
-                            <li>Catarina Miranda focused on the <strong>36. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of urban and rural blackbirds.</li>
+                            <li>Catarina Miranda focused on the <strong>36. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of urban and rural blackbirds.</li>
                             <ul className="list-disc pl-5">
-                                <li>She found urban birds were often braver, but were afraid of situations that were <strong>37. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                                <li>She found urban birds were often braver, but were afraid of situations that were <strong>37. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
                             </ul>
                             <li>Jonathan Atwell studies how animals respond to urban environments.</li>
                             <ul className="list-disc pl-5">
-                                <li>He found that some animals respond to <strong>38. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> by producing lower levels of hormones.</li>
+                                <li>He found that some animals respond to <strong>38. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> by producing lower levels of hormones.</li>
                             </ul>
-                            <li>Sarah Partan’s team found urban squirrels use their <strong>39. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> to help them communicate.</li>
+                            <li>Sarah Partan’s team found urban squirrels use their <strong>39. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> to help them communicate.</li>
                         </ul>
                         <p><strong>Long-term possibilities</strong></p>
                         <ul className="list-disc pl-5">
-                            <li>Species of animals may develop which are unique to cities. However, some changes may not be <strong>40. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
+                            <li>Species of animals may develop which are unique to cities. However, some changes may not be <strong>40. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
                         </ul>
                     </div>
                 </div>

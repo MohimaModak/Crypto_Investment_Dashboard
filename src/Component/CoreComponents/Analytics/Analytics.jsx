@@ -6,12 +6,12 @@ export default function Analytics() {
     <div className='p-5'>
       <h2 className='my-5 font-bold'>SECTION 1</h2>
       <p>Customer heard about Thorndyke’s from a friend.</p>
-      <p>Name: Edith 1<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
-      <p>Address: Flat 4, 2 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />  Park Flats (Behind the 3…………..)</p>
+      <p>Name: Edith 1<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
+      <p>Address: Flat 4, 2 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />  Park Flats (Behind the 3…………..)</p>
       <p>Phone number: 875934</p>
-      <p>Best time to contact customer: during the 4 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
-      <p>Where to park: opposite entrance next to the 5 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
-      <p>Needs full quote showing all the jobs and the 6<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
+      <p>Best time to contact customer: during the 4 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
+      <p>Where to park: opposite entrance next to the 5 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
+      <p>Needs full quote showing all the jobs and the 6<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
 
       <h3 className='my-5 font-bold'>Questions 7-10</h3>
       <table className='border-2 p-2'>
@@ -25,17 +25,17 @@ export default function Analytics() {
         <tbody className='border-2 p-2'>
           <tr>
             <td className='border-2 p-2'>Kitchen</td>
-            <td className='border-2 p-2'>Replace the 7<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />  in the door</td>
+            <td className='border-2 p-2'>Replace the 7<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />  in the door</td>
             <td className='border-2 p-2'>Fix tomorrow</td>
           </tr>
           <tr className='border-2 p-2'>
             <td className='border-2 p-2'>Kitchen</td>
-            <td className='border-2 p-2'>Paint wall above the 8<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </td>
-            <td className='border-2 p-2'>Strip paint and plaster approximately one 9 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />  in advance</td>
+            <td className='border-2 p-2'>Paint wall above the 8<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </td>
+            <td className='border-2 p-2'>Strip paint and plaster approximately one 9 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />  in advance</td>
           </tr>
           <tr className='border-2 p-2'>
             <td className='border-2 p-2'>Garden</td>
-            <td className='border-2 p-2'>One 10 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> needs replacing (end of garden)</td>
+            <td className='border-2 p-2'>One 10 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> needs replacing (end of garden)</td>
             <td className='border-2 p-2'></td>
           </tr>
         </tbody>
@@ -80,18 +80,18 @@ export default function Analytics() {
         <tbody>
           <tr className='border-2 p-2'>
             <td className='border-2 p-2'>copper mine</td>
-            <td className='border-2 p-2'>specially adapted miners’ 16 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />  take visitors into the mountain</td>
-            <td className='border-2 p-2'>the mine is 17 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />  and enclosed – unsuitable for children and animals</td>
+            <td className='border-2 p-2'>specially adapted miners’ 16 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />  take visitors into the mountain</td>
+            <td className='border-2 p-2'>the mine is 17 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />  and enclosed – unsuitable for children and animals</td>
           </tr>
           <tr className='border-2 p-2'>
             <td className='border-2 p-2'>village school</td>
-            <td className='border-2 p-2'>classrooms and a special exhibition of 18 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />  </td>
-            <td className='border-2 p-2'>a 19 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />  is recommended</td>
+            <td className='border-2 p-2'>classrooms and a special exhibition of 18 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />  </td>
+            <td className='border-2 p-2'>a 19 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />  is recommended</td>
           </tr>
           <tr className='border-2 p-2'>
             <td className='border-2 p-2'>‘The George’ (old sailing ship)</td>
             <td className='border-2 p-2'>the ship’s wheel (was lost but has now been restored)</td>
-            <td className='border-2 p-2'>children shouldn’t use the 20 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />  </td>
+            <td className='border-2 p-2'>children shouldn’t use the 20 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />  </td>
           </tr>
         </tbody>
       </table>
@@ -116,12 +116,12 @@ export default function Analytics() {
       <br />
       <h3 className='font-bold mb-5'>Questions 25-30</h3>
       <p>What source of information should Tim use at each of the following stages of the work placement?</p>
-      <p>25. obtaining booklet: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
-      <p>26. discussing options: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
-      <p>27. getting updates: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
-      <p>28. responding to invitation for interview: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
-      <p>29. informing about outcome of interview: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
-      <p>30. requesting a reference: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
+      <p>25. obtaining booklet: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
+      <p>26. discussing options: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
+      <p>27. getting updates: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
+      <p>28. responding to invitation for interview: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
+      <p>29. informing about outcome of interview: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
+      <p>30. requesting a reference: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
       <br />
       <h2>SECTION 4</h2>
       <p className='my-5 font-bold'>Questions 31 – 33</p>
@@ -145,22 +145,22 @@ export default function Analytics() {
       <br />
       <p className='font-medium'>Uses of Nanotechnology</p>
       <p className='font-medium mt-5'>Transport</p>
-      <p>● Nanotechnology could allow the development of stronger 34 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
+      <p>● Nanotechnology could allow the development of stronger 34 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
       <p>● Planes would be much lighter in weight.</p>
-      <p>● 35<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />  travel will be made available to the masses.</p>
+      <p>● 35<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />  travel will be made available to the masses.</p>
 <br />
       <p className='font-medium'>Technology</p>
-      <p>● Computers will be even smaller, faster, and will have a greater 36<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> ..</p>
-      <p>● 37<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> . Energy will become more affordable.</p>
+      <p>● Computers will be even smaller, faster, and will have a greater 36<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> ..</p>
+      <p>● 37<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> . Energy will become more affordable.</p>
 <br />
       <p className='font-medium'>The Environment</p>
       <p>● Nano-robots could rebuild the ozone layer.</p>
-      <p>● Pollutants such as 38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> . could be removed from water</p>
-      <p>● There will be no 39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> . from manufacturing.</p>
+      <p>● Pollutants such as 38<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> . could be removed from water</p>
+      <p>● There will be no 39<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> . from manufacturing.</p>
 <br />
       <p className='font-medium'>Health and Medicine</p>
       <p>● New methods of food production could eradicate famine.</p>
-      <p>● Analysis of medical 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> . will be speeded up.</p>
+      <p>● Analysis of medical 40<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> . will be speeded up.</p>
       <p>● Life expectancy could be increased.</p>
     </div>
     </div>

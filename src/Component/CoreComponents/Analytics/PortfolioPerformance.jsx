@@ -12,24 +12,24 @@ export default function PortfolioPerformance() {
           <h3 className="font-bold">Alex’s Training</h3>
           <p>Example: Alex completed his training in <strong>2014</strong></p>
           <ul className="list-disc pl-5">
-            <li>At first, Alex did his training in the <strong>1.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> department.</li>
-            <li>Alex didn’t have a qualification from school in <strong>2.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-            <li>Alex thinks he should have done the diploma in <strong>3.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> skills.</li>
-            <li>Age of other trainees: the youngest was <strong>4.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
+            <li>At first, Alex did his training in the <strong>1.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> department.</li>
+            <li>Alex didn’t have a qualification from school in <strong>2.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+            <li>Alex thinks he should have done the diploma in <strong>3.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> skills.</li>
+            <li>Age of other trainees: the youngest was <strong>4.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
           </ul>
           <h4 className="font-bold mt-4">Benefits of doing training at JPNW:</h4>
           <ul className="list-disc pl-5">
             <li>Lots of opportunities because of the size of the organisation.</li>
-            <li>Trainees receive the same amount of <strong>5.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> as permanent staff.</li>
+            <li>Trainees receive the same amount of <strong>5.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> as permanent staff.</li>
             <li>The training experience increases people’s confidence a lot.</li>
-            <li>Trainees go to <strong>6.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> one day per month.</li>
-            <li>The company is in a convenient <strong>7.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
+            <li>Trainees go to <strong>6.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> one day per month.</li>
+            <li>The company is in a convenient <strong>7.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
           </ul>
           <h4 className="font-bold mt-4">Advice for interview:</h4>
           <ul className="list-disc pl-5">
-            <li>Don’t wear <strong>8.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-            <li>Don’t be <strong>9.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-            <li>Make sure you <strong>10.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
+            <li>Don’t wear <strong>8.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+            <li>Don’t be <strong>9.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+            <li>Make sure you <strong>10.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
           </ul>
         </div>
       </div>
@@ -92,10 +92,10 @@ export default function PortfolioPerformance() {
           </div>
           <div className="mt-4">
             <ul className="list-disc pl-5">
-              <li>17. Highland Trail <strong> <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>18. Pine Trail <strong> <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>19. Stony Trail <strong> <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>20. Loser’s Trail <strong> <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>17. Highland Trail <strong> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>18. Pine Trail <strong> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>19. Stony Trail <strong> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>20. Loser’s Trail <strong> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             </ul>
           </div>
         </div>
@@ -183,26 +183,26 @@ export default function PortfolioPerformance() {
             <ul className="list-disc pl-5">
               <li>There was small-scale trade in wild coffee from Ethiopia.</li>
               <li>1522: Coffee was approved in the Ottoman court as a type of medicine.</li>
-              <li>1623: In Constantinople, the ruler ordered the <strong>31.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of every coffee house.</li>
+              <li>1623: In Constantinople, the ruler ordered the <strong>31.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of every coffee house.</li>
             </ul>
             <p><strong>Coffee arrives in Europe (17th century)</strong></p>
             <ul className="list-disc pl-5">
-              <li>Coffee shops were compared to <strong>32.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-              <li>They played an important part in social and <strong>33.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> changes.</li>
+              <li>Coffee shops were compared to <strong>32.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+              <li>They played an important part in social and <strong>33.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> changes.</li>
             </ul>
             <p><strong>Coffee and European colonization</strong></p>
             <ul className="list-disc pl-5">
               <li>European powers established coffee plantations in their colonies.</li>
-              <li>Types of coffee were often named according to the <strong>34.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> they came from.</li>
-              <li>In Brazil and the Caribbean, most cultivation depended on <strong>35.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-              <li>In Java, coffee was used as a form of <strong>36.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-              <li>Coffee became almost as important as <strong>37.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-              <li>The move towards the consumption of <strong>38.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> in Britain did not also take place in the USA.</li>
+              <li>Types of coffee were often named according to the <strong>34.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> they came from.</li>
+              <li>In Brazil and the Caribbean, most cultivation depended on <strong>35.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+              <li>In Java, coffee was used as a form of <strong>36.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+              <li>Coffee became almost as important as <strong>37.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+              <li>The move towards the consumption of <strong>38.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> in Britain did not also take place in the USA.</li>
             </ul>
             <p><strong>Coffee in the 19th century</strong></p>
             <ul className="list-disc pl-5">
-              <li>Prices dropped because of improvements in <strong>39.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-              <li>Industrial workers found coffee helped them to work at <strong>40.  <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
+              <li>Prices dropped because of improvements in <strong>39.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+              <li>Industrial workers found coffee helped them to work at <strong>40.  <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
             </ul>
           </div>
         </div>

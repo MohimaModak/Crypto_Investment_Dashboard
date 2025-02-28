@@ -14,26 +14,26 @@ export default function Golden() {
             <p>Example: The library re-opened last <strong>month</strong>.</p>
             <ul className="list-disc pl-5">
               <li>a seating area with magazines</li>
-              <li>an expanded section for books on <strong>1. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>a new section on local <strong>2. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>a community room for meetings (also possible to <strong>3. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> there)</li>
-              <li>a new section of books for <strong>4. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>an expanded section for books on <strong>1. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>a new section on local <strong>2. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>a community room for meetings (also possible to <strong>3. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> there)</li>
+              <li>a new section of books for <strong>4. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             </ul>
             <h4 className="font-bold mt-4">For younger children</h4>
             <ul className="list-disc pl-5">
-              <li>the next Science Club meeting: experiments using things from your <strong>5. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>the next Science Club meeting: experiments using things from your <strong>5. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
               <li>Reading Challenge: read six books during the holidays</li>
             </ul>
             <h4 className="font-bold mt-4">For adults</h4>
             <ul className="list-disc pl-5">
-              <li>this Friday: a local author talks about a novel based on a real <strong>6. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>IT support is available on Tuesday – no <strong>7. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> is necessary</li>
-              <li>free check of blood <strong>8. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> and cholesterol levels (over 60s only)</li>
+              <li>this Friday: a local author talks about a novel based on a real <strong>6. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>IT support is available on Tuesday – no <strong>7. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> is necessary</li>
+              <li>free check of blood <strong>8. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> and cholesterol levels (over 60s only)</li>
             </ul>
             <h4 className="font-bold mt-4">Other information</h4>
             <ul className="list-disc pl-5">
-              <li>the library shop sells wall-charts, cards and <strong>9. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>evenings and weekends: free <strong>10. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> is available</li>
+              <li>the library shop sells wall-charts, cards and <strong>9. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>evenings and weekends: free <strong>10. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> is available</li>
             </ul>
           </div>
         </div>
@@ -104,17 +104,17 @@ export default function Golden() {
                 <tr>
                   <td className="border border-gray-500 p-2">Ireland and Italy</td>
                   <td className="border border-gray-500 p-2">general fitness</td>
-                  <td className="border border-gray-500 p-2">● personally designed programme<br />● also reduces <strong>18. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></td>
+                  <td className="border border-gray-500 p-2">● personally designed programme<br />● also reduces <strong>18. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></td>
                 </tr>
                 <tr>
                   <td className="border border-gray-500 p-2">Greece</td>
-                  <td className="border border-gray-500 p-2"><strong>19. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> control</td>
+                  <td className="border border-gray-500 p-2"><strong>19. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> control</td>
                   <td className="border border-gray-500 p-2">● includes exercise on the beach</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-500 p-2">Morocco</td>
                   <td className="border border-gray-500 p-2">Mountain biking</td>
-                  <td className="border border-gray-500 p-2">● wide variety of levels<br />● one holiday that is specially designed for <strong>20. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></td>
+                  <td className="border border-gray-500 p-2">● wide variety of levels<br />● one holiday that is specially designed for <strong>20. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></td>
                 </tr>
               </tbody>
             </table>
@@ -135,23 +135,23 @@ export default function Golden() {
               <h3 className="font-bold">STAGES IN DOING A TOURISM CASE STUDY</h3>
               <p><strong>RESEARCH</strong></p>
               <ul className="list-disc pl-5">
-                <li>Locate and read relevant articles, noting key information and also <strong>21. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                <li>Locate and read relevant articles, noting key information and also <strong>21. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
                 <li>Identify a problem or need</li>
-                <li>Select interviewees – these may be site <strong>22. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>, visitors or city <strong>23. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                <li>Select interviewees – these may be site <strong>22. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>, visitors or city <strong>23. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
                 <li>Prepare and carry out interviews. If possible, collect statistics.</li>
-                <li>Check whether <strong>24. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of interviewees can be used.</li>
+                <li>Check whether <strong>24. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of interviewees can be used.</li>
               </ul>
               <p>↓</p>
               <p><strong>ANALYSIS</strong></p>
               <ul className="list-disc pl-5">
-                <li>Select relevant information and try to identify <strong>25. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                <li>Select relevant information and try to identify <strong>25. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
                 <li>Decide on the best form of visuals</li>
               </ul>
               <p>↓</p>
               <p><strong>WRITING THE CASE STUDY</strong></p>
               <ul className="list-disc pl-5">
                 <li>Give some background before writing the main sections</li>
-                <li>Do NOT end with <strong>26. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                <li>Do NOT end with <strong>26. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
               </ul>
             </div>
           </div>
@@ -199,31 +199,31 @@ export default function Golden() {
                 <li>Highly toxic</li>
                 <li>Released into the atmosphere from coal</li>
                 <li>In water it may be consumed by fish</li>
-                <li>It has also recently been found to affect birds which feed on <strong>31. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                <li>It has also recently been found to affect birds which feed on <strong>31. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
               </ul>
               <p><strong>Research on effects of mercury on birds</strong></p>
               <ul className="list-disc pl-5">
                 <li>Claire Varian-Ramos is investigating</li>
                 <ul className="list-disc pl-5">
-                  <li>the effects on birds’ <strong>32. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> or mental processes, e.g. memory</li>
-                  <li>the effects on bird song (usually learned from a bird’s <strong>33. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>)</li>
+                  <li>the effects on birds’ <strong>32. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> or mental processes, e.g. memory</li>
+                  <li>the effects on bird song (usually learned from a bird’s <strong>33. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>)</li>
                 </ul>
                 <li>Findings:</li>
                 <ul className="list-disc pl-5">
-                  <li>songs learned by birds exposed to mercury are less <strong>34. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-                  <li>this may have a negative effect on birds’ <strong>35. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                  <li>songs learned by birds exposed to mercury are less <strong>34. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+                  <li>this may have a negative effect on birds’ <strong>35. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
                 </ul>
                 <li>Lab-based studies</li>
                 <ul className="list-disc pl-5">
-                  <li>allow more <strong>36. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> for the experimenter</li>
+                  <li>allow more <strong>36. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> for the experimenter</li>
                 </ul>
               </ul>
               <p><strong>Implications for humans</strong></p>
               <ul className="list-disc pl-5">
-                <li>Migrating birds such as <strong>37. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> containing mercury may be eaten by humans</li>
-                <li>Mercury also causes problems in learning <strong>38. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-                <li>Mercury in a mother’s body from <strong>39. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> may affect the unborn child</li>
-                <li>New regulations for mercury emissions will affect everyone’s energy <strong>40. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                <li>Migrating birds such as <strong>37. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> containing mercury may be eaten by humans</li>
+                <li>Mercury also causes problems in learning <strong>38. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+                <li>Mercury in a mother’s body from <strong>39. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> may affect the unborn child</li>
+                <li>New regulations for mercury emissions will affect everyone’s energy <strong>40. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
               </ul>
             </div>
           </div>

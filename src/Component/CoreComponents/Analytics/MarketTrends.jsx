@@ -12,25 +12,25 @@ export default function MarketTrends() {
           <h3 className="font-bold">Moving to Banford City</h3>
           <p>Example: Linda recommends living in suburb of: <strong>Dalton</strong></p>
           <ul className="list-disc pl-5">
-            <li>Average rent: <strong>1. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> a month</li>
+            <li>Average rent: <strong>1. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> a month</li>
           </ul>
           <h4 className="font-bold mt-4">Transport</h4>
           <ul className="list-disc pl-5">
-            <li>Linda travels to work by <strong>2. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-            <li>Limited <strong>3. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> in city centre</li>
-            <li>Trains to London every <strong>4. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> minutes</li>
-            <li>Poor train service at <strong>5. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+            <li>Linda travels to work by <strong>2. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+            <li>Limited <strong>3. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> in city centre</li>
+            <li>Trains to London every <strong>4. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> minutes</li>
+            <li>Poor train service at <strong>5. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
           </ul>
           <h4 className="font-bold mt-4">Advantages of living in Banford</h4>
           <ul className="list-disc pl-5">
-            <li>New <strong>6. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> opened recently</li>
-            <li><strong>7. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> has excellent reputation</li>
-            <li>Good <strong>8. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> on Bridge Street</li>
+            <li>New <strong>6. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> opened recently</li>
+            <li><strong>7. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> has excellent reputation</li>
+            <li>Good <strong>8. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> on Bridge Street</li>
           </ul>
           <h4 className="font-bold mt-4">Meet Linda</h4>
           <ul className="list-disc pl-5">
-            <li>Meet Linda on <strong>9. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> after 5.30 pm</li>
-            <li>In the <strong>10. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> opposite the station</li>
+            <li>Meet Linda on <strong>9. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> after 5.30 pm</li>
+            <li>In the <strong>10. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> opposite the station</li>
           </ul>
         </div>
       </div>
@@ -54,12 +54,12 @@ export default function MarketTrends() {
           </div>
           <div className="mt-4">
             <ul className="list-disc pl-5">
-              <li>11. using a gym <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>12. running <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>13. swimming <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>14. cycling <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>15. doing yoga <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>16. training with a personal trainer <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>11. using a gym <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>12. running <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>13. swimming <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>14. cycling <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>15. doing yoga <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>16. training with a personal trainer <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             </ul>
           </div>
         </div>
@@ -137,12 +137,12 @@ export default function MarketTrends() {
           </div>
           <div className="mt-4">
             <ul className="list-disc pl-5">
-              <li>25. turmeric <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>26. beetroot <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>27. Tyrian purple <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>28. logwood <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>29. cochineal <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>30. metal oxide <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>25. turmeric <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>26. beetroot <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>27. Tyrian purple <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>28. logwood <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>29. cochineal <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>30. metal oxide <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             </ul>
           </div>
         </div>
@@ -160,33 +160,33 @@ export default function MarketTrends() {
             <p><strong>Description</strong></p>
             <ul className="list-disc pl-5">
               <li>They are common in Western and South Australia</li>
-              <li>They are brown, but recognisable by their blue <strong>31. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>They are brown, but recognisable by their blue <strong>31. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
               <li>They are relatively large</li>
-              <li>Their diet consists mainly of <strong>32. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>Their main predators are large birds and <strong>33. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>Their diet consists mainly of <strong>32. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>Their main predators are large birds and <strong>33. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             </ul>
             <p><strong>Navigation study</strong></p>
             <ul className="list-disc pl-5">
-              <li>One study found that lizards can use the <strong>34. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> to help them navigate</li>
+              <li>One study found that lizards can use the <strong>34. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> to help them navigate</li>
             </ul>
             <p><strong>Observations in the wild</strong></p>
             <ul className="list-disc pl-5">
-              <li>Observations show that these lizards keep the same <strong>35. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> for several years</li>
+              <li>Observations show that these lizards keep the same <strong>35. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> for several years</li>
             </ul>
             <p><strong>What people want</strong></p>
             <ul className="list-disc pl-5">
               <li>Possible reasons:</li>
               <ul className="list-disc pl-5">
-                <li>to improve the survival of their young (but little <strong>36. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> has been noted between parents and children)</li>
-                <li>to provide <strong>37. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> for female lizards</li>
+                <li>to improve the survival of their young (but little <strong>36. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> has been noted between parents and children)</li>
+                <li>to provide <strong>37. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> for female lizards</li>
               </ul>
             </ul>
             <p><strong>Tracking study</strong></p>
             <ul className="list-disc pl-5">
-              <li>A study was carried out using GPS systems attached to the <strong>38. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of the lizards</li>
-              <li>This provided information on the lizards’ location and even the number of <strong>39. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> taken</li>
+              <li>A study was carried out using GPS systems attached to the <strong>38. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of the lizards</li>
+              <li>This provided information on the lizards’ location and even the number of <strong>39. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> taken</li>
               <li>It appeared that the lizards were trying to avoid one another</li>
-              <li>This may be in order to reduce chances of <strong>40. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>This may be in order to reduce chances of <strong>40. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             </ul>
           </div>
         </div>

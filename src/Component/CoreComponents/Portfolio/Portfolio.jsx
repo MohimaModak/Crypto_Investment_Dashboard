@@ -15,12 +15,12 @@ export default function Portfolio() {
         <div className="space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-400">Name:</label>
-            <p className="mt-1 text-white">Luisa <strong>1<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></p>
+            <p className="mt-1 text-white">Luisa <strong>1<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></p>
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-400">Address:</label>
-            <p className="mt-1 text-white"><strong>2<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong> White Stone Rd</p>
+            <p className="mt-1 text-white"><strong>2<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong> White Stone Rd</p>
           </div>
 
           <div>
@@ -30,34 +30,34 @@ export default function Portfolio() {
 
           <div>
             <label className="block text-sm font-medium text-gray-400">Postcode:</label>
-            <p className="mt-1 text-white"><strong>3<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></p>
+            <p className="mt-1 text-white"><strong>3<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></p>
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-400">Occupation:</label>
-            <p className="mt-1 text-white"><strong>4<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></p>
+            <p className="mt-1 text-white"><strong>4<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></p>
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-400">Reason for visit to town:</label>
-            <p className="mt-1 text-white">to go to the <strong>5<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></p>
+            <p className="mt-1 text-white">to go to the <strong>5<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></p>
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-400">Suggestions for improvement:</label>
             <ul className="list-disc list-inside text-gray-300">
-              <li>better <strong>6<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></li>
+              <li>better <strong>6<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></li>
               <li>have more footpaths</li>
-              <li>more frequent <strong>7<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> ..</strong></li>
+              <li>more frequent <strong>7<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> ..</strong></li>
             </ul>
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-400">Things that would encourage cycling to work:</label>
             <ul className="list-disc list-inside text-gray-300">
-              <li>having <strong>8<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong> parking places for bicycles</li>
-              <li>being able to use a <strong>9<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong> at work</li>
-              <li>the opportunity to have cycling <strong>10<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</strong> on busy roads</li>
+              <li>having <strong>8<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong> parking places for bicycles</li>
+              <li>being able to use a <strong>9<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong> at work</li>
+              <li>the opportunity to have cycling <strong>10<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> .</strong> on busy roads</li>
             </ul>
           </div>
         </div>
@@ -137,12 +137,12 @@ export default function Portfolio() {
             <div className="mt-5">
               <p className="text-white"><strong>Areas of the world</strong></p>
               <ul className="list-disc list-inside text-gray-300">
-                <li>15. Asia <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></li>
-                <li>16. Antarctica <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></li>
-                <li>17. South America <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></li>
-                <li>18. North America <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></li>
-                <li>19. Europe <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></li>
-                <li>20. Africa <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></li>
+                <li>15. Asia <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></li>
+                <li>16. Antarctica <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></li>
+                <li>17. South America <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></li>
+                <li>18. North America <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></li>
+                <li>19. Europe <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></li>
+                <li>20. Africa <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></li>
               </ul>
             </div>
           </div>
@@ -259,34 +259,34 @@ export default function Portfolio() {
             <p className="text-white"><strong>THE FUTURE OF MANAGEMENT</strong></p>
             <p className="text-white"><strong>Business markets</strong></p>
             <ul className="list-disc list-inside text-gray-300">
-              <li>greater <strong>31<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong> among companies</li>
-              <li>increase in power of large <strong>32<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</strong> companies</li>
-              <li>rising <strong>33<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> ..</strong> in certain countries</li>
+              <li>greater <strong>31<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong> among companies</li>
+              <li>increase in power of large <strong>32<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> .</strong> companies</li>
+              <li>rising <strong>33<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> ..</strong> in certain countries</li>
             </ul>
 
             <p className="text-white"><strong>External influences on businesses</strong></p>
             <ul className="list-disc list-inside text-gray-300">
-              <li>more discussion with <strong>34<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> …</strong> before making business decisions</li>
-              <li>environmental concerns which may lead to more <strong>35<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> ..</strong></li>
+              <li>more discussion with <strong>34<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> …</strong> before making business decisions</li>
+              <li>environmental concerns which may lead to more <strong>35<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> ..</strong></li>
             </ul>
 
             <p className="text-white"><strong>Business structures</strong></p>
             <ul className="list-disc list-inside text-gray-300">
-              <li>more teams will be formed to work on a particular <strong>36<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</strong></li>
-              <li>businesses may need to offer hours that are <strong>37<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> …</strong>, or the chance to work remotely</li>
+              <li>more teams will be formed to work on a particular <strong>36<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> .</strong></li>
+              <li>businesses may need to offer hours that are <strong>37<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> …</strong>, or the chance to work remotely</li>
             </ul>
 
             <p className="text-white"><strong>Management styles</strong></p>
             <ul className="list-disc list-inside text-gray-300">
-              <li>increasing need for managers to provide good <strong>38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> ..</strong></li>
-              <li>changes influenced by <strong>39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> ..</strong> taking senior roles</li>
+              <li>increasing need for managers to provide good <strong>38<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> ..</strong></li>
+              <li>changes influenced by <strong>39<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> ..</strong> taking senior roles</li>
             </ul>
 
             <p className="text-white"><strong>Changes in the economy</strong></p>
             <ul className="list-disc list-inside text-gray-300">
               <li>service sector continues to be important</li>
               <li>increasing value of intellectual property</li>
-              <li>more and more <strong>40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> ..</strong> workers</li>
+              <li>more and more <strong>40<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> ..</strong> workers</li>
             </ul>
           </div>
         </div>

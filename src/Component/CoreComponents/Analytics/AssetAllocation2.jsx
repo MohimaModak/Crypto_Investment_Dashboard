@@ -12,28 +12,28 @@ export default function AssetAllocation2() {
           <h3 className="font-bold">South City Cycling Club</h3>
           <p>Example: Name of club secretary: Jim <strong>Hunter</strong></p>
           <ul className="list-disc pl-5">
-            <li>Full membership costs $260; this covers cycling and <strong>1. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> all over Australia</li>
+            <li>Full membership costs $260; this covers cycling and <strong>1. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> all over Australia</li>
             <li>Recreational membership costs $108</li>
-            <li>Cost of membership includes the club fee and <strong>2. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-            <li>The club kit is made by a company called <strong>3. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+            <li>Cost of membership includes the club fee and <strong>2. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+            <li>The club kit is made by a company called <strong>3. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
           </ul>
           <h4 className="font-bold mt-4">Training rides</h4>
           <ul className="list-disc pl-5">
             <li>Chance to improve cycling skills and fitness</li>
-            <li>Level B: speed about <strong>4. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> kph</li>
+            <li>Level B: speed about <strong>4. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> kph</li>
             <li>Weekly sessions</li>
             <ul className="list-disc pl-5">
-              <li>Tuesdays at 5.30 am, meet at the <strong>5. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>Thursdays at 5.30 am, meet at the entrance to the <strong>6. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>Tuesdays at 5.30 am, meet at the <strong>5. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>Thursdays at 5.30 am, meet at the entrance to the <strong>6. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             </ul>
           </ul>
           <h4 className="font-bold mt-4">Further information</h4>
           <ul className="list-disc pl-5">
             <li>Rides are about an hour and a half</li>
-            <li>Members often have <strong>7. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> together afterwards</li>
-            <li>There is not always a <strong>8. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> with the group on these rides</li>
-            <li>Check and print the <strong>9. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> on the website beforehand</li>
-            <li>Bikes must have <strong>10. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+            <li>Members often have <strong>7. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> together afterwards</li>
+            <li>There is not always a <strong>8. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> with the group on these rides</li>
+            <li>Check and print the <strong>9. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> on the website beforehand</li>
+            <li>Bikes must have <strong>10. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
           </ul>
         </div>
       </div>
@@ -159,11 +159,11 @@ export default function AssetAllocation2() {
           </div>
           <div className="mt-4">
             <ul className="list-disc pl-5">
-              <li>26. structure <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>27. eye contact <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>28. body language <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>29. choice of words <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>30. handouts <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>26. structure <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>27. eye contact <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>28. body language <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>29. choice of words <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>30. handouts <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             </ul>
           </div>
         </div>
@@ -179,31 +179,31 @@ export default function AssetAllocation2() {
           <div className="mt-4">
             <h3 className="font-bold">Episodic memory</h3>
             <ul className="list-disc pl-5">
-              <li>the ability to recall details, e.g. the time and <strong>31. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of past events</li>
-              <li>different to semantic memory – the ability to remember general information about the <strong>32. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>, which does not involve recalling <strong>33. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> information</li>
+              <li>the ability to recall details, e.g. the time and <strong>31. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of past events</li>
+              <li>different to semantic memory – the ability to remember general information about the <strong>32. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>, which does not involve recalling <strong>33. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> information</li>
             </ul>
             <p><strong>Forming episodic memories involves three steps:</strong></p>
             <p><strong>Encoding</strong></p>
             <ul className="list-disc pl-5">
               <li>involves receiving and processing information</li>
-              <li>the more <strong>34. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> given to an event, the more successfully it can be encoded</li>
-              <li>to remember a <strong>35. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>, it is useful to have a strategy for encoding such information</li>
+              <li>the more <strong>34. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> given to an event, the more successfully it can be encoded</li>
+              <li>to remember a <strong>35. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>, it is useful to have a strategy for encoding such information</li>
             </ul>
             <p><strong>Consolidation</strong></p>
             <ul className="list-disc pl-5">
               <li>how memories are strengthened and stored</li>
-              <li>most effective when memories can be added to a <strong>36. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of related information</li>
-              <li>the <strong>37. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of retrieval affects the strength of memories</li>
+              <li>most effective when memories can be added to a <strong>36. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of related information</li>
+              <li>the <strong>37. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of retrieval affects the strength of memories</li>
             </ul>
             <p><strong>Retrieval</strong></p>
             <ul className="list-disc pl-5">
-              <li>memory retrieval often depends on using a prompt, e.g. the <strong>38. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of an object near to the place where you left your car</li>
+              <li>memory retrieval often depends on using a prompt, e.g. the <strong>38. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of an object near to the place where you left your car</li>
             </ul>
             <p><strong>Episodic memory impairments</strong></p>
             <ul className="list-disc pl-5">
               <li>these affect people with a wide range of medical conditions</li>
-              <li>games which stimulate the <strong>39. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> have been found to help people with schizophrenia</li>
-              <li>children with autism may have difficulty forming episodic memories – possibly because their concept of the <strong>40. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> may be absent</li>
+              <li>games which stimulate the <strong>39. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> have been found to help people with schizophrenia</li>
+              <li>children with autism may have difficulty forming episodic memories – possibly because their concept of the <strong>40. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> may be absent</li>
               <li>memory training may help autistic children develop social skills</li>
             </ul>
           </div>

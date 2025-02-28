@@ -46,9 +46,9 @@ export default function Login() {
       <p>B. mainly for adults</p>
       <p>C. suitable for people of all ages</p>
       <p>Plays:</p>
-      <p>8. The Mystery of Muldoon: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>9. Fire and Flood: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>10. Silly Sailor: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>8. The Mystery of Muldoon: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>9. Fire and Flood: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>10. Silly Sailor: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className="font-bold my-3 text-xl">SECTION 2</h2>
       <p className="font-bold my-3">What does the speaker say about each of the following collections?</p>
@@ -63,21 +63,21 @@ export default function Login() {
       <p>G. has had some of its contents relocated</p>
 
       <p className="font-bold my-3">Collections:</p>
-      <p>11. 20th- and 21st-century paintings: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>12. 19th-century paintings: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>13. Sculptures: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>14. ‘Around the world’ exhibition: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>15. Coins: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>16. Porcelain and glass: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>11. 20th- and 21st-century paintings: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>12. 19th-century paintings: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>13. Sculptures: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>14. ‘Around the world’ exhibition: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>15. Coins: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>16. Porcelain and glass: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h3 className="font-bold my-3 text-xl">Questions 17-20</h3>
       <p className="font-bold my-3">Label the plan below.</p>
       <p>Write the correct letter, A-H, next to Questions 17-20.</p>
       <img src={photo} className='my-8' />
-      <p>17. restaurant: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>18. café: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>19. baby-changing facilities: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>20. cloakroom: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>17. restaurant: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>18. café: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>19. baby-changing facilities: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>20. cloakroom: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className="font-bold my-3 text-xl">SECTION 3</h2>
       <p className="font-bold my-3">Questions 21 and 22</p>
@@ -130,29 +130,29 @@ export default function Login() {
       <p className="font-bold my-3">The use of soil to reduce carbon dioxide (CO2) in the atmosphere</p>
       <p className="font-bold my-3">Rattan Lal:</p>
       <p>● Claims that 13% of CO2 in the atmosphere could be absorbed by agricultural soils</p>
-      <p>● Erosion is more likely in soil that is 31<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>● Lai found soil in Africa that was very 32<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>● Erosion is more likely in soil that is 31<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>● Lai found soil in Africa that was very 32<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
       <p>● It was suggested that carbon from soil was entering the atmosphere</p>
 
       <p className="font-bold my-3">Soil and carbon:</p>
-      <p>● plants turn CO2 from the air into carbon-based substances such as 33<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>● some CO2 moves from the 34<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of plants to microbes in the soil</p>
+      <p>● plants turn CO2 from the air into carbon-based substances such as 33<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>● some CO2 moves from the 34<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> of plants to microbes in the soil</p>
       <p>● carbon was lost from the soil when agriculture was invented</p>
 
       <p className="font-bold my-3">Regenerative agriculture:</p>
-      <p>● uses established practices to make sure soil remains fertile and 35…<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>● e.g. through year-round planting and increasing the 36<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of plants that are grown</p>
+      <p>● uses established practices to make sure soil remains fertile and 35…<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>● e.g. through year-round planting and increasing the 36<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> of plants that are grown</p>
 
       <p className="font-bold my-3">California study:</p>
-      <p>● taking place on a big 37…<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> farm</p>
-      <p>● uses compost made from waste from agriculture and 38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>● taking place on a big 37…<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> farm</p>
+      <p>● uses compost made from waste from agriculture and 38<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <p className="font-bold my-3">Australia study:</p>
-      <p>● aims to increase soil carbon by using 39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> that are always green</p>
+      <p>● aims to increase soil carbon by using 39<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> that are always green</p>
 
       <p className="font-bold my-3">Future developments may include:</p>
       <p>● reducing the amount of fertilizer used in farming</p>
-      <p>● giving farmers 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> for carbon storage, as well as their produce</p>
+      <p>● giving farmers 40<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> for carbon storage, as well as their produce</p>
     </div>
     </div>
   )

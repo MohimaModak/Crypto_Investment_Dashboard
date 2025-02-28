@@ -19,7 +19,7 @@ export default function Dashboard() {
 
           <div>
             <label className="block text-sm font-medium text-gray-400">Address:</label>
-            <p className="mt-5 text-white">24 <strong className="text-gray-300">1 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> Road</p>
+            <p className="mt-5 text-white">24 <strong className="text-gray-300">1 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> Road</p>
           </div>
 
           <div>
@@ -34,7 +34,7 @@ export default function Dashboard() {
 
           <div>
             <label className="block text-sm font-medium text-gray-400">Heard about company from:</label>
-            <p className="mt-5 text-white"><strong className="text-gray-300">2 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></p>
+            <p className="mt-5 text-white"><strong className="text-gray-300">2 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></p>
           </div>
 
           <div>
@@ -42,17 +42,17 @@ export default function Dashboard() {
             <div className="mt-2 space-y-2">
               <p className="text-white"><strong>Trip One:</strong></p>
               <ul className="list-disc list-inside text-gray-300">
-                <li>Los Angeles: customer wants to visit some <strong>3 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong> parks with her children</li>
-                <li>Yosemite Park: customer wants to stay in a lodge, not a <strong>4 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></li>
+                <li>Los Angeles: customer wants to visit some <strong>3 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong> parks with her children</li>
+                <li>Yosemite Park: customer wants to stay in a lodge, not a <strong>4 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></li>
               </ul>
             </div>
 
             <div className="mt-2 space-y-2">
               <p className="text-white"><strong>Trip Two:</strong></p>
               <ul className="list-disc list-inside text-gray-300">
-                <li>Customer wants to see the <strong>5 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong> on the way to Cambria</li>
+                <li>Customer wants to see the <strong>5 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong> on the way to Cambria</li>
                 <li>At Santa Monica: not interested in shopping</li>
-                <li>At San Diego, wants to spend time on the <strong>6 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></li>
+                <li>At San Diego, wants to spend time on the <strong>6 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></li>
               </ul>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function Dashboard() {
             <tbody>
               <tr className="bg-black">
                 <td className="p-3 text-sm text-white border border-gray-700">12 days</td>
-                <td className="p-3 text-sm text-white border border-gray-700"><strong>7 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong> km</td>
+                <td className="p-3 text-sm text-white border border-gray-700"><strong>7 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong> km</td>
                 <td className="p-3 text-sm text-white border border-gray-700">£525</td>
                 <td className="p-3 text-sm text-white border border-gray-700">
                   <ul className="list-disc list-inside">
@@ -89,12 +89,12 @@ export default function Dashboard() {
               <tr className="bg-black">
                 <td className="p-3 text-sm text-white border border-gray-700">9 days</td>
                 <td className="p-3 text-sm text-white border border-gray-700">980 km</td>
-                <td className="p-3 text-sm text-white border border-gray-700"><strong>9 £ <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></td>
+                <td className="p-3 text-sm text-white border border-gray-700"><strong>9 £ <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></td>
                 <td className="p-3 text-sm text-white border border-gray-700">
                   <ul className="list-disc list-inside">
                     <li>accommodation</li>
                     <li>car</li>
-                    <li><strong>10 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </strong></li>
+                    <li><strong>10 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </strong></li>
                   </ul>
                 </td>
               </tr>
@@ -132,20 +132,20 @@ export default function Dashboard() {
               <label className="block text-sm font-medium text-gray-400">Joining the leisure club</label>
               <p className="mt-5 text-white"><strong>Personal Assessment</strong></p>
               <ul className="list-disc list-inside text-gray-300">
-                <li>New members should describe any <strong>13 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-                <li>The <strong>14<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> will be explained to you before you use the equipment.</li>
-                <li>You will be given a six-week <strong>15<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
+                <li>New members should describe any <strong>13 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+                <li>The <strong>14<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> will be explained to you before you use the equipment.</li>
+                <li>You will be given a six-week <strong>15<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
               </ul>
             </div>
 
             <div>
               <p className="mt-5 text-white"><strong>Types of membership</strong></p>
               <ul className="list-disc list-inside text-gray-300">
-                <li>There is a compulsory £90 <strong>1<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> fee for members.</li>
-                <li>Gold members are given <strong>17<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> to all the LP clubs.</li>
-                <li>Premier members are given priority during <strong>18<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</strong> hours.</li>
-                <li>Premier members can bring some <strong>19<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</strong> every month.</li>
-                <li>Members should always take their <strong>20<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> with them.</li>
+                <li>There is a compulsory £90 <strong>1<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> fee for members.</li>
+                <li>Gold members are given <strong>17<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> to all the LP clubs.</li>
+                <li>Premier members are given priority during <strong>18<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</strong> hours.</li>
+                <li>Premier members can bring some <strong>19<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</strong> every month.</li>
+                <li>Members should always take their <strong>20<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> with them.</li>
               </ul>
             </div>
           </div>
@@ -218,11 +218,11 @@ export default function Dashboard() {
 
           <div className="space-y-4">
             <ul className="list-disc list-inside text-gray-300">
-              <li>John needs help preparing for his <strong>26<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-              <li>The professor advises John to make a <strong>27<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of his design.</li>
-              <li>John’s main problem is getting good quality <strong>28<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-              <li>The professor suggests John apply for a <strong>29<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-              <li>The professor will check the <strong>30<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> information in John’s written report.</li>
+              <li>John needs help preparing for his <strong>26<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+              <li>The professor advises John to make a <strong>27<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of his design.</li>
+              <li>John’s main problem is getting good quality <strong>28<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+              <li>The professor suggests John apply for a <strong>29<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+              <li>The professor will check the <strong>30<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> information in John’s written report.</li>
             </ul>
           </div>
         </div>
@@ -243,31 +243,31 @@ export default function Dashboard() {
             <p className="text-white"><strong>General facts</strong></p>
             <ul className="list-disc list-inside text-gray-300">
               <li>It is a white bear belonging to the black bear family.</li>
-              <li>Its colour comes from an uncommon <strong>31<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-              <li>Local people believe that it has unusual <strong>32<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
-              <li>They protect the bear from <strong>33<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
+              <li>Its colour comes from an uncommon <strong>31<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+              <li>Local people believe that it has unusual <strong>32<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
+              <li>They protect the bear from <strong>33<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
             </ul>
 
             <p className="text-white"><strong>Habitat</strong></p>
             <ul className="list-disc list-inside text-gray-300">
               <li>The bear’s relationship with the forest is complex.</li>
-              <li>Tree roots stop <strong>34<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> along salmon streams.</li>
+              <li>Tree roots stop <strong>34<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> along salmon streams.</li>
               <li>The bears’ feeding habits provide nutrients for forest vegetation.</li>
-              <li>It is currently found on a small number of <strong>35<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
+              <li>It is currently found on a small number of <strong>35<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
             </ul>
 
             <p className="text-white"><strong>Threats</strong></p>
             <ul className="list-disc list-inside text-gray-300">
-              <li>Habitat is being lost due to deforestation and construction of <strong>3<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> by logging companies.</li>
-              <li>Unrestricted <strong>37<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> is affecting the salmon supply.</li>
-              <li>The bears’ existence is also threatened by their low rate of <strong>38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>.</li>
+              <li>Habitat is being lost due to deforestation and construction of <strong>3<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> by logging companies.</li>
+              <li>Unrestricted <strong>37<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> is affecting the salmon supply.</li>
+              <li>The bears’ existence is also threatened by their low rate of <strong>38<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>.</li>
             </ul>
 
             <p className="text-white"><strong>Going forward</strong></p>
             <ul className="list-disc list-inside text-gray-300">
               <li>Interested parties are working together.</li>
-              <li>Logging companies must improve their <strong>39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of logging.</li>
-              <li>Maintenance and <strong>40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of the spirit bears’ territory is needed.</li>
+              <li>Logging companies must improve their <strong>39<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of logging.</li>
+              <li>Maintenance and <strong>40<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of the spirit bears’ territory is needed.</li>
             </ul>
           </div>
         </div>

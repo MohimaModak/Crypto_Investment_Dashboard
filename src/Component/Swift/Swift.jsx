@@ -13,23 +13,23 @@ export default function Swift() {
           <h3 className="font-bold">Cycle tour leader: Applicant enquiry</h3>
           <p>Example: Name: Margaret <strong>Smith</strong></p>
           <ul className="list-disc pl-5">
-            <li>wants a <strong>1. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> job</li>
-            <li>will soon start work as a <strong>2. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-            <li>has led cycle trips in <strong>3. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+            <li>wants a <strong>1. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> job</li>
+            <li>will soon start work as a <strong>2. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+            <li>has led cycle trips in <strong>3. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             <li>interested in being a leader of a cycling trip for families</li>
-            <li>is currently doing voluntary work with members of a <strong>4. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> club</li>
-            <li>available for five months from the 1st of <strong>5. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-            <li>can’t eat <strong>6. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+            <li>is currently doing voluntary work with members of a <strong>4. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> club</li>
+            <li>available for five months from the 1st of <strong>5. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+            <li>can’t eat <strong>6. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
           </ul>
           <h4 className="font-bold mt-4">Contact details:</h4>
           <ul className="list-disc pl-5">
-            <li>address: 27 <strong>7. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> Place, Dumfries</li>
-            <li>postcode: <strong>8. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+            <li>address: 27 <strong>7. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> Place, Dumfries</li>
+            <li>postcode: <strong>8. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
           </ul>
           <h4 className="font-bold mt-4">Interview:</h4>
           <ul className="list-disc pl-5">
-            <li>interview at 2.30 pm on <strong>9. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-            <li>will plan a short <strong>10. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> about being a tour guide</li>
+            <li>interview at 2.30 pm on <strong>9. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+            <li>will plan a short <strong>10. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> about being a tour guide</li>
           </ul>
         </div>
       </div>
@@ -71,12 +71,12 @@ export default function Swift() {
           <p>Write the correct letter, <strong>A-I</strong>, next to Questions 15-20.</p>
                 <img src={photo} className='my-8' />
           <ul className="list-disc pl-5">
-            <li>15. The Reynolds House <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-            <li>16. The Thumb <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-            <li>17. The Museum <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-            <li>18. The Contemporary Art Gallery <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-            <li>19. The Warner Gallery <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-            <li>20. Nucleus <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+            <li>15. The Reynolds House <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+            <li>16. The Thumb <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+            <li>17. The Museum <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+            <li>18. The Contemporary Art Gallery <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+            <li>19. The Warner Gallery <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+            <li>20. Nucleus <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
           </ul>
         </div>
       </div>
@@ -97,19 +97,19 @@ export default function Swift() {
             </thead>
             <tbody>
               <tr>
-                <td className="border border-gray-500 p-2">Introduce Giannetti’s book containing a <strong>21. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of adaptations</td>
+                <td className="border border-gray-500 p-2">Introduce Giannetti’s book containing a <strong>21. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of adaptations</td>
                 <td className="border border-gray-500 p-2">Organise notes</td>
               </tr>
               <tr>
-                <td className="border border-gray-500 p-2">Ask class to suggest the <strong>22. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> adaptations</td>
+                <td className="border border-gray-500 p-2">Ask class to suggest the <strong>22. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> adaptations</td>
                 <td className="border border-gray-500 p-2">No further work needed</td>
               </tr>
               <tr>
                 <td className="border border-gray-500 p-2">Present Rachel Malchow’s ideas</td>
-                <td className="border border-gray-500 p-2">Prepare some <strong>23. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></td>
+                <td className="border border-gray-500 p-2">Prepare some <strong>23. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></td>
               </tr>
               <tr>
-                <td className="border border-gray-500 p-2">Discuss relationship between adaptations and <strong>24. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> at the time of making the film</td>
+                <td className="border border-gray-500 p-2">Discuss relationship between adaptations and <strong>24. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> at the time of making the film</td>
                 <td className="border border-gray-500 p-2">No further work needed</td>
               </tr>
             </tbody>
@@ -131,12 +131,12 @@ export default function Swift() {
           </div>
           <div className="mt-4">
             <ul className="list-disc pl-5">
-              <li>25. Ran <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>26. Much Ado About Nothing <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>27. Romeo & Juliet <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>28. Hamlet <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>29. Prospero’s Books <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
-              <li>30. Looking for Richard <strong><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>25. Ran <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>26. Much Ado About Nothing <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>27. Romeo & Juliet <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>28. Hamlet <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>29. Prospero’s Books <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
+              <li>30. Looking for Richard <strong><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             </ul>
           </div>
         </div>
@@ -154,41 +154,41 @@ export default function Swift() {
             <p>Past research focused on noise level (measured in decibels) and people’s responses.</p>
             <ul className="list-disc pl-5">
               <li>ignore variation in people’s perceptions of noise</li>
-              <li>have made people realize that the noise is a <strong>32. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> issue that must be dealt with</li>
+              <li>have made people realize that the noise is a <strong>32. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> issue that must be dealt with</li>
             </ul>
             <p><strong>Problems caused by noise</strong></p>
             <ul className="list-disc pl-5">
               <li>sleep disturbance</li>
               <li>increase in amount of stress</li>
-              <li>effect on the <strong>33. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of schoolchildren</li>
+              <li>effect on the <strong>33. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of schoolchildren</li>
             </ul>
             <p><strong>Different types of noise</strong></p>
             <ul className="list-disc pl-5">
-              <li>Some noises can be considered pleasant e.g. the sound of a <strong>34. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> in a town</li>
-              <li>To investigate this, researchers may use methods from <strong>35. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> sciences e.g. questionnaires</li>
+              <li>Some noises can be considered pleasant e.g. the sound of a <strong>34. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> in a town</li>
+              <li>To investigate this, researchers may use methods from <strong>35. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> sciences e.g. questionnaires</li>
             </ul>
             <p><strong>What people want</strong></p>
             <ul className="list-disc pl-5">
-              <li>Plenty of activity in urban environments which are <strong>36. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong>, but also allow people to relax</li>
+              <li>Plenty of activity in urban environments which are <strong>36. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong>, but also allow people to relax</li>
             </ul>
             <p><strong>But architects and town planners</strong></p>
             <ul className="list-disc pl-5">
-              <li>do not get much <strong>37. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> in acoustics</li>
+              <li>do not get much <strong>37. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> in acoustics</li>
               <li>regard sound as the responsibility of engineers</li>
             </ul>
             <p><strong>Understanding sound as an art form</strong></p>
             <ul className="list-disc pl-5">
               <li>We need to know</li>
               <ul className="list-disc pl-5">
-                <li>how sound relates to <strong>38. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+                <li>how sound relates to <strong>38. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
                 <li>what can be learnt from psychology about the effects of sound</li>
-                <li>whether physics can help us understand the <strong>39. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong> of sound</li>
+                <li>whether physics can help us understand the <strong>39. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong> of sound</li>
               </ul>
             </ul>
             <p><strong>Virtual reality programs</strong></p>
             <ul className="list-disc pl-5">
               <li>advantage: predict the effect of buildings</li>
-              <li>current disadvantage: they are <strong>40. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></strong></li>
+              <li>current disadvantage: they are <strong>40. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></strong></li>
             </ul>
           </div>
         </div>

@@ -8,22 +8,22 @@ export default function Bright() {
       <p className='font-bold my-3'>Events during Kenton Festival</p>
       <p className='font-bold my-3'>Example: Start date: 16th May</p>
       <p className='font-bold my-3'>Opening ceremony (first day)</p>
-      <p>● In town centre, starting at 1<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>● In town centre, starting at 1<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
       <p>– The mayor will make a speech</p>
-      <p>– A 2.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> will perform</p>
-      <p>– Performance of a 3<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> About Helen Tungate (a 4<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />)</p>
-      <p>– Evening fireworks display situated across the 5<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
+      <p>– A 2.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> will perform</p>
+      <p>– Performance of a 3<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> About Helen Tungate (a 4<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />)</p>
+      <p>– Evening fireworks display situated across the 5<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
 
       <p className='font-bold my-3'>Other events</p>
-      <p>● Video about relationships that children have with their 6.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>– Venue: 7<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> House</p>
-      <p>● Performance of 8<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> Dances</p>
-      <p>– Venue: the 9<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. market in the town centre</p>
+      <p>● Video about relationships that children have with their 6.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>– Venue: 7<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> House</p>
+      <p>● Performance of 8<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> Dances</p>
+      <p>– Venue: the 9<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. market in the town centre</p>
       <p>– Time: 2 and 5 pm every day except 1st day of festival</p>
       <p>● Several professional concerts and one by children</p>
       <p>– Venue: library</p>
       <p>– Time: 6.30 pm on the 18th</p>
-      <p>– Tickets available online from festival box office and from shops which have the festival 10<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> in their windows</p>
+      <p>– Tickets available online from festival box office and from shops which have the festival 10<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> in their windows</p>
 
       <h2 className='font-bold text-xl my-3'>SECTION 2</h2>
       <p className='font-bold my-3'>Theatre trip to Munich</p>
@@ -65,11 +65,11 @@ export default function Bright() {
       <p>G. The performance will be attended by officials from the town.</p>
 
       <p className='font-bold my-3'>Days:</p>
-      <p>16. Wednesday: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>17. Thursday: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>18. Friday: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>19. Saturday: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>20. Monday: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>16. Wednesday: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>17. Thursday: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>18. Friday: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>19. Saturday: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>20. Monday: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className='font-bold text-xl my-3'>SECTION 3</h2>
       <p className='font-bold my-3'>Scandinavian Studies</p>
@@ -110,37 +110,37 @@ export default function Bright() {
       <p>G. documentary</p>
 
       <p className='font-bold my-3'>How James will write his paper on the Vikings</p>
-      <p>He’ll read a 26<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> and choose his topic.</p>
+      <p>He’ll read a 26<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> and choose his topic.</p>
       <p>↓</p>
-      <p>He’ll borrow a 27<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. from Beth.</p>
+      <p>He’ll borrow a 27<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. from Beth.</p>
       <p>↓</p>
-      <p>He’ll plan the 28<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of the paper.</p>
+      <p>He’ll plan the 28<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> of the paper.</p>
       <p>↓</p>
-      <p>He’ll read some source material and write 29<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
+      <p>He’ll read some source material and write 29<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> .</p>
       <p>↓</p>
-      <p>He’ll write the paper using 30<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> .</p>
+      <p>He’ll write the paper using 30<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> .</p>
       <p>↓</p>
       <p>He’ll write the complete paper.</p>
 
       <h2 className='font-bold text-xl my-3'>SECTION 4</h2>
       <p className='font-bold my-3'>Conflict at work</p>
-      <p>Conflict mostly consists of behaviour in the general category of 31<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
-      <p>Often a result of people wanting to prove their 32<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>Also caused by differences in 33<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> between people</p>
-      <p>34 ‘<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />’ conflicts: people more concerned about own team than about company</p>
-      <p>Conflict-related stress can cause 35<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> that may last for months</p>
+      <p>Conflict mostly consists of behaviour in the general category of 31<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
+      <p>Often a result of people wanting to prove their 32<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>Also caused by differences in 33<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> between people</p>
+      <p>34 ‘<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />’ conflicts: people more concerned about own team than about company</p>
+      <p>Conflict-related stress can cause 35<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> that may last for months</p>
 
       <p className='font-bold my-3'>Chief Executives (CEOs)</p>
-      <p>Many have both 36<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. and anxiety</p>
+      <p>Many have both 36<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. and anxiety</p>
       <p>May not like to have their decisions questioned</p>
-      <p>There may be conflict between people who have different 37<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>There may be conflict between people who have different 37<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <p className='font-bold my-3'>Other managers</p>
-      <p>A structure that is more 38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> may create a feeling of uncertainly about who staff should report to.</p>
+      <p>A structure that is more 38<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> may create a feeling of uncertainly about who staff should report to.</p>
 
       <p className='font-bold my-3'>Minimising conflict</p>
-      <p>Bosses need to try hard to gain 39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
-      <p>Someone from outside the company may be given the role of 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /><input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> in order to resolve conflicts.</p>
+      <p>Bosses need to try hard to gain 39<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
+      <p>Someone from outside the company may be given the role of 40<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /><input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> in order to resolve conflicts.</p>
     </div>
     </div>
   )

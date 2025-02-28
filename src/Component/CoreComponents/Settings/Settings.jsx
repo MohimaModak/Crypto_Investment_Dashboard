@@ -10,15 +10,15 @@ export default function Settings() {
       <p>Enquiry about joining Youth Council</p>
       <p>Example: Name: Roger Brown</p>
       <p>Age: 18</p>
-      <p>Currently staying in a 1.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> during the week</p>
-      <p>Postal address: 2. 17, <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> Street, Stamford, Lincs</p>
-      <p>Postcode: 3<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
-      <p>Occupation: student and part-time job as a 4.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
-      <p>Studying 5.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> (major subject) and history (minor subject)</p>
-      <p>Hobbies: does a lot of 6<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />, and is interested in the 7<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
-      <p>On Youth Council, wants to work with young people who are 8<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
-      <p>Will come to talk to the Elections Officer next Monday at 9<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. pm</p>
-      <p>Mobile number: 10.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>Currently staying in a 1.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> during the week</p>
+      <p>Postal address: 2. 17, <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> Street, Stamford, Lincs</p>
+      <p>Postcode: 3<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
+      <p>Occupation: student and part-time job as a 4.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
+      <p>Studying 5.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> (major subject) and history (minor subject)</p>
+      <p>Hobbies: does a lot of 6<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />, and is interested in the 7<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
+      <p>On Youth Council, wants to work with young people who are 8<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
+      <p>Will come to talk to the Elections Officer next Monday at 9<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. pm</p>
+      <p>Mobile number: 10.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className='my-5 font-bold text-xl'>SECTION 2</h2>
       <p>New staff at theatre</p>
@@ -49,10 +49,10 @@ export default function Settings() {
       <p className='my-5 font-bold text-xl'>Questions 17-20</p>
       <img src={photo} className='my-8' />
       <p>Label the plan below.</p>
-      <p>17. box office: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>18. theatre manager’s office: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>19. lighting box: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>20. artistic director’s offices: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>17. box office: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>18. theatre manager’s office: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>19. lighting box: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>20. artistic director’s offices: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className='my-5 font-bold text-xl'>SECTION 3</h2>
       <p className='my-5 font-bold text-xl'>Rocky Bay field trip</p>
@@ -107,26 +107,26 @@ export default function Settings() {
       <p>Introduction</p>
       <p>The designer of a public building may need to consider the building’s</p>
       <p>● function</p>
-      <p>● physical and 31. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. context</p>
+      <p>● physical and 31. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. context</p>
       <p>● symbolic meaning</p>
 
       <p className='my-5 font-bold text-xl'>Location and concept of the Concert Hall</p>
-      <p>On the site of a disused 32<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>Beside a 33. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>On the site of a disused 32<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>Beside a 33. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
       <p>The design is based on the concept of a mystery</p>
 
       <p className='my-5 font-bold text-xl'>Building design</p>
-      <p>It’s approached by a 34. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> for pedestrians</p>
-      <p>The building is the shape of a 35. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>One exterior wall acts as a large 36. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>It’s approached by a 34. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> for pedestrians</p>
+      <p>The building is the shape of a 35. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>One exterior wall acts as a large 36. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <p className='my-5 font-bold text-xl'>In the auditorium:</p>
-      <p>● the floor is built on huge pads made of 37. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>● the walls are made of local wood and are 38. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> in shape</p>
-      <p>● ceiling panels and 39. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> on walls allow adjustment of acoustics</p>
+      <p>● the floor is built on huge pads made of 37. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>● the walls are made of local wood and are 38. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> in shape</p>
+      <p>● ceiling panels and 39. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> on walls allow adjustment of acoustics</p>
 
       <p className='my-5 font-bold text-xl'>Evaluation</p>
-      <p>Some critics say the 40. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. style of the building is inappropriate</p>
+      <p>Some critics say the 40. <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. style of the building is inappropriate</p>
     </div>
     </div>
   )

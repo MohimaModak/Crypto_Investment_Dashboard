@@ -6,21 +6,21 @@ export default function Transactions() {
 
       <h3 className="font-semibold mb-2">Personal Details</h3>
       <p>Child’s name: Kate</p>
-      <p>Age: 1<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>Address: 2<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />Road, Woodside, 4032</p>
+      <p>Age: 1<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>Address: 2<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />Road, Woodside, 4032</p>
       <p>Phone: 3345 9865</p>
 
       <h3 className="font-semibold mt-4 mb-2">Childcare Information</h3>
-      <p>Days enrolled for: Monday and 3<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>Start time: 4<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> am</p>
-      <p>Childcare group: the 5<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> group</p>
-      <p>Which meal/s are required each day? 6<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> </p>
-      <p>Medical conditions: needs 7<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>Emergency contact: Jenny 8<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> Phone: 3346 7523</p>
-      <p>Relationship to child: 9<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>Days enrolled for: Monday and 3<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>Start time: 4<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> am</p>
+      <p>Childcare group: the 5<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> group</p>
+      <p>Which meal/s are required each day? 6<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> </p>
+      <p>Medical conditions: needs 7<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>Emergency contact: Jenny 8<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> Phone: 3346 7523</p>
+      <p>Relationship to child: 9<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h3 className="font-semibold mt-4 mb-2">Fees</h3>
-      <p>Will pay each 10<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>Will pay each 10<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className="text-xl font-semibold mt-6 mb-4">Section 2 - Dolphin Conservation Trust</h2>
       <h3 className="font-semibold mb-2">Which TWO things does Alice say about the Dolphin Conservation Trust?</h3>
@@ -57,11 +57,11 @@ export default function Transactions() {
       <h1 className="font-bold my-5">Comments</h1>
 
       <h3 className="font-semibold mt-4 mb-2">Questions 16-20 - Dolphin Comments</h3>
-      <p>It has not been seen this year.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>It is photographed more than the others.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>It is always very energetic.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>It is the newest one in the scheme.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>It has an unusual shape.<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>It has not been seen this year.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>It is photographed more than the others.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>It is always very energetic.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>It is the newest one in the scheme.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>It has an unusual shape.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className="text-xl font-semibold mt-6 mb-4">Theatre Studies Course</h2>
       <br />
@@ -102,35 +102,35 @@ export default function Transactions() {
 
       <h1 className="font-bold my-5">Stages in doing the ‘year abroad’ option</h1>
 
-      <p>26. in the second year of the course                       <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>27. when first choosing where to go                       <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>28. when sending in your choices                           <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>29. when writing your personal statement            <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>30. when doing the year abroad                              <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>26. in the second year of the course                       <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>27. when first choosing where to go                       <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>28. when sending in your choices                           <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>29. when writing your personal statement            <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>30. when doing the year abroad                              <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className="text-xl font-semibold mt-6 mb-4">Self-regulatory Focus Theory and Leadership</h2>
-      <p>31. Promotion goals focus on 31 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>32. comes from one’s 32 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>33. we are more likely to focus on promotion goals when with a 34<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>31. Promotion goals focus on 31 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>32. comes from one’s 32 <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>33. we are more likely to focus on promotion goals when with a 34<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
       <p>34. we are more likely to focus on prevention goals with our boss</p>
 
-      <p>35. Promotion Focus: People think about an ideal version of themselves, their 35<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> and their gains.</p>
+      <p>35. Promotion Focus: People think about an ideal version of themselves, their 35<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> and their gains.</p>
       <p>36. Prevention Focus: People think about their ‘ought’ self and their obligations</p>
 
-      <p>37. Leadership behaviour and 36<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. affects people’s focus</p>
+      <p>37. Leadership behaviour and 36<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. affects people’s focus</p>
 
       <p>38. Transformational Leaders:</p>
-      <p>pay special attention to the 37<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. of their followers</p>
-      <p>39. passionately communicate a clear 38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
+      <p>pay special attention to the 37<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. of their followers</p>
+      <p>39. passionately communicate a clear 38<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
       <p>40. inspire promotion focus in followers</p>
 
       <p>41. Transactional Leaders:</p>
-      <p>create 39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> to make expectations clear</p>
+      <p>create 39<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> to make expectations clear</p>
       <p>emphasise the results of a mistake</p>
       <p>inspire prevention focus in followers</p>
 
       <p>42. Conclusion</p>
-      <p>Promotion Focus is good for jobs requiring 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>Promotion Focus is good for jobs requiring 40<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
       <p>Prevention Focus is good for work such as a surgeon</p>
       <p>Leaders’ actions affect which focus people use.</p>
     </div>

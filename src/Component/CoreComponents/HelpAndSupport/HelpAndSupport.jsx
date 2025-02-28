@@ -43,10 +43,10 @@ export default function HelpAndSupport() {
 
       <h3 className='font-bold text-xl my-5'>Questions 7-10</h3>
       <p className='font-bold text-xl my-5'>Paxton Nature Reserve</p>
-      <p>7. Paxton is a good place for seeing rare <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> all year round.</p>
-      <p>8. This is a particularly good time for seeing certain unusual <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>9. Visitors will be able to learn about <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> and then collect some.</p>
-      <p>10. Part of the <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> has been made suitable for swimming.</p>
+      <p>7. Paxton is a good place for seeing rare <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> all year round.</p>
+      <p>8. This is a particularly good time for seeing certain unusual <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>9. Visitors will be able to learn about <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> and then collect some.</p>
+      <p>10. Part of the <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> has been made suitable for swimming.</p>
 
       <h2 className='font-bold text-xl my-5'>SECTION 2</h2>
       <p className='font-bold text-xl my-5'>Changes in Barford over the last 50 years</p>
@@ -88,11 +88,11 @@ export default function HelpAndSupport() {
       <p>G. It will be expanded.</p>
 
       <p className='font-bold text-xl my-5'>Facilities:</p>
-      <p>16. railway station car park: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>17. cinema: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>18. indoor market: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>19. library: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>20. nature reserve: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>16. railway station car park: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>17. cinema: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>18. indoor market: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>19. library: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>20. nature reserve: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className='font-bold text-xl my-5'>SECTION 3</h2>
       <p className='font-bold text-xl my-5'>Questions 21 – 26</p>
@@ -107,16 +107,16 @@ export default function HelpAndSupport() {
         </thead>
         <tbody>
           <tr>
-            <td>A 21<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> surrounded by trees</td>
-            <td>Add Malcolm and a 22<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. noticing him</td>
+            <td>A 21<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> surrounded by trees</td>
+            <td>Add Malcolm and a 22<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. noticing him</td>
           </tr>
           <tr>
-            <td>People who are 23<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />. outside the forest</td>
-            <td>Add Malcolm sitting on a tree trunk and 24<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></td>
+            <td>People who are 23<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />. outside the forest</td>
+            <td>Add Malcolm sitting on a tree trunk and 24<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></td>
           </tr>
           <tr>
-            <td>Ice-skaters on 25<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> covered with ice</td>
-            <td>Add a 26<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> for each person</td>
+            <td>Ice-skaters on 25<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> covered with ice</td>
+            <td>Add a 26<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> for each person</td>
           </tr>
         </tbody>
       </table>
@@ -130,41 +130,41 @@ export default function HelpAndSupport() {
       <p>D. neither Helen nor Jeremy</p>
 
       <p className='font-bold text-xl my-5'>Parts of the report:</p>
-      <p>27. how they planned the project: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>28. how they had ideas for their stories: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>29. an interpretation of their stories: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
-      <p>30. comments on the illustrations: <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /></p>
+      <p>27. how they planned the project: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>28. how they had ideas for their stories: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>29. an interpretation of their stories: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
+      <p>30. comments on the illustrations: <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /></p>
 
       <h2 className='font-bold text-xl my-5'>SECTION 4</h2>
       <p>ETHNOGRAPHY IN BUSINESS</p>
       <p>Ethnography: research which explores human cultures</p>
       <p>It can be used in business:</p>
-      <p>● to investigate customer needs and 31<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" />.</p>
+      <p>● to investigate customer needs and 31<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
       <p>● to help companies develop new designs</p>
 
       <p className='font-bold text-xl my-5'>Examples of ethnographic research in business</p>
       <p>Kitchen equipment</p>
-      <p>● Researchers found that cooks could not easily see the 32<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> in measuring cups.</p>
+      <p>● Researchers found that cooks could not easily see the 32<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> in measuring cups.</p>
 
       <p className='font-bold text-xl my-5'>Cell phones</p>
-      <p>● These customers wanted to check the 33<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> used.</p>
+      <p>● These customers wanted to check the 33<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> used.</p>
 
       <p className='font-bold text-xl my-5'>Computer companies</p>
-      <p>● There was a need to develop 34<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> to improve communication between system administrators and colleagues.</p>
+      <p>● There was a need to develop 34<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> to improve communication between system administrators and colleagues.</p>
 
       <p className='font-bold text-xl my-5'>Hospitals</p>
-      <p>● Nurses needed to access information about 35<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> in different parts of the hospital.</p>
+      <p>● Nurses needed to access information about 35<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> in different parts of the hospital.</p>
 
       <p className='font-bold text-xl my-5'>Airlines</p>
-      <p>● Respondents recorded information about their 36<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> while travelling.</p>
+      <p>● Respondents recorded information about their 36<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> while travelling.</p>
 
       <p className='font-bold text-xl my-5'>Principles of ethnographic research in business</p>
       <p>● The researcher does not start off with a hypothesis.</p>
-      <p>● Participants may be selected by criteria such as age, 37<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> or product used.</p>
-      <p>● The participants must feel 38<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> about taking part in the research.</p>
-      <p>● There is usually direct 39<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of the participants.</p>
+      <p>● Participants may be selected by criteria such as age, 37<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> or product used.</p>
+      <p>● The participants must feel 38<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> about taking part in the research.</p>
+      <p>● There is usually direct 39<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> of the participants.</p>
       <p>● The interview is guided by the participant.</p>
-      <p>● A lot of time is needed for the 40<input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm" /> of the data.</p>
+      <p>● A lot of time is needed for the 40<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> of the data.</p>
       <p>● Researchers look for a meaningful pattern in the data.</p>
     </div>
     </div>

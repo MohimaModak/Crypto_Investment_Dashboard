@@ -23,6 +23,7 @@ import MarketTrends from "./Component/CoreComponents/Analytics/MarketTrends";
 import PortfolioPerformance from "./Component/CoreComponents/Analytics/PortfolioPerformance";
 import TopMovers from "./Component/CoreComponents/Analytics/TopMovers";
 import AssetAllocation from "./Component/CoreComponents/Portfolio/AssetAllocation";
+import Account from "./Component/CoreComponents/Settings/Account";
 
 const router = createBrowserRouter([
   {
@@ -105,6 +106,10 @@ const router = createBrowserRouter([
       {
         path: "/AssetAllocation",
         element: <AssetAllocation></AssetAllocation>,
+      },
+      {
+        path: "/Account",
+        element: <Account></Account>,
       },
     
     ],

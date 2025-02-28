@@ -6,6 +6,7 @@ import { faTachometerAlt, faBriefcase, faExchangeAlt, faChartLine, faList, faCog
 export default function Sidebar() {
   const [isListeningOpen, setIsListeningOpen] = useState(false);
   const [isReading, setisReading] = useState(false)
+  const [isWritting, setisWritting] = useState(false)
 
   const toggleListeningMenu = () => {
     setIsListeningOpen(!isListeningOpen);
@@ -13,6 +14,10 @@ export default function Sidebar() {
 
   const toggleReadingMenu = () => {
     setisReading(!isReading)
+  }
+
+  const toggleWrittingMenu = () => {
+    setisWritting(!isWritting)
   }
 
   return (
@@ -201,6 +206,27 @@ export default function Sidebar() {
               >
                 <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
                 <h1 className="text-lg">Reading-10-test-02</h1>
+              </NavLink>
+              </li> 
+            </ul>
+          )
+        }
+      </li>
+
+      <li className="relative group">
+        <button onClick={toggleWrittingMenu}>
+        Writting ▼
+        </button>
+        {
+          isWritting && (
+            <ul className="absolute left-0 mt-2 rounded-lg shadow-lg transition-opacity">
+          <li>   
+            <NavLink
+                to="/Account"
+                className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-black to-green-900 rounded"
+              >
+                <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+                <h1 className="text-lg">Writting-10-test-01</h1>
               </NavLink>
               </li> 
             </ul>

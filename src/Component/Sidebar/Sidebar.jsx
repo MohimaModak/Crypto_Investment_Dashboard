@@ -228,6 +228,14 @@ export default function Sidebar() {
                 <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
                 <h1 className="text-lg">Writting-10-test-01</h1>
               </NavLink>
+              <br />
+            <NavLink
+                to="/LanguageCurrency"
+                className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-black to-green-900 rounded"
+              >
+                <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+                <h1 className="text-lg">Writting-10-test-02</h1>
+              </NavLink>
               </li> 
             </ul>
           )

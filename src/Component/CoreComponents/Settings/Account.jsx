@@ -90,7 +90,7 @@ export default function WritingTest() {
           <textarea
             value={text1}
             onChange={handleChange1}
-            className="w-full h-40 p-2 mt-2 border-2 border-gray-300 rounded-lg"
+            className="w-full h-96 p-2 mt-2 border-2 border-gray-300 rounded-lg text-black"
             placeholder="Write your answer here..."
           />
         </div>
@@ -109,7 +109,7 @@ export default function WritingTest() {
           <textarea
             value={text2}
             onChange={handleChange2}
-            className="w-full h-40 p-2 mt-2 border-2 border-gray-300 rounded-lg"
+            className="w-full h-96 p-2 mt-2 border-2 border-gray-300 rounded-lg text-black"
             placeholder="Write your answer here..."
           />
         </div>

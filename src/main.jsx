@@ -24,6 +24,7 @@ import PortfolioPerformance from "./Component/CoreComponents/Analytics/Portfolio
 import TopMovers from "./Component/CoreComponents/Analytics/TopMovers";
 import AssetAllocation from "./Component/CoreComponents/Portfolio/AssetAllocation";
 import Account from "./Component/CoreComponents/Settings/Account";
+import LanguageCurrency from "./Component/CoreComponents/Settings/LanguageCurrency";
 
 const router = createBrowserRouter([
   {
@@ -110,6 +111,10 @@ const router = createBrowserRouter([
       {
         path: "/Account",
         element: <Account></Account>,
+      },
+      {
+        path: "/LanguageCurrency",
+        element: <LanguageCurrency></LanguageCurrency>,
       },
     
     ],

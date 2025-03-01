@@ -1,3 +1,4 @@
+import { Checkbox } from '@mui/material';
 import React, { useState } from 'react';
 
 export default function TopMovers() {
@@ -63,10 +64,10 @@ export default function TopMovers() {
           <div>
             <div className='my-5'>
               <div className='flex items-center my-5 gap-10'><h1>TRUE</h1>
-                <p> if the statement agrees with the information</p>
+              <p> if the statement agrees with the information</p>
               </div>
               <div className='flex items-center my-5 gap-10'><h1>FALSE</h1>
-                <p> if the statement contradicts the information</p>
+               <p> if the statement contradicts the information</p>
               </div>
               <div className='flex items-center my-5 gap-10'><h1>NOT GIVEN</h1>
                 <p>if there is no information on this</p>
@@ -74,26 +75,46 @@ export default function TopMovers() {
             </div>
           </div>
 
-          <p>1   Examples of ancient stepwells can be found all over the world.
+          <p>1.  Examples of ancient stepwells can be found all over the world.
             <br />
-
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> 
+            <br />
             2   Stepwells had a range of functions, in addition to those related to water collection.
+            <br />
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> 
             <br />
             3   The few existing stepwells in Delhi are more attractive than those found elsewhere.
             <br />
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> 
+            <br />
             4   It took workers many years to build the stone steps characteristic of stepwells.
             <br />
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> 
+            <br />
             5   The number of steps above the water level in a stepwell altered during the course of a year.
+            <br />
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> 
+            <br />
           </p>
 
           <h1 className="text-4xl font-bold my-5">Questions 6–8
           </h1>
           <p className='my-5'>Answer the questions below.</p>
-          <p className='my-5'>Choose ONE WORD ONLY from the passage for each answer.</p>
-          <p className='my-5'>Write your answers in boxes 6–8 on your answer sheet.</p>
-          <p className='my-5'>6   Which part of some stepwells provided shade for people?</p>
-          <p className='my-5'>7   What type of serious climatic event, which took place in southern Rajasthan, is mentioned in the article?</p>
-          <p className='my-5'>8   Who are frequent visitors to stepwells nowadays?</p>
+          <p className='my-5'>Choose ONE WORD ONLY from the passage for each answer.</p> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />
+          <p className='my-5'>Write your answers in boxes 6–8 on your answer sheet.</p> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />
+          <p className='my-5'>6   Which part of some stepwells provided shade for people?</p> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />
+          <p className='my-5'>7   What type of serious climatic event, which took place in southern Rajasthan, is mentioned in the article?</p> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />
+          <p className='my-5'>8   Who are frequent visitors to stepwells nowadays?</p> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />
 
           <h1 className="text-4xl font-bold my-5">Questions 9-13
           </h1>
@@ -215,34 +236,34 @@ export default function TopMovers() {
           <h1 className='my-5 text-xl'>Choose the correct heading for paragraphs A-E and G-I from the list of headings below.</h1>
           <h1 className='my-5 text-xl'>Write the correct number, i-xi, in boxes 14-21 on your answer sheet.</h1>
           <h1 className='my-5 text-xl'>List of Headings</h1>
-          <h1 className='my-5 text-xl'>i   .  A fresh and important long-term goal</h1>
-          <h1 className='my-5 text-xl'>ii  .  Charging for roads and improving other transport methods
+          <h1 className='my-5 text-xl'>i   .  A fresh and important long-term goal</h1> 
+          <h1 className='my-5 text-xl'>ii  .  Charging for roads and improving other transport methods 
           </h1>
-          <h1 className='my-5 text-xl'>iii .  Changes affecting the distances goods may be transported
+          <h1 className='my-5 text-xl'>iii .  Changes affecting the distances goods may be transported 
           </h1>
-          <h1 className='my-5 text-xl'>iv  . Taking all the steps necessary to change transport patterns
+          <h1 className='my-5 text-xl'>iv  . Taking all the steps necessary to change transport patterns 
           </h1>
-          <h1 className='my-5 text-xl'>v   . The environmental costs of road transport
+          <h1 className='my-5 text-xl'>v   . The environmental costs of road transport 
           </h1>
           <h1 className='my-5 text-xl'>vi  . The escalating cost of rail transport
           </h1>
-          <h1 className='my-5 text-xl'>vii . The need to achieve transport rebalance
+          <h1 className='my-5 text-xl'>vii . The need to achieve transport rebalance 
           </h1>
-          <h1 className='my-5 text-xl'>viii. The rapid growth of private transport
+          <h1 className='my-5 text-xl'>viii. The rapid growth of private transport 
           </h1>
-          <h1 className='my-5 text-xl'>ix  . Plans to develop major road networks
+          <h1 className='my-5 text-xl'>ix  . Plans to develop major road networks 
           </h1>
-          <h1 className='my-5 text-xl'>x   . Restricting road use through charging policies alone
+          <h1 className='my-5 text-xl'>x   . Restricting road use through charging policies alone 
           </h1>
-          <h1 className='my-5 text-xl'>xi  . Transport trends in countries awaiting EU admission
+          <h1 className='my-5 text-xl'>xi  . Transport trends in countries awaiting EU admission 
           </h1>
         </div>
         <div>
-          <h1 className='my-5 font-bold'>14.    Paragraph A</h1>
-          <h1 className='my-5 font-bold'>15.    Paragraph B</h1>
-          <h1 className='my-5 font-bold'>16.    Paragraph C</h1>
-          <h1 className='my-5 font-bold'>17.    Paragraph D</h1>
-          <h1 className='my-5 font-bold'>18.    Paragraph E</h1>
+          <h1 className='my-5 font-bold'>14.    Paragraph A</h1> <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black'/> <br />
+          <h1 className='my-5 font-bold'>15.    Paragraph B</h1> <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black'/> <br />
+          <h1 className='my-5 font-bold'>16.    Paragraph C</h1> <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black'/> <br />
+          <h1 className='my-5 font-bold'>17.    Paragraph D</h1> <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black'/> <br />
+          <h1 className='my-5 font-bold'>18.    Paragraph E</h1> <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black'/> <br />
           <h1 className='my-5 font-bold'>Example  Answer</h1>
           <h1 className='my-5 font-bold'>Paragraph F  vii</h1>
           <h1 className='my-5 font-bold'>19.    Paragraph F</h1>
@@ -257,10 +278,28 @@ export default function TopMovers() {
             FALSE if the statement contradicts the information <br /><br />
             NOT GIVEN if there is no information on this</h1>
           <h1 className='my-5 font-bold'>22.   The need for transport is growing, despite technological developments.</h1>
+
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> 
+            
           <h1 className='my-5 font-bold'>23.   To reduce production costs, some industries have been moved closer to their relevant consumers.</h1>
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> 
+
           <h1 className='my-5 font-bold'>24.   Cars are prohibitively expensive in some EU candidate countries.</h1>
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> 
           <h1 className='my-5 font-bold'>25.   The Gothenburg European Council was set up 30 years ago.</h1>
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> 
           <h1 className='my-5 font-bold'>26.   By the end of this decade, CO2 emissions from transport are predicted to reach 739 billion tonnes.</h1>
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span  className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> 
         </div>
 
         <div>
@@ -311,28 +350,28 @@ export default function TopMovers() {
           <h1 className='my-5 text-xl'>Choose the correct letter, A, B, C or D.</h1>
           <h1 className='my-5 text-xl'>Write the correct letter in boxes 27-30 on your answer sheet.</h1>
           <h1 className='my-5 text-xl'>27.  The example of the ‘million-dollar quartet’ underlines the writer’s point about</h1>
-          <h1>A. recognising talent.</h1><br />
-          <h1>B. working as a team.</h1><br />
-          <h1>C. having a shared objective.</h1><br />
-          <h1>D. being an effective leader.</h1><br />
+          <h1>A. recognising talent.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>B. working as a team.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>C. having a shared objective.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>D. being an effective leader.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
 
           <h1 className='my-5 text-xl'>28.  James Watson suggests that he and Francis Crick won the race to discover the DNA code because they</h1>
-          <h1>A. were conscious of their own limitations.</h1><br />
-          <h1>B. brought complementary skills to their partnership.</h1><br />
-          <h1>C. were determined to outperform their brighter rivals.</h1><br />
-          <h1>D. encouraged each other to realise their joint ambition.</h1><br />
+          <h1>A. were conscious of their own limitations.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>B. brought complementary skills to their partnership.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>C. were determined to outperform their brighter rivals.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>D. encouraged each other to realise their joint ambition.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
 
           <h1 className='my-5 text-xl'>29.  The writer mentions competitions on breakfast cereal packets as an example of how to</h1>
-          <h1>A. inspire creative thinking.</h1><br />
-          <h1>B. inspire creative thinking.</h1><br />
-          <h1>C. promote loyalty to a group.</h1><br />
-          <h1>D. strengthen commitment to an idea.</h1><br />
+          <h1>A. inspire creative thinking.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>B. inspire creative thinking.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>C. promote loyalty to a group.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>D. strengthen commitment to an idea.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
 
           <h1 className='my-5 text-xl'>30. In the last paragraph, the writer suggests that it is important for employees to</h1>
-          <h1>A. be aware of their company’s goals.</h1><br />
-          <h1>B. feel that their contributions are valued.</h1><br />
-          <h1>C. have respect for their co-workers‟ achievements.</h1><br />
-          <h1>D. understand why certain management decisions are made.</h1><br />
+          <h1>A. be aware of their company’s goals.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>B. feel that their contributions are valued.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>C. have respect for their co-workers‟ achievements.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
+          <h1>D. understand why certain management decisions are made.</h1> <div  className='bg-white w-5 h-5 flex justify-center items-center mt-5'><Checkbox></Checkbox></div> <br />
 
 
         </div>
@@ -344,15 +383,16 @@ export default function TopMovers() {
             Write the correct letter, A-G, in boxes 31-35 on your answer sheet<br /><br />
 
 
-            31   Employees whose values match those of their employers are more likely to<br /><br />
+            31   Employees whose values match those of their employers are more likely to<br /> <input type="text"  className='border-4 border-red-50 px-10 text-black my-3'/> <br />
+            
 
-            32   At times of change, people tend to<br /><br />
+            32   At times of change, people tend to<br /> <input type="text"  className='border-4 border-red-50 px-10 text-black my-3'/> <br />
 
-            33   If people are aware of what they might lose, they will often <br /><br />
+            33   If people are aware of what they might lose, they will often <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black my-3'/> <br />
 
-            34   People working under a dominant boss are liable to <br /><br />
+            34   People working under a dominant boss are liable to <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black my-3'/> <br />
 
-            35   Employees working in organisations with few rules are more likely to <br /><br />
+            35   Employees working in organisations with few rules are more likely to <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black my-3'/> <br />
 
             A     take chances. <br /><br />
 

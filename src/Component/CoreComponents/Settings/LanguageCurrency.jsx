@@ -1,94 +1,110 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
+import photo from "../../../assets/Gallery/writting-10-2.png";
 
 export default function LanguageCurrency() {
-  const [settings, setSettings] = useState(null);
+  const [text1, setText1] = useState(""); // State to hold the first text input
+  const [text2, setText2] = useState(""); // State to hold the second text input
+  const [startTime1, setStartTime1] = useState(null); // To store the start time for the first textarea
+  const [startTime2, setStartTime2] = useState(null); // To store the start time for the second textarea
+  const [elapsedTime1, setElapsedTime1] = useState(0); // To store elapsed time for the first textarea
+  const [elapsedTime2, setElapsedTime2] = useState(0); // To store elapsed time for the second textarea
+  const [typingTimeout1, setTypingTimeout1] = useState(null); // To handle timeout for stopping timer 1
+  const [typingTimeout2, setTypingTimeout2] = useState(null); // To handle timeout for stopping timer 2
+  const handleChange1 = (e) => {
+    if (startTime1 === null) {
+      setStartTime1(Date.now());
+    }
+    setText1(e.target.value);
+
+    if (typingTimeout1) {
+      clearTimeout(typingTimeout1);
+    }
+
+    const timeout = setTimeout(() => {
+      clearInterval(timerInterval1);
+    }, 2000);
+    setTypingTimeout1(timeout);
+  };
+
+  const handleChange2 = (e) => {
+    if (startTime2 === null) {
+      setStartTime2(Date.now());
+    }
+    setText2(e.target.value);
+
+
+    if (typingTimeout2) {
+      clearTimeout(typingTimeout2);
+    }
+
+    const timeout = setTimeout(() => {
+      clearInterval(timerInterval2);
+    }, 2000);
+    setTypingTimeout2(timeout);
+  };
 
   useEffect(() => {
-    fetch("/LanguageCurrency.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setSettings(data);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []);
+    let interval1, interval2;
+    if (startTime1 !== null) {
+      interval1 = setInterval(() => {
+        setElapsedTime1(Math.floor((Date.now() - startTime1) / 1000)); // Calculate elapsed time in seconds for textarea 1
+      }, 1000);
+    }
+    if (startTime2 !== null) {
+      interval2 = setInterval(() => {
+        setElapsedTime2(Math.floor((Date.now() - startTime2) / 1000)); // Calculate elapsed time in seconds for textarea 2
+      }, 1000);
+    }
 
-  if (!settings) {
-    return (
-      <div className="flex justify-center items-center h-96 text-gray-300">
-        Loading...
-      </div>
-    );
-  }
+    return () => {
+      clearInterval(interval1);
+      clearInterval(interval2);
+    };
+  }, [startTime1, startTime2]);
 
-  const handleLanguageChange = (event) => {
-    setSettings((prev) => ({ ...prev, language: event.target.value }));
+  const formatTime = (seconds) => {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
   };
-
-  const handleCurrencyChange = (event) => {
-    setSettings((prev) => ({ ...prev, currency: event.target.value }));
-  };
-
   return (
-    <div className=" p-8 rounded-md"  style={{
-      background: `
-      radial-gradient(circle at 20% 50%, #6eff62, transparent 60%),
-      radial-gradient(circle at 10% 10%, #6eff62, transparent 70%),
-      radial-gradient(circle at 70% 10%, #355E3B, transparent 90%),
-      radial-gradient(circle at 30% 10%, #003300, transparent 75%)
-                                                                  `,
-      backgroundBlendMode: 'overlay',
-  }}>
-      <h1 className="text-2xl font-bold mb-6">Language & Currency</h1>
+    <div>
+      <div className="h-screen overflow-y-auto w-full bg-black">
+        <div className="p-5">
+          <h1 className="font-bold text-xl my-10">Test-1</h1>
+          <img src={photo} alt="Writing Test" />
+          <div className="mt-5">
+            <h3 className="text-xl font-semibold">Time Elapsed: {formatTime(elapsedTime1)}</h3>
+          </div>
+          <div className="mt-10">
+            <h2 className="font-bold text-xl">Write your response:</h2>
+            <textarea
+              value={text1}
+              onChange={handleChange1}
+              className="w-full h-96 p-2 mt-2 border-2 border-gray-300 rounded-lg text-black"
+              placeholder="Write your answer here..."
+            />
+          </div>
 
-      {/* Language Selection */}
-      <div className="mb-6">
-        <label className="block text-lg font-medium mb-2" htmlFor="language">
-          Preferred Language
-        </label>
-        <select
-          id="language"
-          value={settings.language}
-          onChange={handleLanguageChange}
-          className="w-full p-3 bg-black text-gray-100 rounded-lg focus:outline-none focus:ring focus:ring-indigo-500"
-        >
-          <option value="English">English</option>
-          <option value="Spanish">Spanish</option>
-          <option value="French">French</option>
-          <option value="German">German</option>
-          <option value="Chinese">Chinese</option>
-        </select>
-      </div>
-
-      {/* Currency Selection */}
-      <div className="mb-6">
-        <label className="block text-lg font-medium mb-2" htmlFor="currency">
-          Default Currency
-        </label>
-        <select
-          id="currency"
-          value={settings.currency}
-          onChange={handleCurrencyChange}
-          className="w-full p-3 bg-black text-gray-100 rounded-lg focus:outline-none focus:ring focus:ring-indigo-500"
-        >
-          <option value="USD">USD - US Dollar</option>
-          <option value="EUR">EUR - Euro</option>
-          <option value="BTC">BTC - Bitcoin</option>
-          <option value="JPY">JPY - Japanese Yen</option>
-          <option value="GBP">GBP - British Pound</option>
-        </select>
-      </div>
-
-      {/* Summary */}
-      <div className="text-center">
-        <p className="text-sm text-white mb-3">
-          Current Language: <span className="font-medium">{settings.language}</span>
-        </p>
-        <p className="text-sm text-white">
-          Current Currency: <span className="font-medium">{settings.currency}</span>
-        </p>
+          <h1 className="font-bold text-xl my-10">Test-2</h1>
+          <p className="text-lg">
+            Some people think that all university students should study whatever they like. Others believe that they should only be allowed to study subjects that will be useful in the future, such as those related to science and technology.
+            Discuss both these views and give your own opinion.
+          </p>
+          <div className="mt-5">
+            <h3 className="text-xl font-semibold">Time Elapsed: {formatTime(elapsedTime2)}</h3>
+          </div>
+          <div className="mt-10">
+            <h2 className="font-bold text-xl">Write your response:</h2>
+            <textarea
+              value={text2}
+              onChange={handleChange2}
+              className="w-full h-96 p-2 mt-2 border-2 border-gray-300 rounded-lg text-black"
+              placeholder="Write your answer here..."
+            />
+          </div>
+        </div>
       </div>
     </div>
-  );
+  )
 }

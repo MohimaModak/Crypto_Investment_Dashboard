@@ -25,6 +25,7 @@ import TopMovers from "./Component/CoreComponents/Analytics/TopMovers";
 import AssetAllocation from "./Component/CoreComponents/Portfolio/AssetAllocation";
 import Account from "./Component/CoreComponents/Settings/Account";
 import LanguageCurrency from "./Component/CoreComponents/Settings/LanguageCurrency";
+import Notification from "./Component/CoreComponents/Settings/Notification";
 
 const router = createBrowserRouter([
   {
@@ -115,6 +116,10 @@ const router = createBrowserRouter([
       {
         path: "/LanguageCurrency",
         element: <LanguageCurrency></LanguageCurrency>,
+      },
+      {
+        path: "/Notification",
+        element: <Notification></Notification>,
       },
     
     ],

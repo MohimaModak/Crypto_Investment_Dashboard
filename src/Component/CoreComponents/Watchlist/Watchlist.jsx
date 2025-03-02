@@ -3,7 +3,8 @@ import photo from "../../../assets/Gallery/11-4.png"
 
 export default function Watchlist() {
   return (
-    <div className='h-screen overflow-y-auto w-full bg-slate-900'>
+    <div className='h-screen overflow-y-auto w-full bg-white text-black'>
+    <div className='p-5'>
 
       <h2 className='my-5 font-bold text-xl'>SECTION 1</h2>
       <p>HIRING A PUBLIC ROOM</p>
@@ -163,6 +164,7 @@ export default function Watchlist() {
       <p>● establish 39.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" /> corridors (e.g. for turtles)</p>
       <p>● reduce fishing quotas</p>
       <p>● catch fish only for the purpose of 40.<input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />.</p>
+    </div>
     </div>
   )
 }

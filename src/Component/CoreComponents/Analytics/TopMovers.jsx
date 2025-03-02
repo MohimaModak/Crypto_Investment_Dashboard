@@ -9,7 +9,7 @@ export default function TopMovers() {
   };
 
   return (
-    <div className="bg-slate-900 h-screen overflow-y-auto">
+    <div className="bg-white text-black h-screen overflow-y-auto">
       <div className="p-5">
         <div>
           <h1 className="text-4xl font-bold">READING PASSAGE 1</h1>
@@ -110,11 +110,11 @@ export default function TopMovers() {
           <h1 className="text-4xl font-bold my-5">Questions 6–8
           </h1>
           <p className='my-5'>Answer the questions below.</p>
-          <p className='my-5'>Choose ONE WORD ONLY from the passage for each answer.</p> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />
-          <p className='my-5'>Write your answers in boxes 6–8 on your answer sheet.</p> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />
-          <p className='my-5'>6   Which part of some stepwells provided shade for people?</p> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />
-          <p className='my-5'>7   What type of serious climatic event, which took place in southern Rajasthan, is mentioned in the article?</p> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />
-          <p className='my-5'>8   Who are frequent visitors to stepwells nowadays?</p> <input type="py-0.5 px-5 my-3 mx-4 rounded-sm border-2 border-slate-300" />
+          <p className='my-5'>Choose ONE WORD ONLY from the passage for each answer.</p> <input type="text" className='text-black my-3 border-2 border-black rounded-md' />
+          <p className='my-5'>Write your answers in boxes 6–8 on your answer sheet.</p> <input type="text" className='text-black my-3 border-2 border-black rounded-md' />
+          <p className='my-5'>6   Which part of some stepwells provided shade for people?</p> <input type="text" className='text-black my-3 border-2 border-black rounded-md' />
+          <p className='my-5'>7   What type of serious climatic event, which took place in southern Rajasthan, is mentioned in the article?</p> <input type="text" className='text-black my-3 border-2 border-black rounded-md' />
+          <p className='my-5'>8   Who are frequent visitors to stepwells nowadays?</p> <input type="text" className='text-black my-3 border-2 border-black rounded-md' />
 
           <h1 className="text-4xl font-bold my-5">Questions 9-13
           </h1>
@@ -122,45 +122,45 @@ export default function TopMovers() {
           <p className='my-5'>Choose ONE WORD AND/OR A NUMBER from the passage for each answer.</p>
           <p className='my-5'>Write your answers in boxes 9-13 on your answer sheet.</p>
 
-          <table className="min-w-full table-auto  border-slate-200 border-2 text-white">
-            <thead className=' border-slate-200 border-2'>
-              <tr className=' border-slate-200 border-2'>
-                <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Stepwell</th>
-                <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Date</th>
-                <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Features</th>
-                <th className="border-b p-2 className=' border-slate-200 border-2' text-left">Other Notes</th>
+          <table className="min-w-full table-auto  border-black border-2 tebg-white">
+            <thead className=' border-black border-2'>
+              <tr className=' border-black border-2'>
+                <th className="border-b p-2 className=' border-black border-2' text-left">Stepwell</th>
+                <th className="border-b p-2 className=' border-black border-2' text-left">Date</th>
+                <th className="border-b p-2 className=' border-black border-2' text-left">Features</th>
+                <th className="border-b p-2 className=' border-black border-2' text-left">Other Notes</th>
               </tr>
             </thead>
-            <tbody className=' border-slate-200 border-2'>
-              <tr className=' border-slate-200 border-2'>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Rani Ki Vav</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Late 11th century</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">As many as 500 sculptures decorate the monument</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Restored in the 1990s. Excellent condition,9. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm border-2" />  despite the earthquake of 2001.</td>
+            <tbody className=' border-black border-2'>
+              <tr className=' border-black border-2'>
+                <td className="border-b p-2 className=' border-black border-2'">Rani Ki Vav</td>
+                <td className="border-b p-2 className=' border-black border-2'">Late 11th century</td>
+                <td className="border-b p-2 className=' border-black border-2'">As many as 500 sculptures decorate the monument</td>
+                <td className="border-b p-2 className=' border-black border-2'">Restored in the 1990s. Excellent condition,9. <input type="text" className='text-black my-3 border-2 border-black rounded-md' />  despite the earthquake of 2001.</td>
               </tr>
-              <tr className=' border-slate-200 border-2'>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Surya Kund</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">1026</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Steps on the 10 <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm border-2" /> terrace produce a geometric pattern. Carved shrines.</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Looks more like a 11. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm border-2" /> tank than a well.</td>
+              <tr className=' border-black border-2'>
+                <td className="border-b p-2 className=' border-black border-2'">Surya Kund</td>
+                <td className="border-b p-2 className=' border-black border-2'">1026</td>
+                <td className="border-b p-2 className=' border-black border-2'">Steps on the 10 <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> terrace produce a geometric pattern. Carved shrines.</td>
+                <td className="border-b p-2 className=' border-black border-2'">Looks more like a 11. <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> tank than a well.</td>
               </tr>
-              <tr className=' border-slate-200 border-2'>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Raniji Ki Baori</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">1699</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Intricately carved monument</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">One of 21 baoris in the area commissioned by Queen Nathavatji</td>
+              <tr className=' border-black border-2'>
+                <td className="border-b p-2 className=' border-black border-2'">Raniji Ki Baori</td>
+                <td className="border-b p-2 className=' border-black border-2'">1699</td>
+                <td className="border-b p-2 className=' border-black border-2'">Intricately carved monument</td>
+                <td className="border-b p-2 className=' border-black border-2'">One of 21 baoris in the area commissioned by Queen Nathavatji</td>
               </tr>
-              <tr className=' border-slate-200 border-2'>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Chand Baori</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">850 AD</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Steps take you down 11 storeys to the bottom</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Old, deep, and very dramatic. Has 12. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm border-2" />verandas which provide a view to the steps.</td>
+              <tr className=' border-black border-2'>
+                <td className="border-b p-2 className=' border-black border-2'">Chand Baori</td>
+                <td className="border-b p-2 className=' border-black border-2'">850 AD</td>
+                <td className="border-b p-2 className=' border-black border-2'">Steps take you down 11 storeys to the bottom</td>
+                <td className="border-b p-2 className=' border-black border-2'">Old, deep, and very dramatic. Has 12. <input type="text" className='text-black my-3 border-2 border-black rounded-md' />verandas which provide a view to the steps.</td>
               </tr>
-              <tr className=' border-slate-200 border-2'>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Neemrana Ki Baori</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">1700</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Has two 13. <input type="text" className="py-0.5 px-5 my-3 mx-4 rounded-sm border-2" />  underwater levels</td>
-                <td className="border-b p-2 className=' border-slate-200 border-2'">Used by the public today.</td>
+              <tr className=' border-black border-2'>
+                <td className="border-b p-2 className=' border-black border-2'">Neemrana Ki Baori</td>
+                <td className="border-b p-2 className=' border-black border-2'">1700</td>
+                <td className="border-b p-2 className=' border-black border-2'">Has two 13. <input type="text" className='text-black my-3 border-2 border-black rounded-md' />  underwater levels</td>
+                <td className="border-b p-2 className=' border-black border-2'">Used by the public today.</td>
               </tr>
             </tbody>
           </table>
@@ -259,11 +259,11 @@ export default function TopMovers() {
           </h1>
         </div>
         <div>
-          <h1 className='my-5 font-bold'>14.    Paragraph A</h1> <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black'/> <br />
-          <h1 className='my-5 font-bold'>15.    Paragraph B</h1> <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black'/> <br />
-          <h1 className='my-5 font-bold'>16.    Paragraph C</h1> <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black'/> <br />
-          <h1 className='my-5 font-bold'>17.    Paragraph D</h1> <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black'/> <br />
-          <h1 className='my-5 font-bold'>18.    Paragraph E</h1> <br /> <input type="text"  className='border-4 border-red-50 px-10 text-black'/> <br />
+          <h1 className='my-5 font-bold'>14.    Paragraph A</h1> <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
+          <h1 className='my-5 font-bold'>15.    Paragraph B</h1> <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
+          <h1 className='my-5 font-bold'>16.    Paragraph C</h1> <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
+          <h1 className='my-5 font-bold'>17.    Paragraph D</h1> <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
+          <h1 className='my-5 font-bold'>18.    Paragraph E</h1> <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
           <h1 className='my-5 font-bold'>Example  Answer</h1>
           <h1 className='my-5 font-bold'>Paragraph F  vii</h1>
           <h1 className='my-5 font-bold'>19.    Paragraph F</h1>
@@ -321,7 +321,7 @@ export default function TopMovers() {
               <br />
               For Robert B. Cialdini, Professor of Psychology at Arizona State University, one reason that companies don’t succeed as often as they should is that innovation starts with recruitment. Research shows that the fit between an employee’s values and a company’s values makes a difference to what contribution they make and whether, two years after they join, they’re still at the company. Studies at Harvard Business School show that, although some individuals may be more creative than others, almost every individual can be creative in the right circumstances.
               <br />
-              One of the most famous photographs in the story of rock’n’roll emphasises Ciaidini’s views. The 1956 picture of singers Elvis Presley, Carl Perkins, Johnny Cash and Jerry Lee Lewis jamming at a piano in Sun Studios in Memphis tells a hidden story. Sun’s ‘million-dollar quartet’ could have been a quintet. Missing from the picture is Roy Orbison’ a greater natural singer than Lewis, Perkins or Cash. Sam Phillips, who owned Sun, wanted to revolutionise popular music with songs that fused black and white music, and country and blues. Presley, Cash, Perkins and Lewis instinctively understood Phillips’s ambition and believed in it. Orbison wasn’t inspired by the goal, and only ever achieved one hit with the Sun label.
+              One of the most famous photographs in the story of rock’n’roll emphasises Ciaidini’s views. The 1956 picture of singers Elvis Presley, Carl Perkins, Johnny Cash and Jerry Lee Lewis jamming at a piano in Sun Studios in Memphis tells a hidden story. Sun’s ‘million-dollar quartet’ could have been a quintet. Missing from the picture is Roy Orbison’ a greater natural singer than Lewis, Perkins or Cash. Sam Phillips, who owned Sun, wanted to revolutionise popular music with songs that fused black abg-white music, and country and blues. Presley, Cash, Perkins and Lewis instinctively understood Phillips’s ambition and believed in it. Orbison wasn’t inspired by the goal, and only ever achieved one hit with the Sun label.
               <br />
               The value fit matters, says Cialdini, because innovation is, in part, a process of change, and under that pressure we, as a species, behave differently, ‘When things change, we are hard-wired to play it safe.’ Managers should therefore adopt an approach that appears counterintuitive -they should explain what stands to be lost if the company fails to seize a particular opportunity. Studies show that we invariably take more gambles when threatened with a loss than when offered a reward.
               <br />

@@ -9,7 +9,7 @@ export default function AssetAllocation() {
   };
 
   return (
-    <div className="bg-slate-900 h-screen overflow-y-auto">
+    <div className="bg-white text-black h-screen overflow-y-auto">
       <div className="p-10">
         <div className=''>
           <div>
@@ -84,17 +84,17 @@ export default function AssetAllocation() {
             <br /><br />
 
             1 .   Paragraph A
-            <br /> <input type="text" className='text-black my-3' /> <br />
+            <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
             2 .   Paragraph B
-            <br /> <input type="text" className='text-black my-3' /><br />
+            <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /><br />
             3 .   Paragraph C
-            <br /> <input type="text" className='text-black my-3' /><br />
+            <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /><br />
             4 .   Paragraph D
-            <br /> <input type="text" className='text-black my-3' /><br />
+            <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /><br />
             5 .   Paragraph E
-            <br /> <input type="text" className='text-black my-3' /><br />
+            <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /><br />
             6 .   Paragraph F
-            <br /> <input type="text" className='text-black my-3' /><br />
+            <br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /><br />
             7 .   Paragraph G
           </p>
         </div>
@@ -112,29 +112,29 @@ export default function AssetAllocation() {
             NOT GIVEN    if there is no information on this
             <br /><br />
             8 .  China’s transport system was not suitable for industry in the 18th century.
-            <br />  <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> <br />
+            <br />  <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> <br />
             9  . Tea and beer both helped to prevent dysentery in Britain.
-            <br />  <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> <br />
+            <br />  <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> <br />
             10   Roy Porter disagrees with Professor Macfarlane’s findings.
-            <br />  <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> <br />
+            <br />  <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> <br />
             11 .  After 1740，there was a reduction in population in Britain.
-            <br />  <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> <br />
+            <br />  <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> <br />
             12 .  People in Britain used to make beer at home.
-            <br />  <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> <br />
+            <br />  <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div> <br />
             13 .  The tax on malt indirectly caused a rise in the death rate.
-            <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
+            <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
           </p>
         </div>
         <div>
@@ -193,13 +193,13 @@ export default function AssetAllocation() {
             NB    You may use any letter more than once.<br /><br />
 
 
-            14.   a reference to the influence of the domestic background on the gifted child.<br /> <input type="text" className='text-black my-3' /> <br />
+            14.   a reference to the influence of the domestic background on the gifted child.<br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
 
-            15.   reference to what can be lost if learners are given too much guidance.<br /> <input type="text" className='text-black my-3' /> <br />
+            15.   reference to what can be lost if learners are given too much guidance.<br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
 
-            16.   a reference to the damaging effects of anxiety.<br /> <input type="text" className='text-black my-3' /> <br />
+            16.   a reference to the damaging effects of anxiety.<br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
 
-            17.   examples of classroom techniques which favour socially-disadvantaged children.<br /> <input type="text" className='text-black my-3' /> <br />
+            17.   examples of classroom techniques which favour socially-disadvantaged children.<br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
 
 
 
@@ -211,11 +211,11 @@ export default function AssetAllocation() {
             Write the correct letter, A-E, in boxes 18-22 on your answer sheet.<br /><br />
 
 
-            18 .  Less time can be spent on exercises with gifted pupils who produce accurate work.<br /> <input type="text" className='text-black my-3' /> <br />
-            19 .  Self-reliance is a valuable tool that helps gifted students reach their goals.<br /> <input type="text" className='text-black my-3' /> <br />
-            20 .  Gifted children know how to channel their feelings to assist their learning.<br /> <input type="text" className='text-black my-3' /> <br />
-            21 .  The very gifted child benefits from appropriate support from close relatives.<br /> <input type="text" className='text-black my-3' /> <br />
-            22 .  Really successful students have learnt a considerable amount about their subject.<br /> <input type="text" className='text-black my-3' /> <br />
+            18 .  Less time can be spent on exercises with gifted pupils who produce accurate work.<br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
+            19 .  Self-reliance is a valuable tool that helps gifted students reach their goals.<br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
+            20 .  Gifted children know how to channel their feelings to assist their learning.<br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
+            21 .  The very gifted child benefits from appropriate support from close relatives.<br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
+            22 .  Really successful students have learnt a considerable amount about their subject.<br /> <input type="text" className='text-black my-3 border-2 border-black rounded-md' /> <br />
 
             List of People<br /><br />
 
@@ -315,45 +315,45 @@ export default function AssetAllocation() {
             32 .  The writer mentions London’s National Gallery to illustrate
             <br /><br />
             A   the undesirable cost to a nation of maintaining a huge collection of art.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             B   the conflict that may arise in society between financial and artistic values.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             C   the negative effect a museum can have on visitors’ opinions of themselves.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             D   the need to put individual well-being above large-scale artistic schemes.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             33.   The writer says that today, viewers may be unwilling to criticise a because
             <br /><br />
             A   they lack the knowledge needed to support an opinion.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             B   they fear it may have financial implications.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             C   they have no real concept of the work’s value.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             D   they feel their personal reaction is of no significance.
 
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             34 .  According to the writer, the ‘displacement effect’ on the visitor is caused by
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             A   the variety of works on display and the way they are arranged.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             B   the impossibility of viewing particular works of art over a long period.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             C   the similar nature of the paintings and the lack of great works.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             D   the inappropriate nature of the individual works selected for exhibition.
 
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             35.   The writer says that unlike other forms of art, a painting does not
             <br /><br />
             A   involve direct contact with an audience.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             B   require a specific location for a performance.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             C   need the involvement of other professionals.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             D   have a specific beginning or end.
-            <br /> <div className='bg-white flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
+            <br /> <div className=' flex justify-center items-center w-max h-max'> <Checkbox></Checkbox> </div> <br />
             <h1 className='font-blod text-xl my-10'>Questions 36-40</h1>
             <br /><br />
             Do the following statements agree with the views of the writer in Reading Passage 3?
@@ -367,25 +367,25 @@ export default function AssetAllocation() {
             NOT GIVEN    if the is impossible to say what the writer thinks about this
             <br /><br />
             36.   Art history should focus on discovering the meaning of art using a range of media.
-            <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
+            <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
             37.   The approach of art historians conflicts with that of art museums.
-            <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
+            <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
             38.   People should be encouraged to give their opinions openly on works of art.
-            <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
+            <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
             39.   Reproductions of fine art should only be sold to the public if they are of high quality.
-            <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-              <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
+            <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+              <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
             40.   In the future, those with power are likely to encourage more people to enjoy art.</p>
-          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-            <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
-            <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
+          <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>FALSE</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
+            <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
         </div>
 
       </div>

@@ -4,7 +4,7 @@ import photo from "../../../assets/Gallery/11-2.png"
 
 export default function Settings() {
   return (
-    <div className='h-screen overflow-y-auto w-full bg-slate-900'>
+    <div className='h-screen overflow-y-auto w-full bg-white text-black'>
     <div className='p-5'>
       <h2 className='my-5 font-bold text-xl'>SECTION 1</h2>
       <p>Enquiry about joining Youth Council</p>

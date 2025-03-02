@@ -1,7 +1,7 @@
 export default function Transactions() {
   return (
-    <div className="h-screen overflow-y-auto text-white bg-gray-900 p-10 rounded-md">
-      <h1 className="text-2xl  bg-gray-900font-bold mb-5">Early Learning Childcare Centre</h1>
+    <div className="h-screen overflow-y-auto text-black bg-white  p-10 rounded-md">
+      <h1 className="text-2xl  bg-white font-bold mb-5">Early Learning Childcare Centre</h1>
       <h2 className="text-xl font-semibold mb-4">Enrolment Form</h2>
 
       <h3 className="font-semibold mb-2">Personal Details</h3>

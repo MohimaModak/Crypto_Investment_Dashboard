@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function Golden() {
   return (
-    <div className="h-screen overflow-y-auto w-full bg-slate-900">
+    <div className="h-screen overflow-y-auto w-full bg-white text-black">
       <div className="p-5">
         {/* SECTION 1 */}
-        <div className="text-white">
+        <div className="">
           <h2 className="text-xl font-bold mb-4">SECTION 1</h2>
           <p>Complete the notes below.</p>
           <p>Write <strong>ONE WORD ONLY</strong> for each answer.</p>
@@ -39,7 +39,7 @@ export default function Golden() {
         </div>
 
         {/* SECTION 2 */}
-        <div className="text-white mt-8">
+        <div className=" mt-8">
           <h2 className="text-xl font-bold mb-4">SECTION 2</h2>
           <div>
             <p><strong>Questions 11 and 12</strong></p>
@@ -122,7 +122,7 @@ export default function Golden() {
         </div>
 
         {/* SECTION 3 */}
-        <div className="text-white mt-8">
+        <div className=" mt-8">
           <h2 className="text-xl font-bold mb-4">SECTION 3</h2>
           <div>
             <p><strong>Questions 21 – 26</strong></p>
@@ -186,7 +186,7 @@ export default function Golden() {
         </div>
 
         {/* SECTION 4 */}
-        <div className="text-white mt-8">
+        <div className=" mt-8">
           <h2 className="text-xl font-bold mb-4">SECTION 4</h2>
           <div>
             <p><strong>Questions 31 – 40</strong></p>

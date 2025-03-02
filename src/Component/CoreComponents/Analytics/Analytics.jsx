@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Analytics() {
   return (
-    <div className='h-screen overflow-y-auto w-full bg-gray-900 '>
+    <div className='h-screen overflow-y-auto w-full bg-white text-black'>
     <div className='p-5'>
       <h2 className='my-5 font-bold'>SECTION 1</h2>
       <p>Customer heard about Thorndyke’s from a friend.</p>

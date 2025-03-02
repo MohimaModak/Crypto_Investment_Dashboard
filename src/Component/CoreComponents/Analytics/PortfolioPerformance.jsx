@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function PortfolioPerformance() {
   return (
-    <div className="h-screen overflow-y-auto w-full bg-slate-900 text-white p-5">
+    <div className="h-screen overflow-y-auto w-full bg-white text-black p-5">
       {/* SECTION 1 */}
       <div>
         <h2 className="text-xl font-bold mb-4">SECTION 1</h2>

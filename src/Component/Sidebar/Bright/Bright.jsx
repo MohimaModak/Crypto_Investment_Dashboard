@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Bright() {
   return (
-    <div  className="h-screen overflow-y-auto w-full bg-slate-900">
+    <div  className="h-screen overflow-y-auto w-full bg-white text-black">
     <div className='p-5'>
       <h2 className='font-bold text-xl my-3'>SECTION 1</h2>
       <p className='font-bold my-3'>Events during Kenton Festival</p>

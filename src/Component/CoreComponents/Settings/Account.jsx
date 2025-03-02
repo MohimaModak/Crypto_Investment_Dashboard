@@ -78,7 +78,7 @@ export default function WritingTest() {
   };
 
   return (
-    <div className="h-screen overflow-y-auto w-full bg-black">
+    <div className="h-screen overflow-y-auto w-full bg-white text-black">
       <div className="p-5">
         <h1 className="font-bold text-xl my-10">Test-1</h1>
         <img src={photo} alt="Writing Test" />

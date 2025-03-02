@@ -69,7 +69,7 @@ export default function LanguageCurrency() {
   };
   return (
     <div>
-      <div className="h-screen overflow-y-auto w-full bg-black">
+      <div className="h-screen overflow-y-auto w-full bg-white text-black">
         <div className="p-5">
           <h1 className="font-bold text-xl my-10">Test-1</h1>
           <img src={photo} alt="Writing Test" />
@@ -81,7 +81,7 @@ export default function LanguageCurrency() {
             <textarea
               value={text1}
               onChange={handleChange1}
-              className="w-full h-96 p-2 mt-2 border-2 border-gray-300 rounded-lg text-black"
+              className="w-full h-96 p-2 mt-2 border-2 border-black rounded-lg text-black"
               placeholder="Write your answer here..."
             />
           </div>
@@ -92,14 +92,14 @@ export default function LanguageCurrency() {
             Discuss both these views and give your own opinion.
           </p>
           <div className="mt-5">
-            <h3 className="text-xl font-semibold">Time Elapsed: {formatTime(elapsedTime2)}</h3>
+            <h3 className="text-xl font-semibold text-black">Time Elapsed: {formatTime(elapsedTime2)}</h3>
           </div>
           <div className="mt-10">
             <h2 className="font-bold text-xl">Write your response:</h2>
             <textarea
               value={text2}
               onChange={handleChange2}
-              className="w-full h-96 p-2 mt-2 border-2 border-gray-300 rounded-lg text-black"
+              className="w-full h-96 p-2 mt-2 border-2 border-black rounded-lg text-black"
               placeholder="Write your answer here..."
             />
           </div>

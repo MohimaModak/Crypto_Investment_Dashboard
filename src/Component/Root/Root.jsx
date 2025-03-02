@@ -67,7 +67,7 @@ export default function Root() {
   // `;
 
   return (
-    <div className="flex h-screen bg-black text-white">
+    <div className="flex h-screen bg-white">
       {/* Add Cursor Effect Container */}
       {/* <style>{styles}</style> */}
       <div
@@ -92,7 +92,7 @@ export default function Root() {
       </button>
 
       {/* Main Content */}
-      <div className="flex-1 p-4 bg-black">
+      <div className="flex-1 p-4 bg-white">
         <Outlet />
       </div>
     </div>

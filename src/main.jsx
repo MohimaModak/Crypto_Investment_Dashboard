@@ -26,6 +26,7 @@ import AssetAllocation from "./Component/CoreComponents/Portfolio/AssetAllocatio
 import Account from "./Component/CoreComponents/Settings/Account";
 import LanguageCurrency from "./Component/CoreComponents/Settings/LanguageCurrency";
 import Notification from "./Component/CoreComponents/Settings/Notification";
+import CurrentPortfolioValue from "./Component/CoreComponents/Dashboard/CurrentPortfolioValue";
 
 const router = createBrowserRouter([
   {
@@ -120,6 +121,10 @@ const router = createBrowserRouter([
       {
         path: "/Notification",
         element: <Notification></Notification>,
+      },
+      {
+        path: "/CurrentPortfolioValue",
+        element: <CurrentPortfolioValue></CurrentPortfolioValue>,
       },
     
     ],

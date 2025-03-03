@@ -80,10 +80,10 @@ export default function WritingTest() {
   return (
     <div className="h-screen overflow-y-auto w-full bg-white text-black">
       <div className="p-5">
-        <div className='flex'>
-          <div className='w-2/4'>
+        <div className='flex justify-center items-center'>
+          <div className=''>
           <h1 className="font-bold text-xl my-10">Test-1</h1>
-          <img src={photo} alt="Writing Test" />
+          <img src={photo} className='w-[1600px]' />
           </div>
 
           <div>
@@ -97,7 +97,7 @@ export default function WritingTest() {
               <textarea
                 value={text1}
                 onChange={handleChange1}
-                className="w-[1000px] h-96 p-2 mt-2 border-2 border-gray-300 rounded-lg text-black"
+                className="w-[500px] h-96 p-2 mt-2 border-2 border-gray-300 rounded-lg text-black"
                 placeholder="Write your answer here..."
               />
             </div>

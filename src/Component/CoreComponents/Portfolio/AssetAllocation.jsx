@@ -53,6 +53,7 @@ export default function AssetAllocation() {
             </button>
           </div>
         </div>
+<div>
         <div>
           <p>
             <h1 className='font-bold text-xl my-10'>Questions 1-7</h1>
@@ -137,22 +138,18 @@ export default function AssetAllocation() {
               <div className='my-5'><span>NOT GIVEN</span> <span className=' w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
           </p>
         </div>
-        <div>
-          <h1 className='font-bold text-2xl my-10'>READING PASSAGE 2</h1>
-          <h1 className='text-xl my-5'>You should spend about 20 minutes on Questions 14-26 which are based on Reading Passage 2 below. </h1>
-          <h1 className='font-bold text-xl my-10'>Gifted children and learning      </h1>
         </div>
 
         <div>
-          <h1 className="text-4xl font-bold">READING PASSAGE 2</h1>
-          <p className="my-5">
-            You should spend about 20 minutes on Questions 14-24 which are based on Reading Passage 1 below.
-          </p>
-          <h1 className="text-3xl font-bold my-5">Gifted children and learning
+          <h1 className='font-bold text-2xl my-10'>READING PASSAGE 2</h1>
+          <h1 className='text-xl my-5'>You should spend about 20 minutes on Questions 14-26 which are based on Reading Passage 2 below. </h1>
+          <h1 className='font-bold text-xl my-5'>Gifted children and learning      </h1>
+        </div>
 
-          </h1>
+        <div>
+         
           <p>
-            <br /><br />  <span className='font-bold text-xl my-10'>A</span> <br /><br />
+            <br /><br />  <span className='font-bold text-xl my-5'>A</span> <br /><br />
             Internationally, ‘giftedness’ is most frequently determined by a score on a general intelligence test, known as an IQ test, which is above a chosen cutoff point, usually at around the top 2-5%. Children’s educational environment contributes to the IQ score and the way intelligence is used. For example, a very close positive relationship was found when children’s IQ scores were compared with their home educational provision (Freeman, 2010). The higher the children’s IQ scores, especially over IQ 130, the better the quality of their educational backup, measured in terms of reported verbal interactions with parents, number of books and activities in their home etc. Because IQ tests are decidedly influenced by what the child has learned, they are to some extent measures of current achievement based on age-norms; that is, how well the children have learned to manipulate their knowledge and know-how within the terms of the test. The vocabulary aspect, for example, is dependent on having heard those words. But IQ tests can neither identify the processes of learning and thinking nor predict creativity.
             <span className='font-bold text-xl my-10'>B</span>
             Excellence does not emerge without appropriate help. To reach an exceptionally high standard in any area very able children need the means to learn, which includes material to work with and focused challenging tuition -and the encouragement to follow their dream. There appears to be a qualitative difference in the way the intellectually highly able think, compared with more average-ability or older pupils, for whom external regulation by the teacher often compensates for lack of internal regulation. To be at their most effective in their self-regulation, all children can be helped to identify their own ways of learning – metacognition – which will include strategies of planning, monitoring, evaluation, and choice of what to learn. Emotional awareness is also part of metacognition, so children should be helped to be aware of their feelings around the area to be learned, feelings of curiosity or confidence, for example.

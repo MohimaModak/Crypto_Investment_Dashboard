@@ -10,11 +10,14 @@ export default function WritingTest() {
   const [elapsedTime2, setElapsedTime2] = useState(0); // To store elapsed time for the second textarea
   const [typingTimeout1, setTypingTimeout1] = useState(null); // To handle timeout for stopping timer 1
   const [typingTimeout2, setTypingTimeout2] = useState(null); // To handle timeout for stopping timer 2
+  const [timer1Active, setTimer1Active] = useState(false); // To track if timer 1 is active
+  const [timer2Active, setTimer2Active] = useState(false); // To track if timer 2 is active
 
   // Start the timer when the user starts typing in the first textarea
   const handleChange1 = (e) => {
     if (startTime1 === null) {
       setStartTime1(Date.now()); // Start timer when the user starts typing in textarea 1
+      setTimer1Active(true); // Activate timer
     }
     setText1(e.target.value); // Update text for textarea 1
 
@@ -34,6 +37,7 @@ export default function WritingTest() {
   const handleChange2 = (e) => {
     if (startTime2 === null) {
       setStartTime2(Date.now()); // Start timer when the user starts typing in textarea 2
+      setTimer2Active(true); // Activate timer
     }
     setText2(e.target.value); // Update text for textarea 2
 
@@ -52,14 +56,28 @@ export default function WritingTest() {
   // Update the timers for each textarea every second
   useEffect(() => {
     let interval1, interval2;
-    if (startTime1 !== null) {
+    
+    // Timer for the first textarea (stop after 60 minutes)
+    if (startTime1 !== null && timer1Active) {
       interval1 = setInterval(() => {
-        setElapsedTime1(Math.floor((Date.now() - startTime1) / 1000)); // Calculate elapsed time in seconds for textarea 1
+        const timeElapsed = Math.floor((Date.now() - startTime1) / 1000); // Calculate elapsed time in seconds for textarea 1
+        setElapsedTime1(timeElapsed);
+        if (timeElapsed >= 3600) { // Stop the timer after 60 minutes
+          clearInterval(interval1);
+          setTimer1Active(false);
+        }
       }, 1000);
     }
-    if (startTime2 !== null) {
+
+    // Timer for the second textarea (stop after 60 minutes)
+    if (startTime2 !== null && timer2Active) {
       interval2 = setInterval(() => {
-        setElapsedTime2(Math.floor((Date.now() - startTime2) / 1000)); // Calculate elapsed time in seconds for textarea 2
+        const timeElapsed = Math.floor((Date.now() - startTime2) / 1000); // Calculate elapsed time in seconds for textarea 2
+        setElapsedTime2(timeElapsed);
+        if (timeElapsed >= 3600) { // Stop the timer after 60 minutes
+          clearInterval(interval2);
+          setTimer2Active(false);
+        }
       }, 1000);
     }
 
@@ -68,7 +86,7 @@ export default function WritingTest() {
       clearInterval(interval1);
       clearInterval(interval2);
     };
-  }, [startTime1, startTime2]);
+  }, [startTime1, startTime2, timer1Active, timer2Active]);
 
   // Format elapsed time as mm:ss
   const formatTime = (seconds) => {

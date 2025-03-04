@@ -27,6 +27,7 @@ import Account from "./Component/CoreComponents/Settings/Account";
 import LanguageCurrency from "./Component/CoreComponents/Settings/LanguageCurrency";
 import Notification from "./Component/CoreComponents/Settings/Notification";
 import CurrentPortfolioValue from "./Component/CoreComponents/Dashboard/CurrentPortfolioValue";
+import Profile from "./Component/CoreComponents/Settings/Profile";
 
 const router = createBrowserRouter([
   {
@@ -125,6 +126,10 @@ const router = createBrowserRouter([
       {
         path: "/CurrentPortfolioValue",
         element: <CurrentPortfolioValue></CurrentPortfolioValue>,
+      },
+      {
+        path: "/Profile",
+        element: <Profile></Profile>,
       },
     
     ],

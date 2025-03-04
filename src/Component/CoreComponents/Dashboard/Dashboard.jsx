@@ -86,7 +86,7 @@ export default function Dashboard() {
                   </ul>
                 </td>
               </tr>
-              <tr className="bg-black">
+              <tr className="">
                 <td className="p-3 text-sm  border border-gray-700">9 days</td>
                 <td className="p-3 text-sm  border border-gray-700">980 km</td>
                 <td className="p-3 text-sm  border border-gray-700"><strong>9 £ <input type="text" className='text-black my-3 border-2 border-black rounded-md' /></strong></td>

@@ -71,26 +71,26 @@ export default function LanguageCurrency() {
     <div>
       <div className="h-screen overflow-y-auto w-full bg-white text-black">
         <div className="p-5">
-        <div className="mt-5">
+          <div className="mt-5">
             <h3 className="text-xl font-semibold">Time Elapsed: {formatTime(elapsedTime1)}</h3>
           </div>
-<div className='flex'>
+          <div className='flex'>
 
-          <div>
-          <h1 className="font-bold text-xl my-10">Test-1</h1>
-          <img src={photo} className='w-[800px]' />
-         
-          </div>
+            <div>
+              <h1 className="font-bold text-xl my-10">Test-1</h1>
+              <img src={photo} className='w-[800px]' />
 
-          <div className="mt-10">
-            <h2 className="font-bold text-xl">Write your response:</h2>
-            <textarea
-              value={text1}
-              onChange={handleChange1}
-              className="w-[600px] h-[700px] p-2 mt-2 border-2 border-black rounded-lg text-black"
-              placeholder="Write your answer here..."
-            />
-          </div>
+            </div>
+
+            <div className="mt-10">
+              <h2 className="font-bold text-xl">Write your response:</h2>
+              <textarea
+                value={text1}
+                onChange={handleChange1}
+                className="w-[600px] h-[700px] p-2 mt-2 border-2 border-black rounded-lg text-black"
+                placeholder="Write your answer here..."
+              />
+            </div>
 
           </div>
           <h1 className="font-bold text-xl my-10">Test-2</h1>
@@ -98,9 +98,7 @@ export default function LanguageCurrency() {
             Some people think that all university students should study whatever they like. Others believe that they should only be allowed to study subjects that will be useful in the future, such as those related to science and technology.
             Discuss both these views and give your own opinion.
           </p>
-          <div className="mt-5">
-            <h3 className="text-xl font-semibold text-black">Time Elapsed: {formatTime(elapsedTime2)}</h3>
-          </div>
+          
           <div className="mt-10">
             <h2 className="font-bold text-xl">Write your response:</h2>
             <textarea

@@ -1,133 +1,120 @@
-import React, { useState, useEffect } from "react";
-import { Bar } from "react-chartjs-2";
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Tooltip,
-  Legend,
-} from "chart.js";
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Tooltip,
-  Legend
-);
+import React, { useState, useEffect } from 'react';
+import photo from "../../../assets/Gallery/10-3.png";
 
 export default function TransactionAnalytics() {
-  const [analytics, setAnalytics] = useState(null);
 
-  useEffect(() => {
-    fetch("/TransactionAnalytics.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setAnalytics(data);
-        console.log(data);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []);
+  const [text1, setText1] = useState(""); // State to hold the first text input
+  const [text2, setText2] = useState(""); // State to hold the second text input
+  const [startTime1, setStartTime1] = useState(null); // To store the start time for the first textarea
+  const [startTime2, setStartTime2] = useState(null); // To store the start time for the second textarea
+  const [elapsedTime1, setElapsedTime1] = useState(0); // To store elapsed time for the first textarea
+  const [elapsedTime2, setElapsedTime2] = useState(0); // To store elapsed time for the second textarea
+  const [typingTimeout1, setTypingTimeout1] = useState(null); // To handle timeout for stopping timer 1
+  const [typingTimeout2, setTypingTimeout2] = useState(null); // To handle timeout for stopping timer 2
+  const handleChange1 = (e) => {
+    if (startTime1 === null) {
+      setStartTime1(Date.now());
+    }
+    setText1(e.target.value);
 
-  if (!analytics) {
-    return <div className="text-white text-center">Loading...</div>;
-  }
+    if (typingTimeout1) {
+      clearTimeout(typingTimeout1);
+    }
 
-  // Prepare data for the Bar chart (for individual time periods)
-  const barData = {
-    labels: ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5"],
-    datasets: [
-      {
-        label: "Deposit",
-        data: analytics.Deposit,
-        backgroundColor: "#008000",
-        borderColor: "#003300",
-        width: '600px',
-        borderWidth: 2,
-      },
-      {
-        label: "Withdrawal",
-        data: analytics.Withdrawal,
-        backgroundColor: "#4C7B46",
-        borderColor: "#4C7B46",
-        borderWidth: 2,
-      },
-      {
-        label: "Buy",
-        data: analytics.Buy,
-        backgroundColor: "#9ACC91",
-        borderColor: "#9ACC91",
-        borderWidth: 2,
-      },
-      {
-        label: "Sell",
-        data: analytics.Sell,
-        backgroundColor: "#EEFFE3",
-        borderColor: "#EEFFE3",
-        borderWidth: 2,
-      },
-    ],
+    const timeout = setTimeout(() => {
+      clearInterval(timerInterval1);
+    }, 2000);
+    setTypingTimeout1(timeout);
   };
 
-  // Chart options for the Bar chart
-  const barChartOptions = {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: "top",
-        labels: {
-          font: {
-            size: 14,
-            weight: "bold",
-          },
-          color: "#FFFFFF",
-        },
-      },
-      tooltip: {
-        backgroundColor: "#333",
-        titleColor: "#FFFFFF",
-        bodyColor: "#FFFFFF",
-        padding: 10,
-        cornerRadius: 5,
-      },
-    },
-    scales: {
-      x: {
-        grid: {
-          color: "#444",
-        },
-        ticks: {
-          color: "#FFFFFF",
-        },
-      },
-      y: {
-        grid: {
-          color: "#FFFFFF",
-        },
-        ticks: {
-          color: "#FFFFFF",
-        },
-      },
-    },
-    animation: {
-      duration: 1000,
-      easing: "easeOutBounce",
-    },
+  const handleChange2 = (e) => {
+    if (startTime2 === null) {
+      setStartTime2(Date.now());
+    }
+    setText2(e.target.value);
+
+
+    if (typingTimeout2) {
+      clearTimeout(typingTimeout2);
+    }
+
+    const timeout = setTimeout(() => {
+      clearInterval(timerInterval2);
+    }, 2000);
+    setTypingTimeout2(timeout);
+  };
+
+  useEffect(() => {
+    let interval1, interval2;
+    if (startTime1 !== null) {
+      interval1 = setInterval(() => {
+        setElapsedTime1(Math.floor((Date.now() - startTime1) / 1000)); // Calculate elapsed time in seconds for textarea 1
+      }, 1000);
+    }
+    if (startTime2 !== null) {
+      interval2 = setInterval(() => {
+        setElapsedTime2(Math.floor((Date.now() - startTime2) / 1000)); // Calculate elapsed time in seconds for textarea 2
+      }, 1000);
+    }
+
+    return () => {
+      clearInterval(interval1);
+      clearInterval(interval2);
+    };
+  }, [startTime1, startTime2]);
+
+  const formatTime = (seconds) => {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
   };
 
   return (
-    <div className="relative p-5">
-      <h1 className="text-xl text-white md:text-2xl font-semibold pb-5">
-        Transaction Analytics
-      </h1>
+    <div>
+      <div>
+        <div className="h-screen overflow-y-auto w-full bg-white text-black">
+          <div className="p-5">
+            <div className="mt-5">
+              <h3 className="text-xl font-semibold">Time Elapsed: {formatTime(elapsedTime1)}</h3>
+            </div>
+            <div className='flex'>
 
-      {/* Bar chart */}
-      <div className="w-full sm:w-96 md:w-96 lg:w-[650px] h-64 sm:h-80 md:h-96 lg:h-[96] mx-auto mt-10">
-        <Bar data={barData} options={barChartOptions} />
+              <div>
+                <h1 className="font-bold text-xl my-10">Test-1</h1>
+                <img src={photo} className='w-[600px]' />
+
+              </div>
+
+              <div className="mt-10">
+                <h2 className="font-bold text-xl">Write your response:</h2>
+                <textarea
+                  value={text1}
+                  onChange={handleChange1}
+                  className="w-[600px] h-[700px] p-2 mt-2 border-2 border-black rounded-lg text-black"
+                  placeholder="Write your answer here..."
+                />
+              </div>
+
+            </div>
+            <h1 className="font-bold text-xl my-10">Test-2</h1>
+            <p className="text-lg">
+              It is important for everyone, including young people, to save money for their future.
+<br />
+              To what extent do you agree or disagree with this statement?
+            </p>
+            
+            <div className="mt-10">
+              <h2 className="font-bold text-xl">Write your response:</h2>
+              <textarea
+                value={text2}
+                onChange={handleChange2}
+                className="w-full h-96 p-2 mt-2 border-2 border-black rounded-lg text-black"
+                placeholder="Write your answer here..."
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  );
+  )
 }

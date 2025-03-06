@@ -1,196 +1,116 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
+import photo from "../../../assets/Gallery/10-4.png";
 
 export default function Form() {
-    const [form, setForm] = useState(null);
-    const [formData, setFormData] = useState({
-        type: "",
-        asset: "",
-        amount: "",
-        currency: "",
-        date: "",
-    });
-    const [errors, setErrors] = useState({});
+    const [text1, setText1] = useState(""); // State to hold the first text input
+    const [text2, setText2] = useState(""); // State to hold the second text input
+    const [startTime1, setStartTime1] = useState(null); // To store the start time for the first textarea
+    const [startTime2, setStartTime2] = useState(null); // To store the start time for the second textarea
+    const [elapsedTime1, setElapsedTime1] = useState(0); // To store elapsed time for the first textarea
+    const [elapsedTime2, setElapsedTime2] = useState(0); // To store elapsed time for the second textarea
+    const [typingTimeout1, setTypingTimeout1] = useState(null); // To handle timeout for stopping timer 1
+    const [typingTimeout2, setTypingTimeout2] = useState(null); // To handle timeout for stopping timer 2
+    const handleChange1 = (e) => {
+        if (startTime1 === null) {
+            setStartTime1(Date.now());
+        }
+        setText1(e.target.value);
+
+        if (typingTimeout1) {
+            clearTimeout(typingTimeout1);
+        }
+
+        const timeout = setTimeout(() => {
+            clearInterval(timerInterval1);
+        }, 2000);
+        setTypingTimeout1(timeout);
+    };
+
+    const handleChange2 = (e) => {
+        if (startTime2 === null) {
+            setStartTime2(Date.now());
+        }
+        setText2(e.target.value);
+
+
+        if (typingTimeout2) {
+            clearTimeout(typingTimeout2);
+        }
+
+        const timeout = setTimeout(() => {
+            clearInterval(timerInterval2);
+        }, 2000);
+        setTypingTimeout2(timeout);
+    };
 
     useEffect(() => {
-        fetch("/AddTransactionForm.json")
-            .then((res) => {
-                if (!res.ok) {
-                    throw new Error(`HTTP error! Status: ${res.status}`);
-                }
-                return res.json();
-            })
-            .then((data) => {
-                setForm(data);
-                console.log(data);
-            })
-            .catch((error) => {
-                console.error("Error fetching data:", error);
-            });
-    }, []);
-
-    const validateForm = () => {
-        let tempErrors = {};
-        if (!formData.type) tempErrors.type = "Transaction type is required.";
-        if (!formData.amount || isNaN(formData.amount))
-            tempErrors.amount = "Valid amount is required.";
-        if (!formData.currency) tempErrors.currency = "Currency is required.";
-        if (formData.type === "Buy" || formData.type === "Sell") {
-            if (!formData.asset) tempErrors.asset = "Asset is required.";
+        let interval1, interval2;
+        if (startTime1 !== null) {
+            interval1 = setInterval(() => {
+                setElapsedTime1(Math.floor((Date.now() - startTime1) / 1000)); // Calculate elapsed time in seconds for textarea 1
+            }, 1000);
         }
-        if (!formData.date) tempErrors.date = "Date is required.";
-        setErrors(tempErrors);
-        return Object.keys(tempErrors).length === 0;
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (validateForm()) {
-            console.log("Form Data Submitted:", formData);
+        if (startTime2 !== null) {
+            interval2 = setInterval(() => {
+                setElapsedTime2(Math.floor((Date.now() - startTime2) / 1000)); // Calculate elapsed time in seconds for textarea 2
+            }, 1000);
         }
+
+        return () => {
+            clearInterval(interval1);
+            clearInterval(interval2);
+        };
+    }, [startTime1, startTime2]);
+
+    const formatTime = (seconds) => {
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+        return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
     };
-
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
-    };
-
-    if (!form) {
-        return (
-            <div className="text-center text-lg font-semibold text-gray-600 mt-10">
-                Loading...
-            </div>
-        );
-    }
-
     return (
-
-        <div className="container w-max p-5 mb-5 rounded-md shadow-md m-10" style={{
-            background: `
-              linear-gradient(to bottom, #2c6e49, #1b5e20), 
-              radial-gradient(circle at 40% 60%, #004d40, transparent 70%),
-              linear-gradient(135deg, #2e7d32, #388e3c)`,
-            backgroundBlendMode: "overlay",
-            borderRadius: "5px",
-            padding: "30px",
-        }}>
-
-            <div className="">
-                <h1 className="text-xl md:text-2xl ">
-                    Transaction Form
-                </h1>
-                <form onSubmit={handleSubmit} className="my-5">
-                    <div className="mb-4">
-                        <label className="block text-white font-semibold mb-2">
-                            Transaction Type *
-                        </label>
-                        <select
-                            name="type"
-                            value={formData.type}
-                            onChange={handleChange}
-                            className="md:w-full bg-black rounded-lg p-2 focus:outline-blue-500"
-                        >
-                            <option value="">Select a type</option>
-                            {form.types.map((type, index) => (
-                                <option key={index} value={type}>
-                                    {type}
-                                </option>
-                            ))}
-                        </select>
-                        {errors.type && (
-                            <span className="text-red-600 text-sm">{errors.type}</span>
-                        )}
+        <div>
+            <div className="h-screen overflow-y-auto w-full bg-white text-black">
+                <div className="p-5">
+                    <div className="mt-5">
+                        <h3 className="text-xl font-semibold">Time Elapsed: {formatTime(elapsedTime1)}</h3>
                     </div>
+                    <div className='flex'>
 
-                    {(formData.type === "Buy" || formData.type === "Sell") && (
-                        <div className="mb-4">
-                            <label className="block text-white font-semibold mb-2">
-                                Asset *
-                            </label>
-                            <select
-                                name="asset"
-                                value={formData.asset}
-                                onChange={handleChange}
-                                className="md:w-full bg-black rounded-lg p-2 focus:outline-blue-500"
-                            >
-                                <option value="">Select an asset</option>
-                                {form.assets.map((asset, index) => (
-                                    <option key={index} value={asset}>
-                                        {asset}
-                                    </option>
-                                ))}
-                            </select>
-                            {errors.asset && (
-                                <span className="text-red-600 text-sm">{errors.asset}</span>
-                            )}
+                        <div>
+                            <h1 className="font-bold text-xl my-10">Test-1</h1>
+                            <img src={photo} className='w-[800px]' />
+
                         </div>
-                    )}
 
-                    <div className="mb-4">
-                        <label className="block text-white font-semibold mb-2">
-                            Currency *
-                        </label>
-                        <select
-                            name="currency"
-                            value={formData.currency}
-                            onChange={handleChange}
-                            className="md:w-full bg-black rounded-lg p-2 focus:outline-blue-500"
-                        >
-                            <option value="">Select a currency</option>
-                            {form.currencies.map((currency, index) => (
-                                <option key={index} value={currency}>
-                                    {currency}
-                                </option>
-                            ))}
-                        </select>
-                        {errors.currency && (
-                            <span className="text-red-600 text-sm">{errors.currency}</span>
-                        )}
+                        <div className="mt-10">
+                            <h2 className="font-bold text-xl">Write your response:</h2>
+                            <textarea
+                                value={text1}
+                                onChange={handleChange1}
+                                className="w-[600px] h-[700px] p-2 mt-2 border-2 border-black rounded-lg text-black"
+                                placeholder="Write your answer here..."
+                            />
+                        </div>
+
                     </div>
-
-                    <div className="mb-4">
-                        <label className="block text-white font-semibold mb-2">
-                            Date *
-                        </label>
-                        <input
-                            type="date"
-                            name="date"
-                            value={formData.date}
-                            onChange={handleChange}
-                            className="md:w-full bg-black rounded-lg p-2 focus:outline-blue-500"
+                    <h1 className="font-bold text-xl my-10">Test-2</h1>
+                    <p className="text-lg">
+                        In many countries nowadays, consumers can go to a supermarket and buy food produced all over the world.
+                        <br />
+                        Do you think this is a positive or negative development?
+                    </p>
+                   
+                    <div className="mt-10">
+                        <h2 className="font-bold text-xl">Write your response:</h2>
+                        <textarea
+                            value={text2}
+                            onChange={handleChange2}
+                            className="w-full h-96 p-2 mt-2 border-2 border-black rounded-lg text-black"
+                            placeholder="Write your answer here..."
                         />
-                        {errors.date && (
-                            <span className="text-red-600 text-sm">{errors.date}</span>
-                        )}
                     </div>
-
-                    <div className="mb-4">
-                        <label className="block text-white font-semibold mb-2">
-                            Amount (in USD) *
-                        </label>
-                        <input
-                            type="text"
-                            name="amount"
-                            placeholder="Enter amount"
-                            value={formData.amount}
-                            onChange={handleChange}
-                            className="md:w-full bg-black rounded-lg p-2 focus:outline-blue-500"
-                        />
-                        {errors.amount && (
-                            <span className="text-red-600 text-sm">{errors.amount}</span>
-                        )}
-                    </div>
-
-                    <div className="text-center">
-                        <button
-                            type="submit"
-                            className="md:w-full bg-black text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-600"
-                        >
-                            Submit
-                        </button>
-                    </div>
-                </form>
+                </div>
             </div>
-
         </div>
-    );
+    )
 }

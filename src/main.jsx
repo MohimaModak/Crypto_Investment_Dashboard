@@ -28,6 +28,9 @@ import LanguageCurrency from "./Component/CoreComponents/Settings/LanguageCurren
 import Notification from "./Component/CoreComponents/Settings/Notification";
 import CurrentPortfolioValue from "./Component/CoreComponents/Dashboard/CurrentPortfolioValue";
 import Profile from "./Component/CoreComponents/Settings/Profile";
+import AdvancedInteractivity from "./Component/CoreComponents/Transactions/AdvancedInteractivity";
+import TransactionAnalytics from "./Component/CoreComponents/Transactions/TransactionAnalytics";
+import Form from "./Component/CoreComponents/Transactions/Form";
 
 const router = createBrowserRouter([
   {
@@ -131,7 +134,19 @@ const router = createBrowserRouter([
         path: "/Profile",
         element: <Profile></Profile>,
       },
-    
+      {
+        path: "/AdvancedInteractivity",
+        element: <AdvancedInteractivity></AdvancedInteractivity>,
+      },
+      {
+        path: "/TransactionAnalytics",
+        element: <TransactionAnalytics></TransactionAnalytics>,
+      },
+      {
+        path: "/Form",
+        element: <Form></Form>,
+      },
+
     ],
   },
 ]);

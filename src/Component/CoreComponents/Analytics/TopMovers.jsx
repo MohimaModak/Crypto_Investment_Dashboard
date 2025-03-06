@@ -173,7 +173,7 @@ export default function TopMovers() {
           <div className='w-2/4 h-screen overflow-y-auto'>
             <h1 className="text-4xl font-bold my-5">READING PASSAGE 2</h1>
             <p className="my-5">
-              You should spend about 20 minutes on Questions 1-13 which are based on Reading Passage 1 below.
+              You should spend about 20 minutes on Questions 14-26 which are based on Reading Passage 1 below.
             </p>
             <h1 className="text-3xl font-bold my-5">EUROPEAN TRANSPORT SYSTEMS 1990-2010
             </h1>

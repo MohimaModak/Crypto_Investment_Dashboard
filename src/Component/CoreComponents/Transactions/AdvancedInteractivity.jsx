@@ -329,6 +329,7 @@ export default function AdvancedInteractivity() {
             <div className='flex '><span className='font-bold bg-gray-200 p-2'>E.</span> <span className='bg-white w-5 h-5 flex justify-center items-center mx-5'><Checkbox></Checkbox></span>  <span></span> the harm that can result if athletes experience it too often</div>
           </div>
         </div>
+        
         <br /><br />
         <div className='flex gap-10 text-black  bg-gradient-to-bl from-slate-400 to-slate-100 p-5'>
           <div className='w-2/4 h-screen overflow-y-auto'>

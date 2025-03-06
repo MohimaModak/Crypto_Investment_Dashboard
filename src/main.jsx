@@ -31,6 +31,7 @@ import Profile from "./Component/CoreComponents/Settings/Profile";
 import AdvancedInteractivity from "./Component/CoreComponents/Transactions/AdvancedInteractivity";
 import TransactionAnalytics from "./Component/CoreComponents/Transactions/TransactionAnalytics";
 import Form from "./Component/CoreComponents/Transactions/Form";
+import AddDetailedTransactions from "./Component/CoreComponents/Transactions/AddDetailedTransactions";
 
 const router = createBrowserRouter([
   {
@@ -145,6 +146,10 @@ const router = createBrowserRouter([
       {
         path: "/Form",
         element: <Form></Form>,
+      },
+      {
+        path: "/AddDetailedTransactions",
+        element: <AddDetailedTransactions></AddDetailedTransactions>,
       },
 
     ],

@@ -1,131 +1,118 @@
-import React, { useEffect, useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons';
-import { Radar } from 'react-chartjs-2';
-import { Chart as ChartJS, RadarController, RadialLinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
-
-// Register necessary chart.js components
-ChartJS.register(RadarController, RadialLinearScale, PointElement, LineElement, Title, Tooltip, Legend);
+import React, { useState, useEffect } from 'react';
+import photo1 from "../../../assets/Gallery/19-2.png";
+import photo from "../../../assets/Gallery/19-2-2.png";
 
 export default function InvestmentPerformance() {
-    const [performance, setPerformance] = useState(null);
+    const [text1, setText1] = useState(""); // State to hold the first text input
+    const [text2, setText2] = useState(""); // State to hold the second text input
+    const [startTime1, setStartTime1] = useState(null); // To store the start time for the first textarea
+    const [startTime2, setStartTime2] = useState(null); // To store the start time for the second textarea
+    const [elapsedTime1, setElapsedTime1] = useState(0); // To store elapsed time for the first textarea
+    const [elapsedTime2, setElapsedTime2] = useState(0); // To store elapsed time for the second textarea
+    const [typingTimeout1, setTypingTimeout1] = useState(null); // To handle timeout for stopping timer 1
+    const [typingTimeout2, setTypingTimeout2] = useState(null); // To handle timeout for stopping timer 2
+    const handleChange1 = (e) => {
+        if (startTime1 === null) {
+            setStartTime1(Date.now());
+        }
+        setText1(e.target.value);
+
+        if (typingTimeout1) {
+            clearTimeout(typingTimeout1);
+        }
+
+        const timeout = setTimeout(() => {
+            clearInterval(timerInterval1);
+        }, 2000);
+        setTypingTimeout1(timeout);
+    };
+
+    const handleChange2 = (e) => {
+        if (startTime2 === null) {
+            setStartTime2(Date.now());
+        }
+        setText2(e.target.value);
+
+
+        if (typingTimeout2) {
+            clearTimeout(typingTimeout2);
+        }
+
+        const timeout = setTimeout(() => {
+            clearInterval(timerInterval2);
+        }, 2000);
+        setTypingTimeout2(timeout);
+    };
 
     useEffect(() => {
-        fetch("/InvestmentPerformance.json")
-            .then((res) => res.json())
-            .then((data) => {
-                setPerformance(data);
-                console.log(data);
-            })
-            .catch((error) => {
-                console.error("Error fetching data:", error);
-            });
-    }, []);
+        let interval1, interval2;
+        if (startTime1 !== null) {
+            interval1 = setInterval(() => {
+                setElapsedTime1(Math.floor((Date.now() - startTime1) / 1000)); // Calculate elapsed time in seconds for textarea 1
+            }, 1000);
+        }
+        if (startTime2 !== null) {
+            interval2 = setInterval(() => {
+                setElapsedTime2(Math.floor((Date.now() - startTime2) / 1000)); // Calculate elapsed time in seconds for textarea 2
+            }, 1000);
+        }
 
-    // Radar chart data
-    const radarData = {
-        labels: ['Total Profit Or Loss', 'Percentage Change'], // Labels for the radar chart axes
-        datasets: [
-            {
-                label: 'Investment Performance',
-                data: [
-                    performance ? performance.totalProfitOrLoss : 0,
-                    performance ? performance.percentageChange : 0,
-                ],
-                backgroundColor: 'rgba(75, 192, 192, 0.2)', // Light green background for the radar chart area
-                borderColor: 'rgba(75, 192, 192, 1)', // Darker green border color
-                borderWidth: 1,
-            },
-        ],
+        return () => {
+            clearInterval(interval1);
+            clearInterval(interval2);
+        };
+    }, [startTime1, startTime2]);
+
+    const formatTime = (seconds) => {
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+        return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
     };
-
-    // Radar chart options with infinite animation and larger white text
-    const radarOptions = {
-        responsive: true,
-        scale: {
-            ticks: {
-                beginAtZero: true,
-                font: {
-                    size: 18, // Larger font size for ticks
-                    weight: 'bold',
-                    color: 'white', // White text for tick labels
-                },
-            },
-            pointLabels: {
-                font: {
-                    size: 20, // Larger font size for axis labels (point labels)
-                    weight: 'bold',
-                    color: 'white', // White text for point labels
-                },
-            },
-        },
-        elements: {
-            line: {
-                tension: 0.4, // Smooth lines
-            },
-        },
-        plugins: {
-            tooltip: {
-                titleColor: 'white', // White text for tooltip titles
-                bodyColor: 'white', // White text for tooltip bodies
-                backgroundColor: 'rgba(0, 0, 0, 0.7)', // Dark background for tooltips
-            },
-            legend: {
-                labels: {
-                    font: {
-                        size: 16, // Larger font size for legend labels
-                        weight: 'bold',
-                        color: 'white', // White text for legend labels
-                    },
-                },
-            },
-        },
-        animation: {
-            duration: 10000, // Duration of one complete rotation (in milliseconds)
-            animateRotate: true, // Enable the rotation animation
-            loop: true, // Infinite loop
-            easing: 'linear', // Smooth continuous rotation
-        },
-    };
-
     return (
-        <div className='m-5'>
-            <div className='rounded-lg p-10 w-max max-w-lg' style={{
-                background: `
-            radial-gradient(circle at 20% 50%, #6eff62, transparent 60%),
-            radial-gradient(circle at 10% 10%, #6eff62, transparent 70%),
-            radial-gradient(circle at 70% 10%, #355E3B, transparent 90%),
-            radial-gradient(circle at 30% 10%, #003300, transparent 75%)`,
-                backgroundBlendMode: 'overlay',
-            }}>
-                {performance ? (
-                    <div className="w-full text-white">
-                        <div className="flex items-center justify-between">
-                            <h1 className="sm:text-lg md:text-xl lg:text-2xl font-semibold pb-5">Investment Performance</h1>
-                        </div>
-                        <div className='flex items-center justify-between mt-4'>
-                            <div className="font-semibold text-sm sm:text-base">
-                                <p className="text-sm">
-                                    <span className="font-semibold">Total Profit Or Loss:</span>
-                                    <span className="text-green-400"> ${performance.totalProfitOrLoss}</span>
-                                </p>
-                                <p className="text-sm sm:text-base flex items-center mt-2">
-                                    <span className="font-semibold mr-2">Percentage Change:</span>
-                                    <span className="text-green-400 mr-2">{performance.percentageChange} %</span>
-                                </p>
-                            </div>
-
-                        </div>
-                        <div className="mt-6">
-                            {/* Radar chart */}
-                            <Radar data={radarData} options={radarOptions} />
-                        </div>
+        <div>
+            <div className="h-screen overflow-y-auto w-full bg-white text-black">
+                <div className="p-5">
+                    <div className="mt-5">
+                        <h3 className="text-xl font-semibold">Time Elapsed: {formatTime(elapsedTime1)}</h3>
                     </div>
-                ) : (
-                    <p className="text-center text-lg text-white">Loading data...</p> // Ensure text is white while loading
-                )}
+                    <div className='flex'>
 
+                        <div className='h-screen overflow-y-auto'>
+                            <h1 className="font-bold text-xl my-10">Test-1</h1>
+                            <img src={photo1} className='w-[800px]' />
+                            <img src={photo} className='w-[800px]' />
+
+                        </div>
+
+                        <div className="mt-10 h-screen overflow-y-auto">
+                            <h2 className="font-bold text-xl">Write your response:</h2>
+                            <textarea
+                                value={text1}
+                                onChange={handleChange1}
+                                className="w-[600px] h-screen p-2 mt-2 border-2 border-black rounded-lg text-black"
+                                placeholder="Write your answer here..."
+                            />
+                        </div>
+
+                    </div>
+                    <h1 className="font-bold text-xl my-10">Test-2</h1>
+                    <p className="text-lg">
+                        The working week should be shorter and workers should have a longer weekend.
+                        <br />
+                        Do you agree or disagree?
+                    </p>
+
+                    <div className="mt-10">
+                        <h2 className="font-bold text-xl">Write your response:</h2>
+                        <textarea
+                            value={text2}
+                            onChange={handleChange2}
+                            className="w-full h-96 p-2 mt-2 border-2 border-black rounded-lg text-black"
+                            placeholder="Write your answer here..."
+                        />
+                    </div>
+                </div>
             </div>
         </div>
-    );
+    )
 }

@@ -32,6 +32,11 @@ import AdvancedInteractivity from "./Component/CoreComponents/Transactions/Advan
 import TransactionAnalytics from "./Component/CoreComponents/Transactions/TransactionAnalytics";
 import Form from "./Component/CoreComponents/Transactions/Form";
 import AddDetailedTransactions from "./Component/CoreComponents/Transactions/AddDetailedTransactions";
+import Security from "./Component/CoreComponents/Settings/Security";
+import NewsSection from "./Component/CoreComponents/Dashboard/NewsSection";
+import InvestmentPerformance from "./Component/CoreComponents/Dashboard/InvestmentPerformance";
+import BasicData from "./Component/CoreComponents/Transactions/BasicData";
+import SavingsPlan from "./Component/CoreComponents/Dashboard/SavingsPlan";
 
 const router = createBrowserRouter([
   {
@@ -150,6 +155,26 @@ const router = createBrowserRouter([
       {
         path: "/AddDetailedTransactions",
         element: <AddDetailedTransactions></AddDetailedTransactions>,
+      },
+      {
+        path: "/Security",
+        element: <Security></Security>,
+      },
+      {
+        path: "/NewsSection",
+        element: <NewsSection></NewsSection>,
+      },
+      {
+        path: "/InvestmentPerformance",
+        element: <InvestmentPerformance></InvestmentPerformance>,
+      },
+      {
+        path: "/BasicData",
+        element: <BasicData></BasicData>,
+      },
+      {
+        path: "/SavingsPlan",
+        element: <SavingsPlan></SavingsPlan>,
       },
 
     ],

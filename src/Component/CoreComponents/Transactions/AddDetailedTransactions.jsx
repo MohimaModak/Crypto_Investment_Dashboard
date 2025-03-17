@@ -351,11 +351,11 @@ export default function AddDetailedTransactions() {
                     <div>
                         <h1 className='font-bold text-2xl'>Questions 27-30
                         </h1>
-<br />
+                        <br />
                         27. What does the reader learn about the conversation in the first paragraph?
                         <br />
-                      <span><Checkbox></Checkbox></span> <span> A
-                        .The speakers are communicating in different languages.</span>
+                        <span><Checkbox></Checkbox></span> <span> A
+                            .The speakers are communicating in different languages.</span>
                         <br />
 
                         <Checkbox></Checkbox>   B.
@@ -385,37 +385,37 @@ export default function AddDetailedTransactions() {
                         the lecturers’ technical ability
                         <br />
                         29. When referring to The Hitchhiker's Guide to the Galaxy, the writer suggests that
-                      <br /> 
-                      <Checkbox></Checkbox> A.
+                        <br />
+                        <Checkbox></Checkbox> A.
                         the Babel fish was considered undesirable at the time.
-                        <br /> 
+                        <br />
                         <Checkbox></Checkbox>   B.
                         this book was not seriously intending to predict the future.
-                        <br /> 
+                        <br />
                         <Checkbox></Checkbox>   C.
                         artificial speech translation was not a surprising development.
-                        <br /> 
+                        <br />
                         <Checkbox></Checkbox>    D.
                         some speech translation techniques are better than others.
-                        <br /> 
+                        <br />
                         30. What does the writer say about sharing earpieces?
-                        <br /> 
+                        <br />
                         <Checkbox></Checkbox>     A
 
                         It is something people will get used to doing.
-                        <br /> 
+                        <br />
                         <Checkbox></Checkbox>       B
 
                         The reluctance to do this is understandable.
-                        <br /> 
+                        <br />
                         <Checkbox></Checkbox>      C
 
                         The equipment will be unnecessary in the future.
-                        <br /> 
+                        <br />
                         <Checkbox></Checkbox>      D
 
                         It is something few people need to worry about.
-                     <h1 className='font-bold text-2xl'> Questions 31-34</h1>  
+                        <h1 className='font-bold text-2xl'> Questions 31-34</h1>
                         Complete each sentence with the correct ending, A-F, below.
                         <br />
 
@@ -456,8 +456,8 @@ export default function AddDetailedTransactions() {
                         34. Users may be able to maintain their local customs <input type="text" className='text-black my-3 border-2 border-black rounded-md mx-4' />
 
                         <br />
-<br />
-                     <h1 className='font-blod text-2xl'>Questions 35-40</h1>   
+                        <br />
+                        <h1 className='font-blod text-2xl'>Questions 35-40</h1>
                         <br />
 
                         Do the following statements agree with the views of the writer in Reading Passage?
@@ -473,34 +473,34 @@ export default function AddDetailedTransactions() {
                         <br />
 
                         NOT GIVEN if it is impossible to say what the writer thinks about this
-<br />
-                     <strong>35.</strong> Language translation systems will be seen as very useful throughout the academic and professional worlds.
+                        <br />
+                        <strong>35.</strong> Language translation systems will be seen as very useful throughout the academic and professional worlds.
                         <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
-                       <strong>36.</strong> The overall value of automated translation to family life is yet to be shown.
+                        <strong>36.</strong> The overall value of automated translation to family life is yet to be shown.
                         <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
-                     <strong>37. </strong> Automated translation could make life more difficult for immigrant families.
+                        <strong>37. </strong> Automated translation could make life more difficult for immigrant families.
                         <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
-                      <strong>38. </strong> Visual aspects of language translation are being considered by scientists.
+                        <strong>38. </strong> Visual aspects of language translation are being considered by scientists.
                         <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
-                       <strong>39.</strong> International scientists have found English easier to translate into other languages than Latin.
+                        <strong>39.</strong> International scientists have found English easier to translate into other languages than Latin.
                         <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
-                       <strong>40.</strong> As far as language is concerned, there is a difference between people’s social and practical needs.
+                        <strong>40.</strong> As far as language is concerned, there is a difference between people’s social and practical needs.
                         <div className='flex items-center gap-5'><div className='my-5'><span>TRUE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>FALSE</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div>
                             <div className='my-5'><span>NOT GIVEN</span> <span className='bg-white w-5 h-5 flex justify-center items-center '><Checkbox></Checkbox></span></div></div>
 
                     </div>
-                
+
                     <div>
 
                     </div>

@@ -37,6 +37,12 @@ import NewsSection from "./Component/CoreComponents/Dashboard/NewsSection";
 import InvestmentPerformance from "./Component/CoreComponents/Dashboard/InvestmentPerformance";
 import BasicData from "./Component/CoreComponents/Transactions/BasicData";
 import SavingsPlan from "./Component/CoreComponents/Dashboard/SavingsPlan";
+import Miscellaneous from "./Component/CoreComponents/Miscellaneous/Miscellaneous";
+import Theme from "./Component/CoreComponents/Settings/Theme";
+import RecentTransactions from "./Component/CoreComponents/Dashboard/RecentTransactions";
+import PortfolioBreakdown from "./Component/CoreComponents/Dashboard/PortfolioBreakdown";
+import RiskAssessment from "./Component/CoreComponents/Dashboard/RiskAssessment";
+import GoalTracking from "./Component/CoreComponents/Portfolio/GoalTracking";
 
 const router = createBrowserRouter([
   {
@@ -176,7 +182,30 @@ const router = createBrowserRouter([
         path: "/SavingsPlan",
         element: <SavingsPlan></SavingsPlan>,
       },
-
+      {
+        path: "/Miscellaneous",
+        element: <Miscellaneous></Miscellaneous>,
+      },
+      {
+        path: "/Theme",
+        element: <Theme></Theme>,
+      },
+      {
+        path: "/RecentTransactions",
+        element: <RecentTransactions></RecentTransactions>,
+      },
+      {
+        path: "/PortfolioBreakdown",
+        element: <PortfolioBreakdown></PortfolioBreakdown>,
+      },
+      {
+        path: "/RiskAssessment",
+        element: <RiskAssessment></RiskAssessment>,
+      },
+      {
+        path: "/GoalTracking",
+        element: <GoalTracking></GoalTracking>,
+      },
     ],
   },
 ]);

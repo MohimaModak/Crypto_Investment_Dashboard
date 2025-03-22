@@ -1,109 +1,115 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
+import photo1 from "../../../assets/Gallery/19-3.png";
 
 export default function Theme() {
-  const [theme, setTheme] = useState(null);
-  const [previewTheme, setPreviewTheme] = useState({});
 
-  useEffect(() => {
-    fetch("/Theme.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setTheme(data.theme);
-        setPreviewTheme(data.theme);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []);
+  const [text1, setText1] = useState(""); // State to hold the first text input
+  const [text2, setText2] = useState(""); // State to hold the second text input
+  const [startTime1, setStartTime1] = useState(null); // To store the start time for the first textarea
+  const [startTime2, setStartTime2] = useState(null); // To store the start time for the second textarea
+  const [elapsedTime1, setElapsedTime1] = useState(0); // To store elapsed time for the first textarea
+  const [elapsedTime2, setElapsedTime2] = useState(0); // To store elapsed time for the second textarea
+  const [typingTimeout1, setTypingTimeout1] = useState(null); // To handle timeout for stopping timer 1
+  const [typingTimeout2, setTypingTimeout2] = useState(null); // To handle timeout for stopping timer 2
+  const handleChange1 = (e) => {
+    if (startTime1 === null) {
+      setStartTime1(Date.now());
+    }
+    setText1(e.target.value);
 
-  const handleBackgroundChange = (bgType, value) => {
-    setPreviewTheme((prev) => ({
-      ...prev,
-      background: { type: bgType, value },
-    }));
+    if (typingTimeout1) {
+      clearTimeout(typingTimeout1);
+    }
+
+    const timeout = setTimeout(() => {
+      clearInterval(timerInterval1);
+    }, 2000);
+    setTypingTimeout1(timeout);
   };
 
-  if (!theme) {
-    return (
-      <div className="flex justify-center items-center h-96 text-gray-300">
-        Loading...
-      </div>
-    );
-  }
+  const handleChange2 = (e) => {
+    if (startTime2 === null) {
+      setStartTime2(Date.now());
+    }
+    setText2(e.target.value);
+
+
+    if (typingTimeout2) {
+      clearTimeout(typingTimeout2);
+    }
+
+    const timeout = setTimeout(() => {
+      clearInterval(timerInterval2);
+    }, 2000);
+    setTypingTimeout2(timeout);
+  };
+
+  useEffect(() => {
+    let interval1, interval2;
+    if (startTime1 !== null) {
+      interval1 = setInterval(() => {
+        setElapsedTime1(Math.floor((Date.now() - startTime1) / 1000)); // Calculate elapsed time in seconds for textarea 1
+      }, 1000);
+    }
+    if (startTime2 !== null) {
+      interval2 = setInterval(() => {
+        setElapsedTime2(Math.floor((Date.now() - startTime2) / 1000)); // Calculate elapsed time in seconds for textarea 2
+      }, 1000);
+    }
+
+    return () => {
+      clearInterval(interval1);
+      clearInterval(interval2);
+    };
+  }, [startTime1, startTime2]);
+
+  const formatTime = (seconds) => {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+  };
 
   return (
-    <div
-      className="flex justify-center m-10 rounded-md"
-      style={{
-        background: `
-        radial-gradient(circle at 20% 50%, #6eff62, transparent 60%),
-        radial-gradient(circle at 10% 10%, #6eff62, transparent 70%),
-        radial-gradient(circle at 70% 10%, #355E3B, transparent 90%),
-        radial-gradient(circle at 30% 10%, #003300, transparent 75%)
-                                                                    `,
-        backgroundBlendMode: 'overlay',
-    }}
-    >
-      <div>
-        <div className="p-8 rounded-lg w-max">
-          <h1 className="text-2xl font-bold mb-2 text-center">Theme Settings</h1>
-
-          <div className="mb-6">
-            <h2 className="text-lg font-semibold mb-4 text-center">Background Options</h2>
-            <div className="flex justify-center gap-4">
-              <div className="space-y-5">
-                <button
-                  onClick={() =>
-                    handleBackgroundChange("solid", "#ffffff")
-                  }
-                  className="py-2 px-4 rounded-md border-2 border-green-600"
-                >
-                  Solid White
-                </button>
-                <br />
-                <button
-                  onClick={() =>
-                    handleBackgroundChange("solid", "#333333")
-                  }
-                  className="rounded-md border-2 border-green-600 py-2 px-4 text-white"
-                >
-                  Solid Black
-                </button>
-              </div>
-
-              <div className="space-y-5">
-                <button
-                  onClick={() =>
-                    handleBackgroundChange(
-                      "gradient",
-                      "linear-gradient(to right, #1d2671, #c33764)"
-                    )
-                  }
-                  className="rounded-md border-2 border-green-600 py-2 px-4 text-white"
-                >
-                  Gradient
-                </button>
-                <br />
-                <button
-                  onClick={() =>
-                    handleBackgroundChange("solid", "#4caf50")
-                  }
-                  className="rounded-md border-2 border-green-600 py-2 px-4 text-white"
-                >
-                  Green
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className=" mt-6"
-          
-          >
-            <p className="text-lg bg-black p-4 rounded-lg">This is a preview of your selected theme!</p>
-          </div>
+    <div className="h-screen overflow-y-auto w-full bg-white text-black">
+      <div className="p-5">
+        <div className="mt-5">
+          <h3 className="text-xl font-semibold">Time Elapsed: {formatTime(elapsedTime1)}</h3>
         </div>
-      </div>      
+        <div className='flex'>
+
+          <div className='h-screen overflow-y-auto'>
+            <h1 className="font-bold text-xl my-10">Test-1</h1>
+            <img src={photo1} className='w-[800px]' />
+          </div>
+
+          <div className="mt-10 h-screen overflow-y-auto">
+            <h2 className="font-bold text-xl">Write your response:</h2>
+            <textarea
+              value={text1}
+              onChange={handleChange1}
+              className="w-[600px] h-screen p-2 mt-2 border-2 border-black rounded-lg text-black"
+              placeholder="Write your answer here..."
+            />
+          </div>
+
+        </div>
+        <h1 className="font-bold text-xl my-10">Test-2</h1>
+        <p className="text-lg">
+          It is important for everyone, including young people, to save money for their future.
+          <br />
+          To what extent do you agree or disagree with this statement?
+        </p>
+
+        <div className="mt-10">
+          <h2 className="font-bold text-xl">Write your response:</h2>
+          <textarea
+            value={text2}
+            onChange={handleChange2}
+            className="w-full h-96 p-2 mt-2 border-2 border-black rounded-lg text-black"
+            placeholder="Write your answer here..."
+          />
+        </div>
+      </div>
     </div>
-  );
+  )
 }

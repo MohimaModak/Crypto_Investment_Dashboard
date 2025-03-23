@@ -43,6 +43,9 @@ import RecentTransactions from "./Component/CoreComponents/Dashboard/RecentTrans
 import PortfolioBreakdown from "./Component/CoreComponents/Dashboard/PortfolioBreakdown";
 import RiskAssessment from "./Component/CoreComponents/Dashboard/RiskAssessment";
 import GoalTracking from "./Component/CoreComponents/Portfolio/GoalTracking";
+import PortfolioOverview from "./Component/CoreComponents/Portfolio/PortfolioOverview";
+import ListenningOne from "./Component/CoreComponents/ListenningOne/ListenningOne";
+import WrittingOne from "./Component/WrittingOne/WrittingOne";
 
 const router = createBrowserRouter([
   {
@@ -205,6 +208,18 @@ const router = createBrowserRouter([
       {
         path: "/GoalTracking",
         element: <GoalTracking></GoalTracking>,
+      },
+      {
+        path: "/PortfolioOverview",
+        element: <PortfolioOverview></PortfolioOverview>,
+      },
+      {
+        path: "/ListenningOne",
+        element: <ListenningOne></ListenningOne>,
+      },
+      {
+        path: "/WrittingOne",
+        element: <WrittingOne></WrittingOne>,
       },
     ],
   },

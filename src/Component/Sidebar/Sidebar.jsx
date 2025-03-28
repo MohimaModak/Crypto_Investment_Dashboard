@@ -194,6 +194,21 @@ export default function Sidebar() {
                   <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
                   <h1 className="text-lg">Listening-19-test-02</h1>
                 </NavLink>
+                <NavLink
+                  to="/Code"
+                  className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-white to-gray-300 shadow-2xl rounded"
+                >
+                  <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+                  <h1 className="text-lg">Listening-19-test-03</h1>
+                </NavLink>
+                <NavLink
+                  to="/Listenningtwo"
+                  className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-white to-gray-300 shadow-2xl rounded"
+                >
+                  <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+                  <h1 className="text-lg">Listening-19-test-04</h1>
+                </NavLink>
+
               </li>
             </ul>
           )}
@@ -298,7 +313,14 @@ export default function Sidebar() {
                     <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
                     <h1 className="text-lg">Reading-17-test-01</h1>
                   </NavLink>
-                  
+                  <NavLink
+                    to="/CodeOne"
+                    className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-white to-gray-300 shadow-2xl rounded"
+                  >
+                    <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+                    <h1 className="text-lg">Reading-17-test-02</h1>
+                  </NavLink>
+
                 </li>
               </ul>
             )
@@ -391,7 +413,24 @@ export default function Sidebar() {
                     <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
                     <h1 className="text-lg">Writting-18-test-02</h1>
                   </NavLink>
-                  
+                  <br />
+                  <NavLink
+                    to="/WritingTwo"
+                    className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-white to-gray-300 shadow-2xl rounded"
+                  >
+                    <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+                    <h1 className="text-lg">Writting-18-test-03</h1>
+                  </NavLink>
+                  <br />
+                  <NavLink
+                    to="/WrittingThree"
+                    className="flex items-center px-3 py-2 hover:bg-gradient-to-r from-white to-gray-300 shadow-2xl rounded"
+                  >
+                    <FontAwesomeIcon icon={faLifeRing} className="mr-2 text-green-500" />
+                    <h1 className="text-lg">Writting-18-test-04</h1>
+                  </NavLink>
+                  <br />
+
                 </li>
               </ul>
             )

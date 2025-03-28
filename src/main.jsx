@@ -46,6 +46,11 @@ import GoalTracking from "./Component/CoreComponents/Portfolio/GoalTracking";
 import PortfolioOverview from "./Component/CoreComponents/Portfolio/PortfolioOverview";
 import ListenningOne from "./Component/CoreComponents/ListenningOne/ListenningOne";
 import WrittingOne from "./Component/WrittingOne/WrittingOne";
+import Code from "./Component/CoreComponents/Code/Code";
+import CodeOne from "./Component/CoreComponents/CodeOne/CodeOne";
+import WritingTwo from "./Component/CoreComponents/WritingTwo/WritingTwo";
+import WrittingThree from "./Component/CoreComponents/WrittingThree/WrittingThree";
+import Listenningtwo from "./Component/CoreComponents/Listenningtwo/Listenningtwo";
 
 const router = createBrowserRouter([
   {
@@ -221,12 +226,40 @@ const router = createBrowserRouter([
         path: "/WrittingOne",
         element: <WrittingOne></WrittingOne>,
       },
+      {
+        path: "/Code",
+        element: <Code></Code>,
+      },
+      {
+        path: "/CodeOne",
+        element: <CodeOne></CodeOne>,
+      },
+      {
+        path: "/WritingTwo",
+        element: <WritingTwo></WritingTwo>,
+      },
+      {
+        path: "/WrittingThree",
+        element: <WrittingThree></WrittingThree>,
+      },
+      {
+        path: "/Listenningtwo",
+        element: <Listenningtwo></Listenningtwo>,
+      },
+    
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
+
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+
+
+
+
+
+

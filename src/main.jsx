@@ -51,6 +51,9 @@ import CodeOne from "./Component/CoreComponents/CodeOne/CodeOne";
 import WritingTwo from "./Component/CoreComponents/WritingTwo/WritingTwo";
 import WrittingThree from "./Component/CoreComponents/WrittingThree/WrittingThree";
 import Listenningtwo from "./Component/CoreComponents/Listenningtwo/Listenningtwo";
+import ReadingOne from "./Component/ReadingOne/ReadingOne";
+import ReadingTwo from "./Component/CoreComponents/ReadingTwo/ReadingTwo";
+import WrrttingOne from "./Component/CoreComponents/WrrttingOne/WrrttingOne";
 
 const router = createBrowserRouter([
   {
@@ -245,6 +248,18 @@ const router = createBrowserRouter([
       {
         path: "/Listenningtwo",
         element: <Listenningtwo></Listenningtwo>,
+      },
+      {
+        path: "/ReadingOne",
+        element: <ReadingOne></ReadingOne>,
+      },
+      {
+        path: "/ReadingTwo",
+        element: <ReadingTwo></ReadingTwo>,
+      },
+      {
+        path: "/WrrttingOne",
+        element: <WrrttingOne></WrrttingOne>,
       },
     
     ],

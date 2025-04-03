@@ -54,6 +54,7 @@ import Listenningtwo from "./Component/CoreComponents/Listenningtwo/Listenningtw
 import ReadingOne from "./Component/ReadingOne/ReadingOne";
 import ReadingTwo from "./Component/CoreComponents/ReadingTwo/ReadingTwo";
 import WrrttingOne from "./Component/CoreComponents/WrrttingOne/WrrttingOne";
+import ListnningTwo from "./Component/CoreComponents/ListnningTwo/ListnningTwo";
 
 const router = createBrowserRouter([
   {
@@ -260,6 +261,11 @@ const router = createBrowserRouter([
       {
         path: "/WrrttingOne",
         element: <WrrttingOne></WrrttingOne>,
+      },
+    
+      {
+        path: "/ListnningTwo",
+        element: <ListnningTwo></ListnningTwo>,
       },
     
     ],

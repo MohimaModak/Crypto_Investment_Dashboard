@@ -55,6 +55,8 @@ import ReadingOne from "./Component/ReadingOne/ReadingOne";
 import ReadingTwo from "./Component/CoreComponents/ReadingTwo/ReadingTwo";
 import WrrttingOne from "./Component/CoreComponents/WrrttingOne/WrrttingOne";
 import ListnningTwo from "./Component/CoreComponents/ListnningTwo/ListnningTwo";
+import WrittingSvnTwo from "./Component/CoreComponents/WrittingSvnTwo/WrittingSvnTwo";
+import ReadingTHree from "./Component/CoreComponents/ReadingTHree/ReadingTHree";
 
 const router = createBrowserRouter([
   {
@@ -266,6 +268,15 @@ const router = createBrowserRouter([
       {
         path: "/ListnningTwo",
         element: <ListnningTwo></ListnningTwo>,
+      },
+    
+      {
+        path: "/WrittingSvnTwo",
+        element: <WrittingSvnTwo></WrittingSvnTwo>,
+      },
+      {
+        path: "/ReadingTHree",
+        element: <ReadingTHree></ReadingTHree>,
       },
     
     ],

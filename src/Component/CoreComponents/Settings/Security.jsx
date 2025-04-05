@@ -11,7 +11,7 @@ export default function Security() {
     <div className="bg-white text-black h-screen overflow-y-auto">
       <div className='p-5'>
         <div className='flex gap-10 text-black  bg-gray-300 p-5'>
-          <div className='w-2/4 h-screen overflow-y-auto'>
+          <div className='w-5/6 h-screen overflow-y-auto'>
             <h1 className="text-4xl font-bold">READING PASSAGE 1</h1>
             <p className="my-5">
               You should spend about 20 minutes on Questions 1-13 which are based on Reading Passage 1 below.
@@ -199,7 +199,7 @@ export default function Security() {
 
         <div className='flex gap-10 text-black  bg-gray-300 p-5'>
 
-          <div className='w-2/4 h-screen overflow-y-auto'>
+          <div className='w-5/6 h-screen overflow-y-auto'>
             <h1 className="text-4xl font-bold my-5">READING PASSAGE 2</h1>
             <p className="my-5">
               You should spend about 20 minutes on Questions 14-26 which are based on Reading Passage 1 below.
@@ -356,7 +356,7 @@ export default function Security() {
         <br /><br />
 
         <div className='flex gap-10 text-black  bg-gray-300 p-5'>
-          <div className='w-2/4 h-screen overflow-y-auto'>
+          <div className='w-5/6 h-screen overflow-y-auto'>
             <h1 className="text-4xl font-bold">READING PASSAGE 3</h1>
             <p className="my-5">
               You should spend about 20 minutes on Questions 27-40 which are based on Reading Passage 1 below.

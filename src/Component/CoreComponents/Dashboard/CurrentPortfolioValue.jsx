@@ -11,7 +11,7 @@ export default function CurrentPortfolioValue() {
     <div className='bg-white text-black h-screen overflow-y-auto w-full'>
       <div className=''>
         <div className='flex gap-10 text-black  bg-gray-300 p-5'>
-          <div className='w-2/4 h-screen overflow-y-auto'>
+          <div className='w-5/6 h-screen overflow-y-auto'>
             <div>
               <h1 className="text-4xl font-bold">READING PASSAGE 1</h1>
               <p className="my-5">
@@ -166,7 +166,7 @@ export default function CurrentPortfolioValue() {
         <br />
 
         <div className='flex gap-10 text-black  bg-gray-300 p-5'>
-          <div className='w-2/4 h-screen overflow-y-auto'>
+          <div className='w-5/6 h-screen overflow-y-auto'>
             <div>
               <h1 className="text-4xl font-bold">READING PASSAGE 2</h1>
               <p>
@@ -330,7 +330,7 @@ export default function CurrentPortfolioValue() {
         <br />
         <br />
         <div className='flex gap-10 text-black  bg-gray-300 p-5'>
-          <div className='w-2/4 h-screen overflow-y-auto'>
+          <div className='w-5/6 h-screen overflow-y-auto'>
             <div>
               <h1 className="text-4xl font-bold">READING PASSAGE 3</h1>
               <p className="my-5">

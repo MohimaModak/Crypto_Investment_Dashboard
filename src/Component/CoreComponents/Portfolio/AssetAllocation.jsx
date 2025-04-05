@@ -12,7 +12,7 @@ export default function AssetAllocation() {
     <div className="bg-white text-black h-screen overflow-y-auto">
       <div className="p-10">
         <div className='flex gap-10 text-black  bg-gray-300 p-5'>
-          <div className='w-2/4 h-screen overflow-y-auto
+          <div className='w-5/6 h-screen overflow-y-auto
 '>
             <div>
               <h1 className="text-4xl font-bold">READING PASSAGE 1</h1>
@@ -147,7 +147,7 @@ export default function AssetAllocation() {
         <br /><br />
 
         <div className='flex gap-10 text-black  bg-gray-300 p-5'>
-          <div className='w-2/4 h-screen overflow-y-auto'>
+          <div className='w-5/6 h-screen overflow-y-auto'>
             <div>
               <h1 className='font-bold text-2xl my-10'>READING PASSAGE 2</h1>
               <h1 className='text-xl my-5'>You should spend about 20 minutes on Questions 14-26 which are based on Reading Passage 2 below. </h1>
@@ -258,7 +258,7 @@ export default function AssetAllocation() {
 
         <div className='flex gap-10 text-black  bg-gray-300 p-5
 '>
-          <div className='w-2/4 h-screen overflow-y-auto'>
+          <div className='w-5/6 h-screen overflow-y-auto'>
             <h1 className="text-4xl font-bold">READING PASSAGE 3</h1>
             <p className="my-5">
               You should spend about 20 minutes on Questions 27-40 which are based on Reading Passage 1 below.
